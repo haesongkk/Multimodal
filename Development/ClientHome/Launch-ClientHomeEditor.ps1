@@ -16,7 +16,8 @@ if (Get-Process UnrealEditor -ErrorAction SilentlyContinue) {
     throw 'An Unreal Editor is already running. Inspect that session before starting another.'
 }
 $mapFile = Join-Path $projectRoot 'Content/ClientHome_Haeso/Maps/Lvl_ClientHome_Blockout.umap'
-$map = if (Test-Path -LiteralPath $mapFile) { '/Game/ClientHome_Haeso/Maps/Lvl_ClientHome_Blockout' } else { '/Engine/Maps/Entry' }
+$minimalMapFile = Join-Path $projectRoot 'Content/ClientHome_Haeso/Maps/Lvl_ClientHome_Minimal.umap'
+$map = if (Test-Path -LiteralPath $minimalMapFile) { '/Game/ClientHome_Haeso/Maps/Lvl_ClientHome_Minimal' } elseif (Test-Path -LiteralPath $mapFile) { '/Game/ClientHome_Haeso/Maps/Lvl_ClientHome_Blockout' } else { '/Engine/Maps/Entry' }
 # Command-line overrides leave all shared project settings unchanged.
 $editorArgs = @(('"' + $projectFile + '"'), $map, '-ModelContextProtocolStartServer', '-EnablePlugins=PythonScriptPlugin', '-NoSplash')
 if ($BuildBlockout) {

@@ -1,0 +1,4 @@
+(fn Confirm () (if (and (Variables|Default|GetPopup) (not (Variables|Default|GetComplete))) (Variables|Default|SetPopup false) (CallFunction|RefreshPopup) (if (and (== (Variables|Default|GetCount) 3) (not (Variables|Default|GetDeduced))) (Variables|Default|SetDeduced true) (Variables|Default|SetTitle "추리 완료")
+(Variables|Default|SetMessage (select (Variables|Default|GetSnackSeen) (select (Variables|Default|GetPawprintsSeen) "간식과 발자국을 이어 보면 코코는 주방에서 복도를 지나 거실로 왔다. 털과 넘어진 화분, 열린 창문이 탈출 경로를 가리킨다. 현관으로 나가자." "주방의 남은 간식은 코코가 들렀던 흔적이다. 거실의 핵심 단서 세 가지를 보면 마지막에는 창문으로 나간 것 같다. 현관으로 나가자.") (select (Variables|Default|GetPawprintsSeen) "복도의 발자국은 거실 쪽으로 이어진다. 털과 넘어진 화분, 열린 창문을 함께 보면 코코는 창문으로 나간 것 같다. 현관으로 나가자." "코코는 창문으로 나간 것 같다. 현관문을 열고 밖으로 나가자.")))
+(Variables|Default|SetPopup true)
+(CallFunction|RefreshPopup))))

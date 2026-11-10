@@ -74,6 +74,9 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Fab licensed source assets: acquire through each collaborator's library.
+/Content/StylizedKitchen/
+
 #bat file
 
 **/*.bat
