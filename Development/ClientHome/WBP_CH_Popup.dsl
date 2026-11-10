@@ -1,0 +1,5 @@
+(fn Present (Heading Body Shown Finished)
+(Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupTitle) :InText Heading)
+(Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupMessage) :InText Body)
+(Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupHint) :InText (select Finished "[Esc] 테스트 종료" "[Enter] 확인  ·  읽는 동안 이동이 멈춥니다"))
+(if Shown (Widget|SetVisibility :self self :InVisibility "HitTestInvisible") (else (Widget|SetVisibility :self self :InVisibility "Collapsed"))))

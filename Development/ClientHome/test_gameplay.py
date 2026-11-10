@@ -17,6 +17,11 @@ def check(label,condition):
     records.append({'test':label,'passed':bool(condition)})
     assert condition,label
 def prop(n): return hud.get_editor_property(n)
+def check_popup(label):
+    widget=prop('PopupUI')
+    check(label,widget.is_in_viewport() and widget.is_visible()==prop('Popup') and
+          str(widget.get_editor_property('PopupTitle').get_text())==prop('Title') and
+          str(widget.get_editor_property('PopupMessage').get_text())==prop('Message'))
 def confirm(): hud.call_method('Confirm')
 def interact(): hud.call_method('Interact')
 def move(x,y): pawn.set_actor_location(u.Vector(x,y,96),False,False)
@@ -36,8 +41,10 @@ def stop_drive():
     check('character movement advances on input',pawn.get_actor_location().y > drive_start+50)
 def step(delay,fn): steps.append((delay,fn))
 step(.3,lambda:check('fresh session resets progress',prop('Count')==0 and not prop('Complete')))
+step(.1,lambda:check_popup('intro widget matches HUD'))
 step(.1,confirm)
 step(.1,lambda:check('initial popup closes',not prop('Popup')))
+step(.1,lambda:check_popup('confirmed widget is hidden'))
 step(.1,start_drive)
 step(.6,stop_drive)
 step(.1,lambda:move(0,-180))
@@ -49,22 +56,32 @@ step(.1,lambda:check('closed door physically blocks exit',pawn.get_actor_locatio
 step(.3,interact)
 step(.1,lambda:check('exit locked before clues',prop('Popup') and not prop('DoorOpen')))
 step(.1,confirm)
-for label,x,y,count,flag in [('pot',80,50,1,'PotSeen'),('fur',320,120,2,'FurSeen'),('window',480,110,3,'WindowSeen')]:
+step(.1,lambda:move(450,150))
+step(.3,lambda:check('nearest clue wins in overlapping ranges',prop('Nearby')==2))
+clue_order=globals().get('CLUE_ORDER',('pot','fur','window'))
+assert sorted(clue_order)==['fur','pot','window']
+clue_points={'pot':(-130,-180,'PotSeen'),'fur':(320,120,'FurSeen'),'window':(480,110,'WindowSeen')}
+for count,label in enumerate(clue_order,1):
+    x,y,flag=clue_points[label]
     step(.1,lambda x=x,y=y:move(x,y))
     step(.3,interact)
     step(.1,lambda label=label,count=count,flag=flag:check(label+' records exactly once',prop('Count')==count and prop(flag) and prop('Popup')))
+    step(.1,lambda label=label:check_popup(label+' widget matches HUD'))
     step(.1,confirm)
-    if label=='pot':
+    if count==1:
         step(.1,interact)
         step(.1,lambda:check('repeat clue does not increase count',prop('Count')==1))
         step(.1,confirm)
 step(.1,lambda:check('third clue confirmation shows deduction',prop('Deduced') and prop('Popup')))
+step(.1,lambda:check_popup('deduction widget matches HUD'))
 step(.1,confirm)
 step(.1,lambda:move(-400,-390))
 step(.3,interact)
 step(1.5,lambda:check('door rotates exactly 90 degrees',prop('DoorOpen') and abs(prop('DoorAngle')-90)<.01 and abs(prop('DoorActor').get_actor_rotation().yaw+90)<.01))
 step(.1,lambda:pawn.add_actor_world_offset(u.Vector(0,-220,0),True,False))
 step(.3,lambda:check('crossing doorway completes investigation',prop('Complete') and prop('Count')==3))
+step(.1,lambda:check_popup('completion widget matches HUD'))
+step(.1,lambda:check('completion shows exit hint','[Esc]' in str(prop('PopupUI').get_editor_property('PopupHint').get_text())))
 
 elapsed=0.0
 index=0
@@ -73,7 +90,10 @@ def finish(error=None):
     output=Path(u.Paths.project_saved_dir())/'ClientHome'/'gameplay-test-report.json'
     output.parent.mkdir(parents=True,exist_ok=True)
     report={'checks':records,'state':snapshot(),'error':error,'scope':'PIE Blueprint logic, proximity and door; keyboard input is tested separately'}
-    output.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+    report['clue_order']=clue_order
+    payload=json.dumps(report,ensure_ascii=False,indent=2)
+    output.write_text(payload,encoding='utf-8')
+    output.with_name('gameplay-test-'+'-'.join(clue_order)+'.json').write_text(payload,encoding='utf-8')
     if error: u.log_error('CLIENT_HOME_TEST_FAILED: '+error)
     else: u.log('CLIENT_HOME_TEST_OK: '+str(len(records))+' checks')
 def tick(dt):

@@ -11,7 +11,7 @@ from editor_toolset.toolsets.actor import ActorTools as A
 
 ROOT = '/Game/ClientHome_Haeso'
 MAP = ROOT + '/Maps/Lvl_ClientHome_Blockout'
-OUT = Path('D:/Multimodal/Development/ClientHome')
+OUT = Path(__file__).resolve().parent
 assets = u.get_editor_subsystem(u.EditorAssetSubsystem)
 actors = u.get_editor_subsystem(u.EditorActorSubsystem)
 levels = u.get_editor_subsystem(u.LevelEditorSubsystem)
@@ -38,6 +38,8 @@ def build():
     hud = bp('BP_CH_HUD', u.HUD)
     mode = bp('BP_CH_GameMode', u.GameModeBase)
     doorbp = bp('BP_CH_Door', u.Actor)
+    popup_widget = u.load_asset(ROOT + '/UI/WBP_CH_Popup')
+    assert popup_widget, 'Run build_popup.py first'
     # Independent character. Basic shapes are deliberately temporary art.
     pcdo = u.get_default_object(player.generated_class())
     pcdo.set_editor_property('use_controller_rotation_yaw', False)
@@ -66,14 +68,17 @@ def build():
     leaf.set_collision_profile_name('BlockAllDynamic')
     B.compile_blueprint(doorbp)
     known = set(B.list_variables(hud))
-    for name, typ in [('PotSeen','bool'),('FurSeen','bool'),('WindowSeen','bool'),('Popup','bool'),('Deduced','bool'),('DoorOpen','bool'),('Complete','bool'),('Count','int'),('Nearby','int'),('DoorAngle','float'),('Title','string'),('Message','string'),('Prompt','string')]:
+    for name, typ in [('PotSeen','bool'),('FurSeen','bool'),('WindowSeen','bool'),('Popup','bool'),('Deduced','bool'),('DoorOpen','bool'),('Complete','bool'),('Count','int'),('Nearby','int'),('NearestDistance','float'),('DoorAngle','float'),('Title','string'),('Message','string'),('Prompt','string')]:
         if name not in known: B.add_variable(hud,name,typ)
     for name in ['PotActor','FurActor','WindowActor','DoorActor']:
         if name not in known: B.add_object_variable(hud,name,u.Actor.static_class())
+    if 'PopupUI' not in known: B.add_object_variable(hud,'PopupUI',popup_widget.generated_class())
     graph = B.get_graph(hud, 'EventGraph')
     interact_graph = B.add_function_graph(hud, 'Interact')
     confirm_graph = B.add_function_graph(hud, 'Confirm')
     B.compile_blueprint(hud)
+    import runpy
+    runpy.run_path(str(OUT/'popup_graphs.py'))['install_popup_graphs'](hud,popup_widget)
     cache = {}
     def node(name, prefix=None):
         key = (name,prefix)
@@ -88,32 +93,35 @@ def build():
     def get(n): return call('Get'+n,prefix='Variables|')
     def put(n,v): return call('Set'+n,v,prefix='Variables|')
     def q(s): return json.dumps(s,ensure_ascii=False)
-    def popup(title,message): return '\n'.join([put('Title',q(title)),put('Message',q(message)),put('Popup','true')])
+    def popup(title,message): return '\n'.join([put('Title',q(title)),put('Message',q(message)),put('Popup','true'),call('RefreshPopup')])
     def key(k,pressed=False): return call('WasInputKeyJustPressed' if pressed else 'IsInputKeyDown', ':self controller :Key '+q(k))
     def text(s,x,y,scale=1.2,color='(R=0.92,G=0.93,B=0.9,A=1)'):
         return call('DrawText',f':Text {s} :ScreenX {x} :ScreenY {y} :Scale {scale} :TextColor {q(color)}', 'HUD|')
     def rect(x,y,w,h,col): return call('DrawRect',f':ScreenX {x} :ScreenY {y} :ScreenW {w} :ScreenH {h} :RectColor {q(col)}','HUD|')
-    begin=[]
+    begin=[call('InitPopup')]
     for var,tag in [('PotActor','Home_Pot'),('FurActor','Home_Fur'),('WindowActor','Home_Window'),('DoorActor','Home_Door')]:
         begin.append(f'(bind found{var} '+call('GetAllActorswithTag',':Tag '+q(tag))+f')\n(for item found{var} '+put(var,'item')+')')
-    begin += [popup('의뢰인 집', '코코가 남긴 흔적을 찾아보자. 화분, 털, 창문을 조사하자.')]
+    begin += [popup('의뢰인 집', '코코가 집 밖으로 나간 경로를 찾아보자.')]
     tick=['(bind controller '+call('GetOwningPlayerController',prefix='HUD|')+')','(bind pawn '+call('GetOwningPawn',prefix='HUD|')+')']
     # Pure validity checks prevent early initialization or teardown access errors.
     valid_node = node('IsValid','Utilities|')
     active=[]
     active.append(put('Nearby','0'))
+    active.append(put('NearestDistance','165.0'))
     active.append(put('Prompt',q('주변에서 코코의 흔적을 찾아보자.')))
     for idx,var,label in [(1,'PotActor','넘어진 화분'),(2,'FurActor','고양이 털'),(3,'WindowActor','열린 창문'),(4,'DoorActor','현관문')]:
         distance=call('GetHorizontalDistanceTo',':self pawn :OtherActor '+get(var))
-        active.append(f'(if (< {distance} 165.0) {put("Nearby",str(idx))} {put("Prompt",q("[E] "+label+" 조사 / 확인"))})')
+        flag = {1:'PotSeen',2:'FurSeen',3:'WindowSeen'}.get(idx)
+        prompt = ('(select '+get(flag)+' '+q('[E] '+label+' 다시 확인')+' '+q('[E] '+label+' 조사')+')') if flag else q('[E] 현관문 확인')
+        active.append(f'(if (< {distance} {get("NearestDistance")}) {put("NearestDistance",distance)} {put("Nearby",str(idx))} {put("Prompt",prompt)})')
     moves=[]
     for k,v in [('W','0,1,0'),('S','0,-1,0'),('A','1,0,0'),('D','-1,0,0')]:
         moves.append(call('AddMovementInput',':self pawn :WorldDirection '+q(v)+f' :ScaleValue (select {key(k)} 1.0 0.0)'))
     investigations=[]
-    for idx,flag,title,msg in [(1,'PotSeen','넘어진 화분','화분이 떨어져 있다. 코코가 지나가다 떨어뜨린 것으로 추정된다.'),(2,'FurSeen','고양이 털','코코의 털 같다. 창가 쪽으로 이동한 흔적이 남아 있다.'),(3,'WindowSeen','열린 창문','창문이 열려 있다. 코코가 이곳으로 빠져나갔을 가능성이 높다.')]:
+    for idx,flag,title,msg in [(1,'PotSeen','넘어진 화분','화분이 넘어져 있다. 흩어진 흙을 따라 살펴보자.'),(2,'FurSeen','고양이 털','창가 근처에 털이 남아 있다. 창문도 확인해 보자.'),(3,'WindowSeen','열린 창문','창문이 열려 있다. 코코가 나간 길일까? 다른 흔적과 맞춰 보자.')]:
         investigations.append(f'(if (== {get("Nearby")} {idx}) (if (not {get(flag)}) {put(flag,"true")} {put("Count","(+ "+get("Count")+" 1)")}) {popup(title,msg)})')
     investigations.append(f'(if (== {get("Nearby")} 4) (if {get("Deduced")} {put("DoorOpen","true")} (else {popup("아직 남은 흔적", "집 안의 단서 세 가지를 먼저 확인하자.")})))')
-    confirm_code=f'(fn Confirm () (if (and {get("Popup")} (not {get("Complete")})) {put("Popup","false")} (if (and (== {get("Count")} 3) (not {get("Deduced")})) {put("Deduced","true")} {popup("추리 완료", "코코는 창문으로 나간 것 같다. 현관문을 열고 밖으로 나가자.")})))'
+    confirm_code=f'(fn Confirm () (if (and {get("Popup")} (not {get("Complete")})) {put("Popup","false")} {call("RefreshPopup")} (if (and (== {get("Count")} 3) (not {get("Deduced")})) {put("Deduced","true")} {popup("추리 완료", "코코는 창문으로 나간 것 같다. 현관문을 열고 밖으로 나가자.")})))'
     interact_code=f'(fn Interact () (if (and (not {get("Popup")}) (not {get("Complete")})) '+'\n'.join(investigations)+'))'
     B.write_graph_dsl(confirm_graph,confirm_code)
     B.write_graph_dsl(interact_graph,interact_code)
@@ -130,8 +138,6 @@ def build():
     tick.append(f'({valid_node} :InputObject pawn (:"Is Valid" (if (not {get("Complete")}) '+'\n'.join(active)+')) (:"Is Not Valid"))')
     draw=[rect('20.0','20.0','540.0','132.0','(R=0.025,G=0.04,B=0.05,A=0.94)'),text(q('묘한 흔적을 찾아서  /  의뢰인 집'),'38.0','34.0',1.5),text(q('WASD 이동   ·   E 조사   ·   Enter 확인'),'38.0','68.0'),text('(select (== '+get('Count')+' 0) '+q('조사한 단서: 0 / 3')+' (select (== '+get('Count')+' 1) '+q('조사한 단서: 1 / 3')+' (select (== '+get('Count')+' 2) '+q('조사한 단서: 2 / 3')+' '+q('조사한 단서: 3 / 3')+')))','38.0','96.0'),text(get('Prompt'),'38.0','124.0',1.05)]
     draw.append(f'(if {get("Deduced")} '+text(q('추리: 창문으로 탈출  →  현관으로 나가기'),'38.0','166.0',1.2)+')')
-    panel=[rect('(* SizeX 0.10)','(* SizeY 0.62)','(* SizeX 0.80)','210.0','(R=0.02,G=0.035,B=0.045,A=0.98)'),text(get('Title'),'(+ (* SizeX 0.10) 28.0)','(+ (* SizeY 0.62) 22.0)',1.7,'(R=1,G=0.72,B=0.32,A=1)'),text(get('Message'),'(+ (* SizeX 0.10) 28.0)','(+ (* SizeY 0.62) 72.0)',1.15),text(q('[Enter] 확인'),'(+ (* SizeX 0.10) 28.0)','(+ (* SizeY 0.62) 144.0)',1.2)]
-    draw.append(f'(if {get("Popup")} '+'\n'.join(panel)+')')
     code='(event EventBeginPlay\n'+'\n'.join(begin)+')\n(event EventTick (DeltaSeconds)\n'+'\n'.join(tick)+')\n(event EventReceiveDrawHUD (SizeX SizeY)\n'+'\n'.join(draw)+')'
     (OUT/'BP_CH_HUD.dsl').write_text(code,encoding='utf-8')
     B.write_graph_dsl(graph,code)
@@ -141,7 +147,7 @@ def build():
     B.compile_blueprint(mode)
     world.get_world_settings().set_editor_property('default_game_mode',mode.generated_class())
     by_label={a.get_actor_label():a for a in actors.get_all_level_actors()}
-    for name,xyz,rot,scale in [('CH_PlayerStart',(-400,-340,100),(0,0,0),(1,1,1)),('CH_Clue_Pot',(80,160,22),(75,15,0),(.42,.42,.55)),('CH_Sun',(0,0,650),(-55,-35,0),(1,1,1))]:
+    for name,xyz,rot,scale in [('CH_PlayerStart',(-400,-340,100),(0,0,0),(1,1,1)),('CH_Sun',(0,0,650),(-55,-35,0),(1,1,1))]:
         a=by_label[name]
         a.set_actor_location(u.Vector(*xyz),False,False)
         a.set_actor_rotation(u.Rotator(pitch=rot[0],yaw=rot[1],roll=rot[2]),False)
