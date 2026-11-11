@@ -2,13 +2,13 @@
 import unreal as u,json
 from pathlib import Path
 
-def run(scenario='core_first'):
+def run(scenario='pot_first'):
     world=u.get_editor_subsystem(u.UnrealEditorSubsystem).get_game_world();assert world
     hud=u.GameplayStatics.get_player_controller(world,0).get_hud();pawn=u.GameplayStatics.get_player_pawn(world,0)
     p=lambda n:hud.get_editor_property(n)
     ui=p('PopupUI');records=[];steps=[];elapsed=0.;index=0
-    positions={1:(740,380),2:(50,-145),3:(870,350),5:(-230,-100),6:(150,230),4:(-760,-238)}
-    order=(1,2,3,5,6) if scenario=='core_first' else (5,6,3,2,1)
+    positions={1:(740,455),2:(35,-205),3:(870,268),5:(-230,-100),6:(155,285),4:(-730,-238)}
+    order=(1,2,3,5,6) if scenario=='pot_first' else (5,6,3,2,1)
     def check(name,value):
         records.append({'test':name,'passed':bool(value)});assert value,name
     def step(t,fn):steps.append((t,fn))
@@ -37,7 +37,7 @@ def run(scenario='core_first'):
         else:
             step(.2,lambda:check('deduction at five',p('Deduced') and p('Popup') and str(ui.get_editor_property('PopupMessage').get_text())==p('Message')))
     step(.1,lambda:check('one count only',p('ExtraCount')==0 and p('Count')==5))
-    if scenario!='core_first':
+    if scenario!='pot_first':
         step(.1,confirm);step(.1,lambda:move(4));step(.5,interact)
         step(1.6,lambda:check('door animation completes',p('DoorOpen') and abs(p('DoorAngle')-90)<.1))
         step(.4,lambda:check('exit waits for crossing',not p('Complete') and not p('Popup') and visible()))

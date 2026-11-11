@@ -81,3 +81,7 @@ DerivedDataCache/*
 
 **/*.bat
 */*.bat
+
+# Python editor-tool bytecode caches
+__pycache__/
+*.py[cod]
