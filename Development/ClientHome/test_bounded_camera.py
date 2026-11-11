@@ -14,7 +14,7 @@ def tick(dt):
   c=camera.get_world_location();r=camera.get_world_rotation()
   assert camera.get_editor_property('projection_mode')==u.CameraProjectionMode.PERSPECTIVE
   assert abs(r.pitch+35)<0.01 and abs(camera.get_editor_property('field_of_view')-60)<0.01
-  assert -220.01<=c.x<=300.01 and -1075.01<=c.y<=-919.99,c
+  assert -350.01<=c.x<=430.01 and -1075.01<=c.y<=-919.99,c
   records.append({'player':points[index],'camera':[c.x,c.y,c.z],'pitch':r.pitch})
   index+=1;elapsed=0
   if index==len(points):

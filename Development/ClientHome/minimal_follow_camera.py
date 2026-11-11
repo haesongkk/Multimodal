@@ -26,7 +26,7 @@ def configure(player, B, A):
     # Look straight from the old left wall (-Y) toward the right wall (+Y).
     # Stop tracking well before the outer walls. Keep the established perspective
     # composition and let the player move toward the screen edges instead.
-    x=clamp('(.x position)',-220.,300.)
+    x=clamp('(.x position)',-350.,430.)
     y='(- '+clamp('(.y position)',-75.,80.)+' 1000.0)'
     target=f'(Math|Vector|MakeVector :X {x} :Y {y} :Z 720.0)'
     desired='(bind position (Transformation|GetActorLocation))\n(bind destination '+target+')\n'

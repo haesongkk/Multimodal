@@ -83,7 +83,7 @@ def build():
     hint=label('JournalGoal',rc,'단서 다섯 개를 모아 볼까?',18,C,True);place(hint,35,148,350,32)
     # Small bottom control ribbon, separate from the actual investigation prompt.
     keys=fabric('CozyKeys',root);place(keys,28,-22,380,46,ay=1,aligny=1)
-    kt=label('CozyKeysText',keys,'WASD  살금살금     E  살펴보기',16,BLUE)
+    kt=label('CozyKeysText',keys,'WASD  이동하기     E  조사하기',16,BLUE)
     write(kt,{'autoWrapText':False,'wrapTextAt':0,'justification':'Center'})
     write(kt.get_editor_property('slot'),{'padding':margin(18,7,18,7),'horizontalAlignment':'HAlign_Fill','verticalAlignment':'VAlign_Center'})
     prompt=fabric('CozyPrompt',root);tool.call_method('ToggleWidgetAsVariable',(bp,prompt,True));place(prompt,0,-28,690,80,ax=.5,ay=1,alignx=.5,aligny=1)

@@ -38,6 +38,7 @@ def build():
     for name,target in [('PopupUI','self'),('Count','Found'),('Prompt','Hint'),('Deduced','Solved')]:
         ids=sorted(set(i for i in B.find_node_types(g,'Get'+name) if i.startswith('Variables|') and i.split('|')[-1]=='Get'+name));assert len(ids)==1
         B.get_node_type_pins(g,ids[0]);n=B.create_node(g,ids[0],u.IntPoint(0,0));link(n,name,call,target)
+    runpy.run_path(str(OUT/'completed_journal_hint.py'))['configure'](hud,B)
     B.compile_blueprint(hud,True)
     g=B.get_graph(hud,'EventGraph')
     code=(OUT/'BP_CH_Minimal_HUD.dsl').read_text(encoding='utf-8');code=code[:code.index('(event EventReceiveDrawHUD')]
