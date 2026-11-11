@@ -10,14 +10,14 @@
 ## 현재 실행 기준 (2026-11-11)
 
 현재 맵은 `/Game/ClientHome_Haeso/Maps/Lvl_ClientHome_Minimal`이다. 맵을 열고 Play로 실행한다.
-기본 Manny 캐릭터, 각도 고정(-30도) 추적 카메라, 조사 팝업, 핵심 단서 3개와 보조 단서 2개를 사용한다.
-핵심 단서만 모아도 추리와 현관 해금이 가능하다. 중앙 공간을 줄이고 주방–현관 벽과 화장실을 제거했다.
+기본 Manny 캐릭터, 각도 고정(-30도) 추적 카메라, 탐정 삽화가 있는 천 수첩 UI와 동등한 단서 5개를 사용한다.
+화분·털·창문·간식·발자국 5개를 모두 모으면 추리와 현관 해금이 가능하다. 중앙 공간을 줄이고 주방–현관 벽과 화장실을 제거했다.
 
 Fab의 [Stylized House Interior](https://www.fab.com/listings/ab92e5d3-6db6-4cf3-bff5-c2c98ae8db5b) 원본은 Git에 포함하지 않는다.
 다른 PC에서는 각자의 Fab 라이브러리에서 해당 에셋을 설치해 `/Game/StylizedKitchen/` 참조를 충족해야 한다.
 기본 Manny 및 TopDown 소스 에셋은 변경하지 않았다.
 
-최근 검증: 핵심 조사 흐름 16개 검사, 화장실 제거 경계·충돌, 실제 이동 동선, 8개 위치의 카메라 검사 통과.
+이전 구조 검증: 핵심 조사 흐름 16개 검사, 화장실 제거 경계·충돌, 실제 이동 동선, 8개 위치의 카메라 검사 통과.
 결과 JSON은 로컬 `Saved/ClientHome/`에 있으며 Git에는 포함하지 않는다.
 
 아래 문서와 생성 스크립트에는 이전 단계의 작업 기록이 포함된다. 이전 빌더를 현재 맵에 실행하면 배치를 덮어쓸 수 있다.
@@ -253,3 +253,22 @@ audit_gameplay.py는 전용 에셋 의존성과 카메라·본체 메시 중복 
 - 현재 검사: test_no_bathroom_walk.py, test_no_bathroom_boundary.py, test_side_camera.py, test_minimal_home.py. 이전 욕실 방문 검사는 현재 구조에 적용하지 않는다.
 - 현재 최종 메시 적용은 remove_bathroom.py이며, 이전 구조/시각 메시 빌더를 재적용하면 욕실이 다시 나타날 수 있다.
 - 백업: Saved/ClientHome/Lvl_ClientHome_Minimal.before-no-bathroom.umap 및 BP_CH_Player_Minimal.before-side-camera.uasset.
+
+### 조사 UI 리디자인 (2026-11-11)
+
+- 크림색 종이와 청록색 글자를 사용한 조사 노트 스타일. 상단 사건 카드와 핵심 3칸 진행 표시, 보조 단서 수, 하단의 작은 조사 안내 카드를 사용한다.
+- 팝업은 둥근 크림색 카드, 사건 라벨, 제목/본문/확인 안내의 세 단계 글자 크기로 구성한다. 한글 본문은 자동 줄바꿈한다.
+- `build_popup.py`는 공유 조사 팝업의 스타일을 갱신한다. 이후 `refresh_ui.py`는 Minimal HUD의 DrawHUD 이벤트만 갱신한다. 두 스크립트는 PIE를 중지한 상태에서 별도로 실행한다.
+- `refresh_ui.py`는 기존 BeginPlay/Tick과 Interact/Confirm을 보존하며 맵이나 플레이어를 저장하지 않는다.
+- UI 수정 전 백업: `Saved/ClientHome/BP_CH_HUD_Minimal.before-ui.uasset`, `Saved/ClientHome/WBP_CH_Popup.before-ui.uasset`.
+- 검증: 1280×720 플레이 화면에서 팝업과 HUD 표시 확인. 핵심 조사/중복 수집/추리/현관 진행 검사 16개 통과 (`Saved/ClientHome/minimal-play-test.json`).
+
+### 현재 UI / 동등한 단서 5개 (2026-11-11)
+
+- 사용자 제공 사람 탐정 디자인(체크모자, 청회색 코트, 금색 단추, 돋보기)을 참고한 임시 삽화. 바느질 천 패널, Jua 한글 서체, 발바닥 도장 5칸을 사용한다.
+- `Count` 하나로 모든 단서를 집계한다. 각 Seen 플래그가 중복 집계를 막는다. 5개 모두 확인 후 추리와 현관 해금이 진행된다. ExtraCount는 이전 에셋 호환을 위해 남아 있으나 새 로직에서 읽거나 쓰지 않는다.
+- UMG `UpdateJournal`이 진행도/안내/발바닥 도장을 갱신한다. `Present`는 개별 팝업 카드만 숨기며 상단 수첩은 항상 표시한다.
+- 적용: PIE 중지 → `build_cozy_ui.py` → `build_cozy_gameplay.py`. 맵·플레이어·공용 에셋은 이 과정에서 저장하지 않는다.
+- 런타임 검사: `test_cozy_gameplay.py`. 이전 `test_minimal_home.py`/`test_optional_clues.py`는 3+2 규칙용이므로 현재 규칙의 판정에 사용하지 않는다.
+- 소스 아트·라이선스·생성 프롬프트: `UIArt/ASSETS.md`. 최종 캐릭터 수령 시 UI 삽화만 교체할 수 있다.
+- 현재 규칙 검증 완료: 화분→털→창문→간식→발자국 33개 검사, 간식→발자국→창문→털→화분 35개 검사 통과. 실제 근접 대상 선택, 5개 동등 집계, 재조사 중복 방지, 3/4개에서 현관 잠금, 5개에서 추리·현관 회전·완료를 확인했다. 1280×720에서 초기/조사/긴 추리 카드와 5개 도장 표시를 확인했다.

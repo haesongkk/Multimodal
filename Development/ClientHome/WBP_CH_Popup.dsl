@@ -1,5 +1,6 @@
 (fn Present (Heading Body Shown Finished)
 (Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupTitle) :InText Heading)
 (Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupMessage) :InText Body)
-(Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupHint) :InText (select Finished "[Esc] 테스트 종료" "[Enter] 확인  ·  읽는 동안 이동이 멈춥니다"))
-(if Shown (Widget|SetVisibility :self self :InVisibility "HitTestInvisible") (else (Widget|SetVisibility :self self :InVisibility "Collapsed"))))
+(Widget|SetText(Text) :self (Variables|WBP_CH_Popup|GetPopupHint) :InText (select Finished "[Esc] 오늘의 조사 마치기" "[Enter] 수첩에 적었어!"))
+(Widget|SetVisibility :self self :InVisibility "HitTestInvisible")
+(if Shown (Widget|SetVisibility :self (Variables|WBP_CH_Popup|GetPopupCard) :InVisibility "HitTestInvisible") (Widget|SetVisibility :self (Variables|WBP_CH_Popup|GetCozyPrompt) :InVisibility "Collapsed") (else (Widget|SetVisibility :self (Variables|WBP_CH_Popup|GetPopupCard) :InVisibility "Collapsed") (Widget|SetVisibility :self (Variables|WBP_CH_Popup|GetCozyPrompt) :InVisibility "HitTestInvisible"))))
