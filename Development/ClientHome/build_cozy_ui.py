@@ -84,10 +84,12 @@ def build():
     # Small bottom control ribbon, separate from the actual investigation prompt.
     keys=fabric('CozyKeys',root);place(keys,28,-22,380,46,ay=1,aligny=1)
     kt=label('CozyKeysText',keys,'WASD  살금살금     E  살펴보기',16,BLUE)
-    write(kt.get_editor_property('slot'),{'padding':margin(24,8,14,6)})
+    write(kt,{'autoWrapText':False,'wrapTextAt':0,'justification':'Center'})
+    write(kt.get_editor_property('slot'),{'padding':margin(18,7,18,7),'horizontalAlignment':'HAlign_Fill','verticalAlignment':'VAlign_Center'})
     prompt=fabric('CozyPrompt',root);tool.call_method('ToggleWidgetAsVariable',(bp,prompt,True));place(prompt,0,-28,690,80,ax=.5,ay=1,alignx=.5,aligny=1)
     hinttxt=label('JournalPrompt',prompt,'코코가 남긴 흔적을 찾아보자.',22,C,True)
-    write(hinttxt.get_editor_property('slot'),{'padding':margin(36,20,28,16),'horizontalAlignment':'HAlign_Center','verticalAlignment':'VAlign_Center'})
+    write(hinttxt,{'autoWrapText':False,'wrapTextAt':0,'justification':'Center'})
+    write(hinttxt.get_editor_property('slot'),{'padding':margin(36,20,28,16),'horizontalAlignment':'HAlign_Fill','verticalAlignment':'VAlign_Center'})
     # Plush clue dialogue with a real illustrated portrait and room for long Korean text.
     card=fabric('PopupCard',root);tool.call_method('ToggleWidgetAsVariable',(bp,card,True))
     write(card.get_editor_property('slot'),{'layoutData':{'anchors':{'minimum':{'x':.13,'y':.92},'maximum':{'x':.87,'y':.92}},'offsets':margin(0,0,0,0),'alignment':{'x':0,'y':1}},'bAutoSize':True,'zOrder':10})
@@ -110,7 +112,7 @@ def build():
         if name=='PopupEyebrow':write(w,{'visibility':'Collapsed'})
         if name=='PopupHint':
             write(w,{'justification':'Right','autoWrapText':False})
-            write(w.get_editor_property('slot'),{'horizontalAlignment':'HAlign_Fill'})
+            write(w.get_editor_property('slot'),{'horizontalAlignment':'HAlign_Fill','padding':margin(0,0,34,12)})
     write(root,{'visibility':'HitTestInvisible'})
     assert tool.call_method('CompileWidgetBlueprint',(bp,))
     B.compile_blueprint(bp)
