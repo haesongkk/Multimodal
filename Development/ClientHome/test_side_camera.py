@@ -7,7 +7,7 @@ p=u.GameplayStatics.get_player_pawn(w,0)
 c=p.get_component_by_class(u.CameraComponent)
 h=u.GameplayStatics.get_player_controller(w,0).get_hud()
 if h.get_editor_property('Popup'):h.call_method('Confirm')
-points=[('start',378,350),('pot',740,320),('fur',650,20),('window',870,350),('door',-760,-238),('kitchen',-450,350),('snack',-230,-100),('study',100,500),('left floor',-650,-350),('sealed boundary',301,-450)]
+points=[('start',378,350),('pot',740,380),('fur',50,-145),('window',870,350),('door',-760,-238),('kitchen',-450,350),('snack',-230,-100),('study',100,500),('left floor',-650,-350),('library rug footprints',150,230)]
 index=0;elapsed=0.;moving=False;records=[];samples=[]
 def finish(error=None):
  u.unregister_slate_post_tick_callback(handle)

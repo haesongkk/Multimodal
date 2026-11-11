@@ -7,7 +7,7 @@ def run(scenario='core_first'):
     hud=u.GameplayStatics.get_player_controller(world,0).get_hud();pawn=u.GameplayStatics.get_player_pawn(world,0)
     p=lambda n:hud.get_editor_property(n)
     ui=p('PopupUI');records=[];steps=[];elapsed=0.;index=0
-    positions={1:(740,320),2:(650,20),3:(870,350),5:(-230,-100),6:(301,-450),4:(-760,-238)}
+    positions={1:(740,380),2:(50,-145),3:(870,350),5:(-230,-100),6:(150,230),4:(-760,-238)}
     order=(1,2,3,5,6) if scenario=='core_first' else (5,6,3,2,1)
     def check(name,value):
         records.append({'test':name,'passed':bool(value)});assert value,name

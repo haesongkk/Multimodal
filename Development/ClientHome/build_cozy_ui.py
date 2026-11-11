@@ -101,12 +101,16 @@ def build():
     write(content.get_editor_property('slot'),{'size':{'value':1,'sizeRule':'Fill'},'padding':margin(20,30,42,26),'verticalAlignment':'VAlign_Center'})
     # Reorder the retained fields without invalidating the HUD's widget reference.
     for name,txt,size,col,pad in [
-        ('PopupEyebrow','작은 탐정의 수첩',16,ROSE,10),
+        ('PopupEyebrow','',16,ROSE,0),
         ('PopupTitle','코코는 어디로 갔을까?',30,BLUE,12),
         ('PopupMessage','집 안에 남은 다섯 가지 흔적을 찾아보자.',22,C,18),
-        ('PopupHint','[Enter] 수첩에 적었어!',17,ROSE,0)]:
+        ('PopupHint','[Space]',17,ROSE,0)]:
         w=label(name,content,txt,size,col,True)
         write(w.get_editor_property('slot'),{'padding':margin(0,0,0,pad)})
+        if name=='PopupEyebrow':write(w,{'visibility':'Collapsed'})
+        if name=='PopupHint':
+            write(w,{'justification':'Right','autoWrapText':False})
+            write(w.get_editor_property('slot'),{'horizontalAlignment':'HAlign_Fill'})
     write(root,{'visibility':'HitTestInvisible'})
     assert tool.call_method('CompileWidgetBlueprint',(bp,))
     B.compile_blueprint(bp)
@@ -118,7 +122,7 @@ def build():
     text=node(g,'SetText(Text)')
     vis=next(i for i in B.find_node_types(g,'SetVisibility') if i.split('|')[-1]=='SetVisibility' and any(p.name=='InVisibility' for p in B.get_node_type_pins(g,i).input_pins))
     getter=lambda name:'('+node(g,'Get'+name,'Variables|')+')'
-    lines=[f'({text} :self {getter(n)} :InText {value})' for n,value in [('PopupTitle','Heading'),('PopupMessage','Body'),('PopupHint','(select Finished "[Esc] 오늘의 조사 마치기" "[Enter] 수첩에 적었어!")')]]
+    lines=[f'({text} :self {getter(n)} :InText {value})' for n,value in [('PopupTitle','Heading'),('PopupMessage','Body'),('PopupHint','(select Finished "[Esc]" "[Space]")')]]
     lines += [f'({vis} :self self :InVisibility "HitTestInvisible")',f'(if Shown ({vis} :self {getter("PopupCard")} :InVisibility "HitTestInvisible") ({vis} :self {getter("CozyPrompt")} :InVisibility "Collapsed") (else ({vis} :self {getter("PopupCard")} :InVisibility "Collapsed") ({vis} :self {getter("CozyPrompt")} :InVisibility "HitTestInvisible")))']
     code='(fn Present (Heading Body Shown Finished)\n'+'\n'.join(lines)+')'
     B.write_graph_dsl(g,code);(OUT/'WBP_CH_Popup.dsl').write_text(code,encoding='utf-8')
