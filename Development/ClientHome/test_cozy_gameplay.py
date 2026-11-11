@@ -7,7 +7,7 @@ def run(scenario='core_first'):
     hud=u.GameplayStatics.get_player_controller(world,0).get_hud();pawn=u.GameplayStatics.get_player_pawn(world,0)
     p=lambda n:hud.get_editor_property(n)
     ui=p('PopupUI');records=[];steps=[];elapsed=0.;index=0
-    positions={1:(740,320),2:(650,20),3:(870,350),5:(-230,250),6:(301,-450),4:(370,-330)}
+    positions={1:(740,320),2:(650,20),3:(870,350),5:(-230,-100),6:(301,-450),4:(-760,-238)}
     order=(1,2,3,5,6) if scenario=='core_first' else (5,6,3,2,1)
     def check(name,value):
         records.append({'test':name,'passed':bool(value)});assert value,name
@@ -40,7 +40,7 @@ def run(scenario='core_first'):
     if scenario!='core_first':
         step(.1,confirm);step(.1,lambda:move(4));step(.5,interact)
         step(1.6,lambda:check('door animation completes',p('DoorOpen') and abs(p('DoorAngle')-90)<.1))
-        step(.4,lambda:check('exit completed with five',p('Complete') and p('Popup') and visible()))
+        step(.4,lambda:check('exit waits for crossing',not p('Complete') and not p('Popup') and visible()))
     def finish(error=None):
         u.unregister_slate_post_tick_callback(handle)
         Path('D:/Multimodal/Saved/ClientHome/cozy-'+scenario+'-test.json').write_text(json.dumps({'checks':records,'error':error},ensure_ascii=False,indent=2),encoding='utf-8')
