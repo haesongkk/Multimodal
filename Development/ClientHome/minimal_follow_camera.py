@@ -10,6 +10,7 @@ def configure(player, B, A):
     camera.set_editor_property('relative_location',u.Vector(378,-650,720))
     camera.set_editor_property('relative_rotation',u.Rotator(pitch=-35,yaw=90,roll=0))
     camera.set_editor_property('use_pawn_control_rotation',False)
+    camera.set_editor_property('projection_mode',u.CameraProjectionMode.PERSPECTIVE)
     camera.set_editor_property('field_of_view',60)
     camera.set_editor_property('constrain_aspect_ratio',True)
     camera.set_editor_property('aspect_ratio',16/9)
@@ -23,8 +24,10 @@ def configure(player, B, A):
     cam='('+getters[0]+')'
     def clamp(v,lo,hi):return f'(select (< {v} {lo}) {lo} (select (> {v} {hi}) {hi} {v}))'
     # Look straight from the old left wall (-Y) toward the right wall (+Y).
-    x=clamp('(.x position)',-650.,750.)
-    y='(- '+clamp('(.y position)',-350.,430.)+' 1000.0)'
+    # Stop tracking well before the outer walls. Keep the established perspective
+    # composition and let the player move toward the screen edges instead.
+    x=clamp('(.x position)',-220.,300.)
+    y='(- '+clamp('(.y position)',-75.,80.)+' 1000.0)'
     target=f'(Math|Vector|MakeVector :X {x} :Y {y} :Z 720.0)'
     desired='(bind position (Transformation|GetActorLocation))\n(bind destination '+target+')\n'
     occlusion='(Rendering|Material|SetVectorParameterValue :Collection "/Game/ClientHome_Haeso/Materials/BathroomFade/MPC_CH_Occlusion.MPC_CH_Occlusion" :ParameterName "PlayerPosition" :ParameterValue (Utilities|Struct|MakeLinearColor :R (.x position) :G (.y position) :B (.z position) :A 1.0))\n'

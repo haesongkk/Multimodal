@@ -54,7 +54,7 @@
 (HUD|DrawTexture :Texture "/Game/ClientHome_Haeso/UI/Cozy/T_PawStamp.T_PawStamp" :ScreenX (- (.x paw2) 12.0) :ScreenY (- (.y paw2) 24.0) :ScreenW 24.0 :ScreenH 24.0 :TextureU 0.0 :TextureV 0.0 :TextureUWidth 1.0 :TextureVHeight 1.0 :TintColor "(R=0.95,G=0.65,B=0.38,A=1)")
 )
 (if (< (Transformation|GetHorizontalDistanceTo :self (HUD|GetOwningPawn) :OtherActor (Variables|Default|GetWindowActor)) 300.0)
-(bind paw3 (HUD|Project :Location (Transformation|GetActorLocation :self (Variables|Default|GetWindowActor))))
+(bind paw3 (HUD|Project :Location (Math|Vector|MakeVector :X (- (.x (Transformation|GetActorLocation :self (Variables|Default|GetWindowActor))) 90.0) :Y (.y (Transformation|GetActorLocation :self (Variables|Default|GetWindowActor))) :Z (- (.z (Transformation|GetActorLocation :self (Variables|Default|GetWindowActor))) 65.0))))
 (HUD|DrawTexture :Texture "/Game/ClientHome_Haeso/UI/Cozy/T_PawStamp.T_PawStamp" :ScreenX (- (.x paw3) 12.0) :ScreenY (- (.y paw3) 24.0) :ScreenW 24.0 :ScreenH 24.0 :TextureU 0.0 :TextureV 0.0 :TextureUWidth 1.0 :TextureVHeight 1.0 :TintColor "(R=0.95,G=0.65,B=0.38,A=1)")
 )
 (if (and (Variables|Default|GetDeduced) (< (Transformation|GetHorizontalDistanceTo :self (HUD|GetOwningPawn) :OtherActor (Variables|Default|GetExitActor)) 300.0))

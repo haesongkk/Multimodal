@@ -50,22 +50,19 @@ def faded(original):
   def node(cls,x,y):
    n=M.create_material_expression(result,cls,x,y);n.set_editor_property('desc','CH_Occlusion');return n
   pos=node(u.MaterialExpressionWorldPosition,-650,500)
-  camera=node(u.MaterialExpressionCameraPositionWS,-650,650)
+  camera=node(u.MaterialExpressionCameraVectorWS,-650,650)
   player=node(u.MaterialExpressionCollectionParameter,-650,800);player.set_editor_property('collection',mpc);player.set_editor_property('parameter_name','PlayerPosition')
   custom=node(u.MaterialExpressionCustom,-350,600);custom.set_editor_property('output_type',u.CustomMaterialOutputType.CMOT_FLOAT1)
   inputs=[]
   for name in ['World','Camera','Player']:
    i=u.CustomInput();i.set_editor_property('input_name',name);inputs.append(i)
   custom.set_editor_property('inputs',inputs)
-  custom.set_editor_property('code',"""float3 ray = Player.xyz - Camera;
-float rayLength = max(length(ray), 1.0);
-float3 dir = ray / rayLength;
-float along = dot(World - Camera, dir);
-float3 offset = World - (Camera + dir * along);
-// Widen around the capsule and feather the boundary as the player moves.
+  custom.set_editor_property('code',"""float3 dir = normalize(Camera);
+float along = dot(World - Player.xyz, dir);
+float3 offset = World - Player.xyz - dir * along;
 float distanceToSight = length(offset);
 float reveal = 1.0 - smoothstep(110.0, 200.0, distanceToSight);
-float inFront = smoothstep(0.0, 35.0, rayLength - along);
+float inFront = smoothstep(0.0, 35.0, along);
 return lerp(1.0, 0.18, reveal * inFront * saturate(Player.a));""")
   assert M.connect_material_expressions(pos,'',custom,'World')
   assert M.connect_material_expressions(camera,'',custom,'Camera')
