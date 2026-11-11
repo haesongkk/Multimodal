@@ -17,7 +17,8 @@ def configure(player, B, A):
     getters=[n for n in B.find_node_types(graph,'GetViewCamera') if n.startswith('Variables|') and n.endswith('|GetViewCamera')]
     assert len(getters)==1,getters
     nodes=[getters[0],'Transformation|GetActorLocation','Transformation|GetWorldLocation',
-           'Transformation|SetWorldLocation','Math|Vector|MakeVector','Math|Interpolation|VInterpTo']
+           'Transformation|SetWorldLocation','Math|Vector|MakeVector','Math|Interpolation|VInterpTo',
+           'Rendering|Material|SetVectorParameterValue','Utilities|Struct|MakeLinearColor']
     for node in nodes:B.get_node_type_pins(graph,node)
     cam='('+getters[0]+')'
     def clamp(v,lo,hi):return f'(select (< {v} {lo}) {lo} (select (> {v} {hi}) {hi} {v}))'
@@ -26,8 +27,9 @@ def configure(player, B, A):
     y='(- '+clamp('(.y position)',-350.,430.)+' 1000.0)'
     target=f'(Math|Vector|MakeVector :X {x} :Y {y} :Z 720.0)'
     desired='(bind position (Transformation|GetActorLocation))\n(bind destination '+target+')\n'
-    code='(event EventBeginPlay\n'+desired+'(Transformation|SetWorldLocation :self '+cam+' :NewLocation destination))\n'
-    code+='(event EventTick (DeltaSeconds)\n'+desired+'(Transformation|SetWorldLocation :self '+cam+' :NewLocation (Math|Interpolation|VInterpTo :Current (Transformation|GetWorldLocation :self '+cam+') :Target destination :DeltaTime DeltaSeconds :InterpSpeed 3.5)))\n'
+    occlusion='(Rendering|Material|SetVectorParameterValue :Collection "/Game/ClientHome_Haeso/Materials/BathroomFade/MPC_CH_Occlusion.MPC_CH_Occlusion" :ParameterName "PlayerPosition" :ParameterValue (Utilities|Struct|MakeLinearColor :R (.x position) :G (.y position) :B (.z position) :A 1.0))\n'
+    code='(event EventBeginPlay\n'+desired+occlusion+'(Transformation|SetWorldLocation :self '+cam+' :NewLocation destination))\n'
+    code+='(event EventTick (DeltaSeconds)\n'+desired+occlusion+'(Transformation|SetWorldLocation :self '+cam+' :NewLocation (Math|Interpolation|VInterpTo :Current (Transformation|GetWorldLocation :self '+cam+') :Target destination :DeltaTime DeltaSeconds :InterpSpeed 3.5)))\n'
     B.write_graph_dsl(graph,code)
     (Path(__file__).parent/'BP_CH_Minimal_Player.dsl').write_text(code,encoding='utf-8')
     B.compile_blueprint(player,True)
