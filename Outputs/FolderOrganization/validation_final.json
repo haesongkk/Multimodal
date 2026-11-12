@@ -1,0 +1,78 @@
+{
+  "destinations_present": 329,
+  "remaining_redirectors": [],
+  "removed_empty_folders": [
+    "Characters",
+    "CocoDetective",
+    "Cursor",
+    "Level",
+    "LevelPrototyping",
+    "TopDown"
+  ],
+  "blueprints": [
+    {
+      "path": "/Game/Multimodal/02_Blueprints/Characters/Player/BP_CocoDetectiveCharacter",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/Multimodal/02_Blueprints/Framework/BP_CocoDetectiveController",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/Multimodal/02_Blueprints/Framework/BP_CocoDetectiveGameMode",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Door/BP_DoorFrame",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/BP_JumpPad",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Target/BP_WobbleTarget",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownCharacter",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownGameMode",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "path": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownController",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  ],
+  "maps": [
+    {
+      "path": "/Game/Multimodal/01_Maps/Alley/LV_Alley_Proto",
+      "actor_count": 263,
+      "labels_match": true,
+      "empty_static_mesh_components": []
+    },
+    {
+      "path": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePlaySetup",
+      "actor_count": 87,
+      "labels_match": true,
+      "empty_static_mesh_components": []
+    },
+    {
+      "path": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePropSeparation",
+      "actor_count": 32,
+      "labels_match": true,
+      "empty_static_mesh_components": []
+    },
+    {
+      "path": "/Game/Multimodal/01_Maps/TopDown/LV_TopDown",
+      "actor_count": 170,
+      "labels_match": true,
+      "empty_static_mesh_components": []
+    }
+  ],
+  "dirty_content": [],
+  "dirty_maps": []
+}

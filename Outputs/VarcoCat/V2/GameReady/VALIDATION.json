@@ -1,0 +1,44 @@
+{
+  "LOD0": {
+    "triangles": 5456,
+    "vertices": 2730,
+    "symmetry_max_error": 3.725290298461914e-09,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "max_bone_influences": 4,
+    "unweighted_vertices": 0
+  },
+  "LOD1": {
+    "triangles": 1856,
+    "vertices": 930,
+    "symmetry_max_error": 1.862645149230957e-09,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "max_bone_influences": 4,
+    "unweighted_vertices": 0
+  },
+  "materials_per_mesh": 1,
+  "basecolor_resolution": [
+    1024,
+    1024
+  ],
+  "texture_maps": 1,
+  "opaque": true,
+  "bones": 29,
+  "animations": 1,
+  "animation_frame_range": [
+    1,
+    44
+  ],
+  "fps": 24,
+  "max_root_ground_correction": 0.025272220373153687,
+  "symmetry_plane": "Blender X=0; glTF X=0",
+  "forward": "Blender -Y; glTF +Z",
+  "source": "C:\\Users\\dnwnm\\Downloads\\55b3ebaf1a71776ec6148d109b4843dd.glb",
+  "notes": [
+    "Geometry mirrored from negative X to positive X before export.",
+    "Mirrored skin weights swap .L/.R bone groups; at most 4 normalized influences.",
+    "No target-device engine profiling performed.",
+    "LODs are separate exports using the same skeleton."
+  ]
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SK_Mannequin",
+    "class": "Skeleton",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Rigs/PA_Mannequin",
+    "class": "PhysicsAsset",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/M_Mannequin",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/M_Mannequin",
+    "class": "Material",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Quinn/MI_Quinn_01",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Quinn/MI_Quinn_01",
+    "class": "MaterialInstanceConstant",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Quinn/MI_Quinn_02",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Quinn/MI_Quinn_02",
+    "class": "MaterialInstanceConstant",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "class": "SkeletalMesh",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Manny/MI_Manny_01_New",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Manny/MI_Manny_01_New",
+    "class": "MaterialInstanceConstant",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_BN",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_BN",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_D",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA",
+    "class": "Texture2D",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Manny/MI_Manny_02_New",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Manny/MI_Manny_02_New",
+    "class": "MaterialInstanceConstant",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "class": "SkeletalMesh",
+    "unchanged_from_backup": true,
+    "destination_exists": true
+  }
+]

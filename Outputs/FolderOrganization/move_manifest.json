@@ -1,0 +1,1647 @@
+[
+  {
+    "path": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_FootIK",
+    "class": "ControlRigBlueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Rigs/CR_Mannequin_FootIK"
+  },
+  {
+    "path": "/Game/TopDown/Input/IMC_Default",
+    "class": "InputMappingContext",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Input/IMC_Default"
+  },
+  {
+    "path": "/Game/TopDown/Input/Actions/IA_SetDestination_Touch",
+    "class": "InputAction",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Input/Actions/IA_SetDestination_Touch"
+  },
+  {
+    "path": "/Game/TopDown/Input/Actions/IA_SetDestination_Click",
+    "class": "InputAction",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Input/Actions/IA_SetDestination_Click"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SK_Mannequin",
+    "class": "Skeleton",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SK_Mannequin"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Rigs/PA_Mannequin",
+    "class": "PhysicsAsset",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Rigs/PA_Mannequin"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_Jump",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jump/MM_Jump"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_Land",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jump/MM_Land"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/MM_Idle",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/MM_Idle"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run",
+    "class": "BlendSpace",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed",
+    "class": "AnimBlueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_BN",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_BN"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_D",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_D"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_BN",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_BN"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_D",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_D"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/M_FlatCol",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/M_FlatCol"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Cream",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Cream"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Ink",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Ink"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Teal",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Teal"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Wood",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Wood"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_TwoHeadScaleGuide",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/90_Sandbox/Experiments/Meshes/SM_TwoHeadScaleGuide"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Shared/T_UE_Logo_M",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Shared/T_UE_Logo_M"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/M_Mannequin",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/M_Mannequin"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Manny/MI_Manny_01_New",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Manny/MI_Manny_01_New"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Manny/MI_Manny_02_New",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Manny/MI_Manny_02_New"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "class": "SkeletalMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SKM_Manny_Simple"
+  },
+  {
+    "path": "/Game/CocoDetective/Blueprints/BP_CocoDetectiveCharacter",
+    "class": "Blueprint",
+    "destination": "/Game/Multimodal/02_Blueprints/Characters/Player/BP_CocoDetectiveCharacter"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Mailbox",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Mailbox"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/T_Arrow",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/T_Arrow"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/M_Cursor",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/M_Cursor"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/SM_CursorMesh",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/SM_CursorMesh"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/FX_Cursor_Success",
+    "class": "NiagaraSystem",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/FX_Cursor_Success"
+  },
+  {
+    "path": "/Game/CocoDetective/Blueprints/BP_CocoDetectiveController",
+    "class": "Blueprint",
+    "destination": "/Game/Multimodal/02_Blueprints/Framework/BP_CocoDetectiveController"
+  },
+  {
+    "path": "/Game/CocoDetective/Blueprints/BP_CocoDetectiveGameMode",
+    "class": "Blueprint",
+    "destination": "/Game/Multimodal/02_Blueprints/Framework/BP_CocoDetectiveGameMode"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_07",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_07"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_UtilityMeter_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_UtilityMeter_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Shoe_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Shoe_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_08",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_08"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_05",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_05"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_06",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_06"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_TrashBin_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_TrashBin_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_DoorLintel_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_DoorLintel_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_04",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_04"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Chair_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Chair_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_04",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_04"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_05",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_05"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_03",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_06",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_06"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Mug_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Mug_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Blue",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Blue"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Window_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Window_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Soil",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Soil"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Pawprint_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Pawprint_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Stone",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Stone"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_06",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_06"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_DrainPipe_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_DrainPipe_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_08",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_08"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_03",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Cooktop_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Cooktop_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_07",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_07"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_05",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_05"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_SinkAndTap_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_SinkAndTap_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_09",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_09"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_04",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_04"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_FloorSection_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_FloorSection_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Oak",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Oak"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_ShoeCabinet_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_ShoeCabinet_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CardboardBox_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CardboardBox_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CardboardBox_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CardboardBox_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CoffeeTable_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CoffeeTable_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Desk_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Desk_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CoffeeTable_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CoffeeTable_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CardboardBox_04",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CardboardBox_04"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CardboardBox_03",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CardboardBox_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Floor_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Floor_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Floor_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Floor_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Paper",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Paper"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Refrigerator_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Refrigerator_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_TableDocument_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_TableDocument_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CaseDocument_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CaseDocument_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_TableDocument_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_TableDocument_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_PetBowl_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_PetBowl_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Coral",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Coral"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_MissingCatFlyer",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_MissingCatFlyer"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_WelcomeMat_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_WelcomeMat_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CatBed_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CatBed_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CaseBoard_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CaseBoard_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CatTree_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CatTree_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Gold",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Gold"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_DeadEndGate",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_DeadEndGate"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_StreetLamp_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_StreetLamp_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_WelcomeMat_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_WelcomeMat_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Sofa_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Sofa_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_DeskLamp_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_DeskLamp_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_CatToy_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_CatToy_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_WindowBlinds_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_WindowBlinds_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_OpenDoor",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_OpenDoor"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Sofa_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Sofa_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Sage",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Sage"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_07",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_07"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_09",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_09"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_08",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_08"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_03",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_10",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_10"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Rug_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Rug_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_LowWall_02",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_LowWall_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Wall_09",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Wall_09"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_DoorLintel_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_DoorLintel_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_PreventionPamphlet",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_PreventionPamphlet"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_KitchenCabinet_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_KitchenCabinet_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Window_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Window_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Bookshelf_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Bookshelf_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Green",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Green"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_AIClientMonitor",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_AIClientMonitor"
+  },
+  {
+    "path": "/Game/CocoDetective/Props/Meshes/SM_Prop_Plant_01",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Props/SM_Prop_Plant_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_Clue_SpilledPlant",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_Clue_SpilledPlant"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_Pink",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_Pink"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_Coco",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_Coco"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_ChamferCube",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_ChamferCube"
+  },
+  {
+    "path": "/Game/CocoDetective/Maps/Lvl_Alley_Proto",
+    "class": "World",
+    "destination": "/Game/Multimodal/01_Maps/Alley/LV_Alley_Proto"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_BranchingAlley_v2",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_BranchingAlley_v2"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_Clue_AlleyPawprints",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_Clue_AlleyPawprints"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_Cylinder",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_Cylinder"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_Plane",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_Plane"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MI_DefaultColorway",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MI_DefaultColorway"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_Cube",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_Cube"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/M_PrototypeGrid",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/M_PrototypeGrid"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MF_ProcGrid",
+    "class": "MaterialFunction",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MF_ProcGrid"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Textures/T_GridChecker_A",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Textures/T_GridChecker_A"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_AlleyWall_Ink",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_AlleyWall_Ink"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_AlleyWall_Plaster",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_AlleyWall_Plaster"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_AlleyWall_Teal",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_AlleyWall_Teal"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MI_AlleyWall_Brick",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MI_AlleyWall_Brick"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Trash_Bin",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Trash_Bin"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_StreetBank",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_StreetBank"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Road_Barrier_02",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Road_Barrier_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Road_Barrier_01",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Road_Barrier_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_RoadCone_02",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_RoadCone_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/StreetParts",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/StreetParts"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_RoadCone_01",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_RoadCone_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_NewsPaper",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_NewsPaper"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Manhole_04",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Manhole_04"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Manhole_03",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Manhole_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/Manholes",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/Manholes"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Manhole_02",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Manhole_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Manhole_01",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Manhole_01"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_FireHydrant",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_FireHydrant"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Envelope_02",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Envelope_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Box_02",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Box_02"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/MailBoxes",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/MailBoxes"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Envelope_01",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Envelope_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Box_03",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Box_03"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/Boxes",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/Boxes"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Box_01",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Box_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/StreetProps_01",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/StreetProps_01"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Bin",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Bin"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/StreetBank",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/StreetBank"
+  },
+  {
+    "path": "/Game/CocoDetective/Fab/NYCStreetProps/SM_Bank",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/NYCStreetProps/SM_Bank"
+  },
+  {
+    "path": "/Game/CocoDetective/Input/IA_Move",
+    "class": "InputAction",
+    "destination": "/Game/Multimodal/07_Settings/Input/IA_Move"
+  },
+  {
+    "path": "/Game/CocoDetective/Input/IMC_CocoMove",
+    "class": "InputMappingContext",
+    "destination": "/Game/Multimodal/07_Settings/Input/IMC_CocoMove"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/MPC_Occlusion",
+    "class": "MaterialParameterCollection",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/MPC_Occlusion"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/M_AlleyWall_Dither",
+    "class": "Material",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/M_AlleyWall_Dither"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/Anims/SKA_Detective_Cheer_Anim",
+    "class": "AnimSequence",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SKA_Detective_Cheer_Anim"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/Anims/SKA_Detective_PickUp_Anim",
+    "class": "AnimSequence",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SKA_Detective_PickUp_Anim"
+  },
+  {
+    "path": "/Game/CocoDetective/Materials/M_WindowGlow",
+    "class": "Material",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/CocoDetective/M_WindowGlow"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/Anims/SKA_Detective_Walk_Anim",
+    "class": "AnimSequence",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SKA_Detective_Walk_Anim"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/SK_Detective_Anim",
+    "class": "AnimSequence",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SK_Detective_Anim"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/SK_Detective_Skeleton",
+    "class": "Skeleton",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SK_Detective_Skeleton"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/normal",
+    "class": "Texture2D",
+    "destination": "/Game/Multimodal/03_Graphics/Textures/Characters/Detective/normal"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/base_color",
+    "class": "Texture2D",
+    "destination": "/Game/Multimodal/03_Graphics/Textures/Characters/Detective/base_color"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/material_0",
+    "class": "Material",
+    "destination": "/Game/Multimodal/03_Graphics/Materials/Characters/Detective/material_0"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/SK_Detective",
+    "class": "SkeletalMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/Characters/Detective/SK_Detective"
+  },
+  {
+    "path": "/Game/CocoDetective/Characters/Detective/Anims/SKA_Detective_Run_Anim",
+    "class": "AnimSequence",
+    "destination": "/Game/Multimodal/03_Graphics/Animations/Characters/Detective/SKA_Detective_Run_Anim"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Back_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Back_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Front_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Front_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Front_02",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Front_02"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Front_03",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Front_03"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Left_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Left_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Death/MM_Death_Right_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Death/MM_Death_Right_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MF_Pistol_Idle_ADS",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MF_Pistol_Idle_ADS"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_DryFire",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MM_Pistol_DryFire"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Equip",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MM_Pistol_Equip"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire_Montage",
+    "class": "AnimMontage",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MM_Pistol_Fire_Montage"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/MM_Pistol_Reload",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/MM_Pistol_Reload"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Aim/AO_Pistol",
+    "class": "AimOffsetBlendSpace",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Aim/AO_Pistol"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS1",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS1"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CD"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Aim/MF_Pistol_Idle_ADS_AO_CU"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jog/MF_Pistol_Jog_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_Fall_Loop",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_Fall_Loop"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_RecoveryAdditive",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_RecoveryAdditive"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_Start",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Jump/MM_Pistol_Jump_Start"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Pistol/Walk/MF_Pistol_Walk_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/MF_Rifle_Idle_ADS",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/MF_Rifle_Idle_ADS"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_DryFire",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/MM_Rifle_DryFire"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_Equip",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/MM_Rifle_Equip"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_Fire",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/MM_Rifle_Fire"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/MM_Rifle_Reload",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/MM_Rifle_Reload"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/AIM/AO_Rifle",
+    "class": "AimOffsetBlendSpace",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/AIM/AO_Rifle"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CC",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CC"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CD",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CD"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CU",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/AIM/MM_Rifle_Idle_ADS_AO_CU"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Back_Med_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Back_Med_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Hvy_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Hvy_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_02",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_02"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_03",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_03"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_04",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Lgt_04"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Med_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Med_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Med_02",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/HitReact/MM_HitReact_Front_Med_02"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jog/MF_Rifle_Jog_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Apex",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Apex"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Fall_Land",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Fall_Land"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Fall_Loop",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Fall_Loop"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_RecoveryAdditive",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_RecoveryAdditive"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Start",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Start"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Start_Loop",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Jump/MM_Rifle_Jump_Start_Loop"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Bwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Fwd_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Left",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Left"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Right",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Rifle/Walk/MF_Rifle_Walk_Right"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_01",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_02",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_02"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_03",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Attack/MM_Attack_03"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Attack/MM_ChargedAttack",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Attack/MM_ChargedAttack"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_Dash",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jump/MM_Dash"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump",
+    "class": "AnimSequence",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Quinn/MI_Quinn_01",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Quinn/MI_Quinn_01"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Materials/Quinn/MI_Quinn_02",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Materials/Quinn/MI_Quinn_02"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+    "class": "SkeletalMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Meshes/SKM_Quinn_Simple"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+    "class": "ControlRigBlueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Rigs/CR_Mannequin_Body"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Procedural",
+    "class": "ControlRigBlueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Rigs/CR_Mannequin_Procedural"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Manny/T_Manny_02_N",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Manny/T_Manny_02_N"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA"
+  },
+  {
+    "path": "/Game/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N"
+  },
+  {
+    "path": "/Game/CocoDetective/Backups/Lvl_BeforePlaySetup",
+    "class": "World",
+    "destination": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePlaySetup"
+  },
+  {
+    "path": "/Game/CocoDetective/Backups/Lvl_BeforePropSeparation",
+    "class": "World",
+    "destination": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePropSeparation"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_AxisProbe",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/90_Sandbox/Experiments/Meshes/SM_AxisProbe"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_BranchingAlley",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_BranchingAlley"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_Clue_HomePawprints",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_Clue_HomePawprints"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_DetectiveOffice",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_DetectiveOffice"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_MaterialProbe",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/90_Sandbox/Experiments/Meshes/SM_MaterialProbe"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_ModernClientHome",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_ModernClientHome"
+  },
+  {
+    "path": "/Game/CocoDetective/Meshes/SM_OfficeHomeWalkway",
+    "class": "StaticMesh",
+    "destination": "/Game/Multimodal/03_Graphics/Meshes/CocoDetective/SM_OfficeHomeWalkway"
+  },
+  {
+    "path": "/Game/Cursor/M_Cursor",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Cursor/M_Cursor"
+  },
+  {
+    "path": "/Game/Cursor/T_Arrow",
+    "class": "Texture2D",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Cursor/T_Arrow"
+  },
+  {
+    "path": "/Game/Cursor/FX_Cursor",
+    "class": "NiagaraSystem",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Cursor/FX_Cursor"
+  },
+  {
+    "path": "/Game/Cursor/SM_CursorMesh",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/Cursor/SM_CursorMesh"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Door/BP_DoorFrame",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Door/BP_DoorFrame"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Door/Meshes/SM_Door",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Door/Meshes/SM_Door"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/BP_JumpPad",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/BP_JumpPad"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad",
+    "class": "NiagaraSystem",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow",
+    "class": "Material",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Target/BP_WobbleTarget",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Target/BP_WobbleTarget"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_Round",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_Round"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_QuarterCylinder",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_QuarterCylinder"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_QuarterCylinderOuter",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_QuarterCylinderOuter"
+  },
+  {
+    "path": "/Game/LevelPrototyping/Meshes/SM_Ramp",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/LevelPrototyping/Meshes/SM_Ramp"
+  },
+  {
+    "path": "/Game/TopDown/Lvl_TopDown",
+    "class": "World",
+    "destination": "/Game/Multimodal/01_Maps/TopDown/LV_TopDown"
+  },
+  {
+    "path": "/Game/TopDown/MI_Colorway",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/MI_Colorway"
+  },
+  {
+    "path": "/Game/TopDown/Blueprints/BP_TopDownCharacter",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownCharacter"
+  },
+  {
+    "path": "/Game/TopDown/Blueprints/BP_TopDownGameMode",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownGameMode"
+  },
+  {
+    "path": "/Game/TopDown/Blueprints/BP_TopDownController",
+    "class": "Blueprint",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Blueprints/BP_TopDownController"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/FX_Cursor_Failure",
+    "class": "NiagaraSystem",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/FX_Cursor_Failure"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/MI_Cursor_Red",
+    "class": "MaterialInstanceConstant",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/MI_Cursor_Red"
+  },
+  {
+    "path": "/Game/TopDown/Cursor/SM_CursorMesh_Red",
+    "class": "StaticMesh",
+    "destination": "/Game/ExternalAssets/UnrealTemplates/TopDown/Cursor/SM_CursorMesh_Red"
+  }
+]

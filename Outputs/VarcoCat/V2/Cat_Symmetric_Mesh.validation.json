@@ -1,0 +1,12 @@
+{
+  "source_triangles": 6000,
+  "triangles": 5820,
+  "vertices": 2912,
+  "symmetry_max_error": 3.725290298461914e-09,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "materials": 1,
+  "symmetry_plane": "Blender X=0",
+  "forward": "Blender -Y",
+  "up": "Blender +Z"
+}
