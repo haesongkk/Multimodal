@@ -1,0 +1,36 @@
+[2026.11.13-07.10.37:522][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 1.062ms.
+[2026.11.13-07.11.03:030][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.629ms.
+[2026.11.13-07.11.03:239][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.568ms.
+[2026.11.13-07.11.03:474][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.096ms.
+[2026.11.13-07.11.03:896][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.156ms.
+[2026.11.13-07.11.04:357][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.17ms.
+[2026.11.13-07.11.04:679][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.092ms.
+[2026.11.13-07.11.04:888][ 46]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.779ms.
+[2026.11.13-07.11.04:952][ 46]LogPython: FULL_STRUCTURE_VERIFY: True
+[2026.11.13-07.15.53:049][133]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 1.484ms.
+[2026.11.13-07.15.56:504][133]LogStaticLightingSystem: Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2026.11.13-07.15.56:539][133]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 5.439ms.
+[2026.11.13-07.15.56:539][133]LogEditorBuildUtils: Build time 4:22
+[2026.11.13-07.16.54:500][175]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.152ms.
+[2026.11.13-07.17.14:795][ 90]LogStaticLightingSystem: Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2026.11.13-07.17.14:816][ 90]MapCheck: Warning: House_Walls_SM_14 'SM_CH_Bath_Access_House_Walls_SM' 스태틱 메시에 0 트라이앵글인 엘리먼트가 3개 있습니다.
+[2026.11.13-07.17.14:816][ 90]MapCheck: Warning: House_Floor_2 'SM_CH_House_Floor' 스태틱 메시에 0 트라이앵글인 엘리먼트가 1개 있습니다.
+[2026.11.13-07.17.14:824][ 90]MapCheck: Warning: StaticMeshActor_9 'SM_CH_CH_Minimal_Cutaway_House_Walls_SM' 스태틱 메시에 0 트라이앵글인 엘리먼트가 5개 있습니다.
+[2026.11.13-07.17.14:824][ 90]MapCheck: Warning: StaticMeshActor_13 'SM_CH_CH_Minimal_Cutaway_Bathroom_Walls_Trim_SM' 스태틱 메시에 0 트라이앵글인 엘리먼트가 1개 있습니다.
+[2026.11.13-07.17.14:825][ 90]MapCheck: Warning: StaticMeshActor_345 'SM_CH_Right_House_Walls_SM' 스태틱 메시에 0 트라이앵글인 엘리먼트가 3개 있습니다.
+[2026.11.13-07.17.14:825][ 90]MapCheck: 맵 체크 완료: 오류 0 회, 경고 5 회, 소요 시간 9.454ms.
+[2026.11.13-07.17.14:825][ 90]LogEditorBuildUtils: Build time 0:01
+[2026.11.13-07.17.47:276][157]LogPython: COZY_TEST_pot_first: PASS 33
+[2026.11.13-07.18.27:645][763]LogPython: COZY_TEST_snack_first: PASS 35
+[2026.11.13-07.19.02:651][555]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.898ms.
+[2026.11.13-07.20.06:772][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.639ms.
+[2026.11.13-07.20.06:991][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.533ms.
+[2026.11.13-07.20.07:211][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.09ms.
+[2026.11.13-07.20.07:481][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.188ms.
+[2026.11.13-07.20.07:953][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.202ms.
+[2026.11.13-07.20.08:241][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.082ms.
+[2026.11.13-07.20.08:467][961]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.862ms.
+[2026.11.13-07.20.08:532][961]LogPython: FULL_STRUCTURE_VERIFY: True
+[2026.11.13-07.20.24:155][438]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.19ms.
+Execution of commandlet took:  2.87 seconds, PeakPhysMemoryMB=3905 MB, PeakVirtMemoryMB=4112 MB
+[2026.11.13-07.15.52:062][  0]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 0, <NoCallSiteInfo>)

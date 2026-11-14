@@ -1,0 +1,151 @@
+# 의뢰인 집 — 구현 현황 및 실행 안내
+
+작성일: 2026-11-11 · 구현 기준 커밋: `ed3a9af`
+
+## 현재 도달한 단계
+
+**의뢰인 집 안에서 단서 5개를 조사하고, 현관을 열어 밖으로 나가 조사 완료 화면을 보는 흐름까지 플레이할 수 있다.**
+실내 배치, 추적 카메라, 조사 UI가 연결된 독립 맵 프로토타입이다. 최종 탐정 캐릭터 적용과 실제 골목 맵 전환은 아직 진행하지 않았다.
+
+이 README가 현재 구현 상태의 기준이다. 이전 블록아웃·3개 단서·Enter 확인·화장실 제거 단계의 기록은 Git 이력에서 확인할 수 있다.
+
+## 플레이 영상
+
+<video controls playsinline preload="metadata" width="960" src="../../Outputs/ClientHome/Media/coco-gameplay-2026-11-11.mp4">
+  <a href="../../Outputs/ClientHome/Media/coco-gameplay-2026-11-11.mp4">플레이 영상 MP4 열기</a>
+</video>
+
+플레이어가 표시되지 않는 뷰어에서는 [MP4 파일 열기](../../Outputs/ClientHome/Media/coco-gameplay-2026-11-11.mp4)를 사용한다.
+
+- 길이: 약 56초(1,687프레임), 1280×720, 30fps, 무음, 약 5MB.
+- 내용: 현관 출발 → 간식 → 털뭉치 → 러그 발자국 → 넘어진 화분 → 창문 → 종합 추리 → 현관 개방·퇴장 완료.
+- 언리얼 PIE의 실제 게임 화면을 캡처했다. 녹화 중 순간이동 없이 CharacterMovement로 이동하고 기존 `Interact` / `Confirm` 함수를 호출했다.
+- 녹화용 동선은 스크립트로 제어했다. 사람이 키보드로 연속 조작한 영상이나 패키징된 배포 빌드의 영상은 아니다.
+- 영상에는 편집기 테두리와 다른 앱 화면을 제외했다. 30fps 고정 시뮬레이션으로 기록했으므로 실제 기기의 실시간 성능 측정 자료로 사용하지 않는다.
+- 녹화 결과: 56.233초, 단서 5/5, 집 조사 완료, 녹화 오류 없음, 전체 영상 디코딩 성공.
+
+## 구현 범위
+
+| 영역 | 현재 구현 |
+|---|---|
+| 플레이 시작 | 현관 앞에서 시작하고 의뢰 안내를 표시한다. |
+| 이동·조사 | WASD 이동, E 조사, Space 팝업 확인. 팝업이 열려 있는 동안 이동을 막는다. |
+| 단서 | 화분·털뭉치·창문·간식·발자국을 같은 비중의 단서로 집계한다. 핵심/보조 구분은 없다. |
+| 진행도 | `0 / 5`와 발바닥 도장을 표시한다. 단서별 Seen 플래그로 재조사 중복 집계를 방지한다. |
+| 조사 대상 | 가까운 단서와 현관을 수평 거리로 판정하고, 범위가 겹치면 가장 가까운 대상을 선택한다. |
+| 완료 흐름 | 단서 5개 확인 → 종합 추리 → 현관 해금 → 문 개방 → 밖으로 이동 → 집 조사 완료 화면. |
+| 완료 후 안내 | 탐색 문구를 현관 이동 안내로 교체한다. 현관 앞에서는 E 키 행동을 안내한다. |
+| 실내 공간 | 거실·주방·서재·현관·작은 화장실을 배치했다. Fab 예제의 가구와 소품을 중심으로 구성했다. |
+| 카메라 | 기존 원근 시점과 고정 각도를 유지하면서 부드럽게 따라온다. 가장자리에서는 이동을 제한한다. |
+| 가림 처리 | 화장실 벽·문 등이 플레이어를 가리면 주변 영역이 부드럽게 반투명해지는 효과를 적용했다. |
+| 배경 | 맵 바깥을 밝은 하늘색으로 처리했다. 기존 실내 조명 환경을 유지한다. |
+| UI | 크림색 바느질 천 패널, 탐정 삽화, 한글 서체, 단서 도장, 조사 설명 카드. |
+
+## 단서 배치
+
+| 단서 | 현재 위치·표현 |
+|---|---|
+| 넘어진 화분 | 창가 옆 서랍장 주변. 화분과 흙 흔적이 남아 있다. |
+| 털뭉치 | 책상 기준 화면 왼쪽 바닥. |
+| 열린 창문 | 창가. 발자국 형태의 조사 표시를 창틀 가까운 실내 쪽으로 옮겼다. |
+| 먹다 남은 간식 | 주방·식탁 앞쪽 바닥의 그릇 주변. |
+| 작은 발자국 | 책장 앞 원형 러그 쪽. 발자국 방향도 조정했다. |
+
+단서의 화면상 발바닥 아이콘은 조사 위치 안내이고, 러그의 발자국 단서 메시와는 별개다.
+
+## 화면·공간의 현재 설정
+
+- 카메라는 화면 기준 좌측에서 우측 벽을 바라보는 기존 구도를 유지한다. 원근 투영, Pitch `-35°`, Yaw `90°`, FOV `60°`, 화면 비율 `16:9`다.
+- 카메라 월드 좌표는 X `-350~430`, Y `-1075~-920`, Z `720` 범위다. 추적 보간 속도는 `3.5`다.
+- 맵 밖 노출을 완전히 없애기 위한 줌·직교 투영은 사용하지 않는다. 양쪽 아래 구석이 보이도록 이동 여유를 두고, 가장자리의 소량 배경 노출은 허용한다.
+- 현관은 냉장고 아래쪽에 있다. 화면 오른쪽 벽과 몰딩을 복원했고, 현관의 중복 문틀과 위·옆 틈을 정리했다.
+- 화장실은 창가 앞쪽에 작게 구성했다. 문은 바깥쪽으로 열리고, 전면 턱을 제거했다. 왼쪽 외벽은 집 벽선에 맞췄다.
+- 하단에 남아 있던 예제맵의 옛 화장실 체크무늬 바닥 조각을 제거했다.
+- 화분은 책장과 서랍장 사이에 자연스럽게 모아 두었고, 앞으로 지나치게 나온 화분은 좌우로 분산했다.
+
+## UI 문구와 동작
+
+| 상황 | 표시 |
+|---|---|
+| 좌측 하단 조작 안내 | `WASD 이동하기     E 조사하기` |
+| 일반 탐색 | `코코가 남긴 흔적을 찾아보자.` |
+| 단서 근처 | `[E] … 조사` 또는 `[E] … 다시 확인` |
+| 단서 5개 수집 후 | `코코의 길을 찾았어! 현관으로 나가 보자.` |
+| 수집 완료 후 현관 앞 | `[E] 현관문 열고 나가기` |
+| 조사 설명 확인 | 카드 오른쪽 아래 `[Space]` |
+
+하단 안내의 불필요한 줄바꿈, 좌측 조작 안내의 치우침, Space 표시의 모서리 밀착을 수정했다. `작은 탐정의 수첩`과 `수첩에 적었어` 문구는 제거했다.
+
+## 임시 상태와 남은 작업
+
+| 항목 | 남은 범위 |
+|---|---|
+| 플레이어 외형 | 현재는 기본 Manny다. 전달받을 최종 탐정 모델·리깅·애니메이션을 연결해야 한다. |
+| UI 삽화 | 제공된 탐정 디자인을 참고한 임시 삽화다. 최종 에셋에 맞춘 교체·정리가 남아 있다. |
+| 골목 연결 | 집 조사 완료 안내까지만 구현했다. 실제 다음 맵 로드와 팀 공용 진행 상태 연결은 별도 작업이다. |
+| 팀 공용 구조 | 현재는 전용 Player/HUD/GameMode를 쓴다. 공용 Character·Controller·GameInstance 통합은 담당자 협의가 필요하다. |
+| 저장·복원 | 집 조사 진행도의 저장/불러오기와 재접속 복원은 이 작업 범위에서 구현하지 않았다. 새 PIE는 초기 상태로 시작한다. |
+| 사운드 | 이번 영상은 무음이다. BGM·효과음·음성의 최종 구성 및 검증은 별도다. |
+| 배포 검증 | 패키징, 다른 PC에서의 실행, 전체 해상도·화면 비율, 성능·장시간 플레이 검증은 남아 있다. |
+| 최종 동선 QA | 녹화에 사용한 경로 외의 모든 모서리·가구 사이 충돌과 가림 효과 조합을 전수 확인한 상태는 아니다. |
+
+## 확인한 범위
+
+- 2026-11-11 녹화: 실제 이동 컴포넌트를 사용해 단서 5개 조사와 현관 퇴장까지 완료했다. 결과 `clues_found=5`, `investigation_complete=true`, 오류 없음.
+- 완료 안내 검사: 수집 전 탐색 문구, 수집 후 현관 이동 문구, 현관 앞 E 안내를 실제 위젯 텍스트로 확인했다.
+- 현관 수정 후: 문 주변 틈이 보이지 않는 것을 확인하고, 문을 연 상태에서 플레이어 캡슐의 충돌 이동으로 출입구 통과를 확인했다.
+- 카메라: 범위를 제한한 상태에서 가장자리 검사를 수행했고, 최종 좌우 범위를 넓힌 뒤 양쪽 아래 모서리 화면을 확인했다. 이후 녹화 동선에서도 추적 동작을 확인했다.
+- 영상: 1,687프레임, 30fps, 1280×720을 확인했고 전체 디코딩 오류가 없었다. 여러 시점의 프레임도 육안 확인했다.
+- 코드 정리 후: Python 24개 문법 검사, 삭제 파일 참조 검사, 실행기 구문 검사, Blueprint 4개 재컴파일, 에셋 의존성 652개 누락 없음, 실제 PIE 단서 수집 검사 33개 통과. 현관 시작 상태로 재실행했다.
+- 최근 변경은 Blueprint 컴파일·저장과 `git diff --check`를 거쳤다.
+
+이전 단계의 3개 단서 로직, 폐기한 배치 실험, 중복 UI 패치와 해당 단계 전용 테스트는 제거했다. 현재 5개 단서 테스트의 조사 좌표도 최신 배치에 맞췄다.
+
+## 실행 방법과 의존성
+
+1. Unreal Engine 5.8로 `Multimodal.uproject`를 연다.
+2. Fab 원본 에셋의 `/Game/ExternalAssets/StylizedKitchen/` 참조가 충족되는지 확인한다. 원본은 Git에 포함하지 않으므로 각자의 라이브러리에서 설치해야 한다.
+3. `/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Minimal`을 연다.
+4. Play를 실행하고 Space로 의뢰 안내를 닫는다. WASD로 이동하고 E로 조사한다.
+
+프로젝트 기본 시작 맵은 별도이므로 전용 맵을 직접 열어야 한다. 저장된 Blueprint와 맵으로 플레이하며, 일반 실행에 생성용 Python을 다시 돌릴 필요는 없다. 프로젝트가 요구하는 에디터 플러그인은 별도로 설치되어 있어야 한다.
+
+## 소유 범위
+
+- 팀원 작업물과 공용 설정은 수정하지 않는다. 사용자 요청에 따라 기본 Manny/TopDown 에셋과 Fab 에셋은 참조한다.
+- 폴더·파일·에셋 배치 기준은 루트 [PROJECT_RULES.md](../../PROJECT_RULES.md)를 따른다. 에디터 도구는 `Build/Tools/ClientHome`, 문서는 `Docs/ClientHome`, 제작 원본은 `SourceAssets/ClientHome`, 결과는 `Outputs/ClientHome`에서 관리한다.
+- 공용 Character, Controller, GameInstance 및 골목 연결은 담당자 합의 후 진행한다.
+- Save All 대신 전용 패키지만 저장한다. 프로젝트 시작 맵과 기본 게임 모드는 바꾸지 않는다.
+
+## 주요 파일
+
+| 파일·경로 | 역할 |
+|---|---|
+| `/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Minimal` | 현재 플레이 맵 |
+| `/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Minimal` | 플레이어·카메라·가림 효과에 전달할 위치 |
+| `/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_HUD_Minimal` | 근접 판정·조사·진행·현관·UI 동기화 |
+| `/Game/Multimodal/04_UI/Widgets/ClientHome/WBP_CH_Popup` | 조사 카드·진행도·조작 안내 |
+| [minimal_follow_camera.py](../../Build/Tools/ClientHome/minimal_follow_camera.py) | 카메라 구도와 추적 제한 |
+| [build_cozy_gameplay.py](../../Build/Tools/ClientHome/build_cozy_gameplay.py), [completed_journal_hint.py](../../Build/Tools/ClientHome/completed_journal_hint.py) | 동등한 5개 단서 규칙과 완료 후 안내 |
+| [build_cozy_ui.py](../../Build/Tools/ClientHome/build_cozy_ui.py), [minimal_hud_layout.py](../../Build/Tools/ClientHome/minimal_hud_layout.py) | UI와 월드 위치의 단서 표시 |
+| [build_bathroom_occlusion.py](../../Build/Tools/ClientHome/build_bathroom_occlusion.py) | 화장실 가림 효과 |
+| [restore_right_wall.py](../../Build/Tools/ClientHome/restore_right_wall.py), [fit_entrance_opening.py](../../Build/Tools/ClientHome/fit_entrance_opening.py) | 오른쪽 벽 복원과 현관 마감 |
+| [remove_front_tile_strip.py](../../Build/Tools/ClientHome/remove_front_tile_strip.py) | 옛 화장실 바닥 조각 제거 |
+| [update_sky_and_journal.py](../../Build/Tools/ClientHome/update_sky_and_journal.py) | 밝은 배경과 완료 안내 적용 |
+| [UI 아트 출처](../../SourceAssets/ClientHome/UIArt/ASSETS.md) | 임시 UI 아트 출처와 폰트 라이선스 |
+
+### 개발 도구 정리
+
+- `Launch-ClientHomeEditor.ps1`: 현재 저장 맵을 여는 실행기. 옛 블록아웃 생성 옵션은 제거했다.
+- `build_cozy_gameplay.py`, `build_cozy_ui.py` 및 연결된 DSL·헬퍼: 현재 5개 단서와 UI 구현 소스.
+- 카메라·벽·화장실·배경 도구: 현재 구현을 수정할 때 사용하는 에디터 도구.
+- `test_cozy_gameplay.py`, `test_completed_hint.py`, `test_bounded_camera.py`와 이동·팝업·애니메이션 테스트: 현재 동작 검증용. PIE에서 실행하며 결과는 `Outputs/ClientHome`에 기록한다.
+- 폐기된 빌더, A/B 배치 실험, 중복 패치와 옛 테스트 57개 파일은 삭제했다. 필요하면 Git 이력에서 확인한다.
+
+남긴 에디터 도구도 저장 맵 전체를 처음부터 재생성하는 통합 빌드 절차는 아니다. 특히 화장실 배치 도구는 `SourceAssets/Data/ClientHome`의 예제 가구 조사 데이터와 `Outputs/ClientHome`의 백업를 사용하므로 입력을 확인하고 개별 실행한다. 일반 실행에는 Python 재실행이 필요 없다.
+
+구현 현황, 실행 안내, 영상과 검증 결과는 이 README에 통합했다. 영상 MP4와 에셋 출처·라이선스 자료는 별도 첨부 파일로 유지한다.
+
+## 2026-11-11 폴더 규칙 적용
+
+기존 전용 폴더 제한은 루트 PROJECT_RULES.md로 대체했다. 현재 플레이 맵은 `/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Minimal`이다. 이전 구현·검증 기록은 위에 보존하고, 이번 이동과 재검증 결과는 [정리 기록](../ProjectOrganization.md)에 기록한다.

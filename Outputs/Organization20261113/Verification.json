@@ -1,0 +1,68 @@
+{
+  "compiled": [
+    "/Game/ExternalAssets/UnrealMannequins/Anims/Unarmed/ABP_Unarmed",
+    "/Game/Multimodal/02_Blueprints/Characters/Player/CocoDetective/BP_CocoDetectiveCharacter",
+    "/Game/Multimodal/02_Blueprints/Framework/CocoDetective/BP_CocoDetectiveController",
+    "/Game/Multimodal/02_Blueprints/Framework/CocoDetective/BP_CocoDetectiveGameMode",
+    "/Game/ExternalAssets/UnrealLevelPrototyping/Interactable/Door/BP_DoorFrame",
+    "/Game/ExternalAssets/UnrealLevelPrototyping/Interactable/JumpPad/BP_JumpPad",
+    "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Minimal",
+    "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player",
+    "/Game/Multimodal/02_Blueprints/Buildings/ClientHome/BP_CH_Door",
+    "/Game/ExternalAssets/UnrealLevelPrototyping/Interactable/Target/BP_WobbleTarget",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_HUD",
+    "/Game/Multimodal/04_UI/Widgets/ClientHome/WBP_CH_Popup",
+    "/Game/Multimodal/02_Blueprints/Characters/Player/TopDown/BP_TopDownCharacter",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_HUD_Minimal",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Minimal",
+    "/Game/Multimodal/02_Blueprints/Framework/TopDown/BP_TopDownGameMode",
+    "/Game/Multimodal/02_Blueprints/Framework/TopDown/BP_TopDownController"
+  ],
+  "maps": {
+    "/Game/Multimodal/90_Sandbox/Maps/CocoDetective/LV_BeforePlaySetup": {
+      "before_count": 87,
+      "after_count": 87,
+      "unchanged": true
+    },
+    "/Game/Multimodal/90_Sandbox/Maps/CocoDetective/LV_BeforePropSeparation": {
+      "before_count": 32,
+      "after_count": 32,
+      "unchanged": true
+    },
+    "/Game/ExternalAssets/StylizedKitchen/Levels/AssetsOverview": {
+      "before_count": 187,
+      "after_count": 187,
+      "unchanged": true
+    },
+    "/Game/ExternalAssets/StylizedKitchen/Levels/Stylized_Interior": {
+      "before_count": 733,
+      "after_count": 733,
+      "unchanged": true
+    },
+    "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Minimal": {
+      "before_count": 1006,
+      "after_count": 1006,
+      "unchanged": true
+    },
+    "/Game/Multimodal/90_Sandbox/Maps/ClientHome/LV_ClientHome_Blockout": {
+      "before_count": 135,
+      "after_count": 135,
+      "unchanged": true
+    },
+    "/Game/Multimodal/01_Maps/Town/LV_CocoDetective_Town": {
+      "before_count": 170,
+      "after_count": 170,
+      "unchanged": true
+    }
+  },
+  "map_differences": {},
+  "missing": [],
+  "legacy_references": [],
+  "sandbox_references": [],
+  "source_metadata_updated": [],
+  "dependency_count": 1336,
+  "legacy_assets": [],
+  "redirectors": [],
+  "success": true
+}

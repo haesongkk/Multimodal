@@ -76,6 +76,7 @@ DerivedDataCache/*
 
 # Fab licensed source assets: acquire through each collaborator's library.
 /Content/StylizedKitchen/
+/Content/ExternalAssets/StylizedKitchen/
 
 #bat file
 
@@ -85,3 +86,18 @@ DerivedDataCache/*
 # Python editor-tool bytecode caches
 __pycache__/
 *.py[cod]
+
+# Versioned editor/build support tools.
+!Build/Tools/
+!Build/Tools/**
+/SourceAssets/ExternalAssets/StylizedKitchen/
+
+# Local recovery archive for the full content migration.
+/Outputs/Organization20261113/BeforeReorganization.zip
+
+# Keep generated files excluded after the Build/Tools whitelist.
+__pycache__/
+*.py[cod]
+/Outputs/Organization*/*.log
+!/Outputs/Organization*/BuildVerification.log
+/Outputs/Organization*/*.pid

@@ -1,0 +1,16 @@
+{
+  "classes": {
+    "pawn": "/Game/Multimodal/02_Blueprints/Characters/Player/CocoDetective/BP_CocoDetectiveCharacter.BP_CocoDetectiveCharacter_C",
+    "controller": "/Game/Multimodal/02_Blueprints/Framework/CocoDetective/BP_CocoDetectiveController.BP_CocoDetectiveController_C",
+    "mode": "/Game/Multimodal/02_Blueprints/Framework/CocoDetective/BP_CocoDetectiveGameMode.BP_CocoDetectiveGameMode_C"
+  },
+  "checks": {
+    "new_game_classes": true,
+    "controller_possession": true,
+    "movement_component": true,
+    "mesh_loaded": true,
+    "movement_changes_position": true
+  },
+  "distance": 235.29201576724336,
+  "success": true
+}

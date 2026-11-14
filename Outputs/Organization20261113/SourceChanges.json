@@ -1,0 +1,605 @@
+{
+  "updated_text": [
+    "Config\\DefaultEditorPerProjectUserSettings.ini",
+    "Config\\DefaultEngine.ini",
+    "Build\\Tools\\ClientHome\\configure_manny.py"
+  ],
+  "source_art": [
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_BookOpen_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_BookOpen_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_06.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Book_06.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_06.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_06.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_07.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_07.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_08.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Bottles_08.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_BreakfastProps_Bread.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_BreakfastProps_Bread.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Candle.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Candle.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Carpet_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon06.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon06.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon07.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Crayon07.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_07.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_07.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_09.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_09.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_10.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowerPot_10.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FlowersPlant_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_06.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_06.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_07.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_07.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_08.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_08.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_09.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_09.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_10.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_10.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_11.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_11.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_12.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_12.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_13.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_13.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_14.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_14.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_15.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_FoodPot_15.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Apple_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Apple_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Apple_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Apple_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Banana.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Banana.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Carrot_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Carrot_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Carrot_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Carrot_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Clementine.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Clementine.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Egg.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Egg.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Garlic.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Garlic.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Lemon.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Lemon.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Onion.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Onion.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Orange.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Orange.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pear.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pear.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Pepper_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Potato.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Potato.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Waffle.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Food_SM_Waffle.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_03.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_03.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_04.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_04.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_05.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_05.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_06.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Frames_06.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Glove.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Glove.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Knife.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Knife.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Roll.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Roll.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Spoon.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Spoon.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Whip.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_KitchenUstensil_Whip.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Microwave.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Microwave.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Radio.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Radio.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_SaucePan_Black_Pan_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_SaucePan_Black_Pan_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Scotch.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Scotch.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_SmallTable_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_SmallTable_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Soap_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Soap_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Soap_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Soap_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Sponge_01.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Sponge_01.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Sponge_02.FBX",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Meshes\\SM_Sponge_02.FBX"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Book_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_Glass_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Bottles_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_BreakfastProps_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Candle_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Candle_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Carpet_05_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Carpet_05_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Carpet_05_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Carpet_05_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowerPot_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowersPlants_A.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowersPlants_A.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowersPlant_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FlowersPlant_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_Jelly_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_FoodPot_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Food_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Frames_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Frames_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Frames_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Frames_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Glove_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_KitchenUstensil_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Microwave_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Microwave_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Microwave_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Microwave_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Noise01.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Noise01.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_OfficeSupplies_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Radio_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Scotch_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_SmallTable_01_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Soap_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_BC.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_BC.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_ORM.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_Sponges_ORM.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_TableBasse_01_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_TableBasse_01_N.TGA"
+    },
+    {
+      "source": "Content\\ExternalAssets\\StylizedKitchen\\Textures\\T_TVSet_N.TGA",
+      "target": "SourceAssets\\ExternalAssets\\StylizedKitchen\\Textures\\T_TVSet_N.TGA"
+    }
+  ]
+}
