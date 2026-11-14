@@ -1,6 +1,0 @@
-(fn Confirm () (if (and (Variables|Default|GetPopup) (not (Variables|Default|GetComplete)))
-(Variables|Default|SetPopup false) (CallFunction|RefreshPopup)
-(if (and (== (Variables|Default|GetCount) 5) (not (Variables|Default|GetDeduced)))
-(Variables|Default|SetDeduced true) (Variables|Default|SetTitle "코코의 길을 찾았어!")
-(Variables|Default|SetMessage "간식과 러그 위 발자국, 책상 근처의 털까지! 서랍장 앞 화분과 열린 창문을 보니 코코는 창밖으로 나간 게 틀림없어. 이제 현관으로 나가 찾아보자.")
-(Variables|Default|SetPopup true) (CallFunction|RefreshPopup))))

@@ -14,7 +14,6 @@
 
 ### 0.1 기존 프로젝트에 적용
 
-- 2026-11-13 사용자 지시에 따른 전체 폴더 재구성에서는 기존 콘텐츠도 이 문서의 역할별 분류로 이동한다. 아래의 기존 경로 보존 원칙은 일반 수정 작업에 적용하며, 명시적으로 요청된 전체 재구성을 제한하지 않는다. 동작과 참조를 보존하고 검증한다.
 - 신규 폴더·에셋과 사용자가 요청한 구조 변경에 적용한다.
 - **이 문서의 추가만으로 기존 에셋을 일괄 이동하거나 이름을 바꾸지 않는다.**
 - 기존 에셋을 수정할 때는 현재 경로를 유지한다. 수정에 필요한 새 파생 에셋은 아래 신규 배치 기준을 따른다.
@@ -201,7 +200,7 @@ Content/
 - 플러그인의 Content는 플러그인 내부에 유지한다. `Content/ExternalAssets`로 분리하거나 옮기지 않는다.
 - 외부 에셋을 위한 별도 `99_Res`, `Res`, `ThirdPartyAssets` 분류를 중복 생성하지 않는다. 외부 콘텐츠의 기본 분류 이름은 `ExternalAssets`로 통일한다.
 - `Content/Developers`, `Collections`, `__ExternalActors__`, `__ExternalObjects__` 등 엔진이 관리하는 폴더는 이 트리에 맞추려고 이동·변경하지 않는다.
-- 기존 `Content/CocoDetective`, `Characters`, `Cursor`, `Level`, `LevelPrototyping`, `TopDown` 등의 일반 콘텐츠는 전체 재구성 대상이다. 자체 제작 콘텐츠는 `Content/Multimodal`, 외부 제공 리소스는 `Content/ExternalAssets/<제품명>`으로 분류하며, 이전 최상위 폴더를 예외로 남기지 않는다. 엔진 관리 패키지는 에디터가 참조하는 맵 경로에 맞게 관리하도록 한다.
+- 기존 `Content/CocoDetective`, `Characters`, `Cursor`, `Level`, `LevelPrototyping`, `TopDown` 등의 경로는 기존 구조로 유지한다. 이 목록은 신규 기본 루트를 추가로 허용한다는 의미가 아니다.
 - 외부 에셋을 자체 제작 에셋으로 오인해 일괄 이름 변경하지 않는다.
 
 ## 4. C++ 코드와 셰이더 소스
