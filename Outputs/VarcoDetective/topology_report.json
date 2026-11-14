@@ -1,0 +1,44 @@
+{
+  "Detective_Source_ARCHIVE": {
+    "vertices": 1064,
+    "faces": 1188,
+    "quads": 0,
+    "triangles": 1188,
+    "ngons": 0,
+    "boundary_edges": 832,
+    "nonmanifold_edges": 832,
+    "loose_vertices": 0,
+    "zero_area_faces": 0,
+    "uv_layers": 1
+  },
+  "Detective_QuadDominant_LowPoly": {
+    "vertices": 596,
+    "faces": 996,
+    "quads": 192,
+    "triangles": 804,
+    "ngons": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "zero_area_faces": 0,
+    "uv_layers": 1
+  },
+  "Detective_Quad_Edit": {
+    "vertices": 3182,
+    "faces": 3180,
+    "quads": 3180,
+    "triangles": 0,
+    "ngons": 0,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "loose_vertices": 0,
+    "zero_area_faces": 0,
+    "uv_layers": 1
+  },
+  "validation": {
+    "max_vertex_distance_from_source_m": 0.001404282869771123,
+    "mean_vertex_distance_from_source_m": 2.1906244891693807e-05,
+    "packed_images": 2,
+    "all_quad": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "01_Head_EyeLoop_Patches": {
+    "vertices": 634,
+    "faces": 632,
+    "quads": 632,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.003941249568015337
+  },
+  "02_Coat_Shoulder_Sleeve_Hip_Loops": {
+    "vertices": 1018,
+    "faces": 1016,
+    "quads": 1016,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.00013164430856704712
+  },
+  "03_Hat_Brim_Crown_Rings": {
+    "vertices": 514,
+    "faces": 512,
+    "quads": 512,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.00021252865553833544
+  },
+  "04_Bow_L_Patches": {
+    "vertices": 64,
+    "faces": 62,
+    "quads": 62,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.002826259471476078
+  },
+  "04_Bow_R_Patches": {
+    "vertices": 64,
+    "faces": 62,
+    "quads": 62,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.0036333047319203615
+  },
+  "05_Lapel_L_Fold_Patch": {
+    "vertices": 18,
+    "faces": 16,
+    "quads": 16,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.0019999926444143057
+  },
+  "05_Lapel_R_Fold_Patch": {
+    "vertices": 18,
+    "faces": 16,
+    "quads": 16,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "min_edge_length": 0.0019999926444143057
+  }
+}

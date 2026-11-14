@@ -1,0 +1,86 @@
+{
+  "parts": {
+    "01_Head_EyeLoop_Patches": {
+      "vertices": 634,
+      "quads": 632,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "02_Coat_Shoulder_Sleeve_Hip_Loops": {
+      "vertices": 1018,
+      "quads": 1016,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "03_Hat_Brim_Crown_Rings": {
+      "vertices": 514,
+      "quads": 512,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "04_Bow_L_Patches": {
+      "vertices": 64,
+      "quads": 62,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "04_Bow_R_Patches": {
+      "vertices": 64,
+      "quads": 62,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "05_Lapel_L_Fold_Patch": {
+      "vertices": 18,
+      "quads": 16,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    },
+    "05_Lapel_R_Fold_Patch": {
+      "vertices": 18,
+      "quads": 16,
+      "other_faces": 0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "collapsed_edges": 0,
+      "uv_layers": 1
+    }
+  },
+  "total_quads": 2316,
+  "total_vertices": 2330,
+  "previous_quads": 3180,
+  "textures_packed": true,
+  "quad_reduction_from_previous_percent": 27.17,
+  "glb_mesh_count": 7,
+  "notes": [
+    "7 closed parts overlap at clothing/hat boundaries; not welded into one deforming character.",
+    "Animation and facial deformation have not been validated.",
+    "Source projection approximates surface; original and previous mesh retained for comparison.",
+    "GLB triangulates quads; actual quad mesh is in the .blend."
+  ]
+}

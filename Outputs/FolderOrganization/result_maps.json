@@ -1,0 +1,26 @@
+[
+  {
+    "old": "/Game/CocoDetective/Maps/Lvl_Alley_Proto",
+    "new": "/Game/Multimodal/01_Maps/Alley/LV_Alley_Proto",
+    "actor_count": 263,
+    "labels_match": true
+  },
+  {
+    "old": "/Game/CocoDetective/Backups/Lvl_BeforePlaySetup",
+    "new": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePlaySetup",
+    "actor_count": 87,
+    "labels_match": true
+  },
+  {
+    "old": "/Game/CocoDetective/Backups/Lvl_BeforePropSeparation",
+    "new": "/Game/Multimodal/90_Sandbox/Maps/Backups/LV_BeforePropSeparation",
+    "actor_count": 32,
+    "labels_match": true
+  },
+  {
+    "old": "/Game/TopDown/Lvl_TopDown",
+    "new": "/Game/Multimodal/01_Maps/TopDown/LV_TopDown",
+    "actor_count": 170,
+    "labels_match": true
+  }
+]
