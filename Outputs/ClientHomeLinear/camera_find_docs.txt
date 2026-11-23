@@ -1,0 +1,21 @@
+Finds nodes in a graph by title, class, and/or execution role.
+
+        All filters are optional and ANDed together. Useful for locating specific
+        event chains in large graphs like EventGraph before reading them with
+        get_connected_subgraph.
+
+        Args:
+            graph: The graph to search.
+            title: Case-insensitive substring to match against the node's displayed
+                title. Pass an empty string to match any title.
+            node_class: If provided, only returns nodes that are instances of this
+                class or its subclasses.
+            entry_points_only: If True, only returns entry point nodes - nodes with
+                an exec output but no exec input (event nodes, function entry nodes,
+                macro input tunnels, etc.). Nothing can drive these nodes; they
+                start execution themselves.
+
+        Returns:
+            All nodes in the graph matching the given filters.
+
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_post_init', '_wrapper_meta_data', 'acquire_editor_element_handle', 'call_method', 'cast', 'error_msg', 'find_data_input_pin', 'find_execute_pin', 'find_input_pin', 'find_input_pin_by_index', 'find_output_pin', 'find_output_pin_by_index', 'find_result_pin', 'find_self_pin', 'find_then_pin', 'get_class', 'get_default_object', 'get_editor_property', 'get_fname', 'get_full_name', 'get_name', 'get_node_category', 'get_node_pos', 'get_node_size', 'get_node_title', 'get_outer', 'get_outermost', 'get_package', 'get_path_name', 'get_typed_outer', 'get_world', 'is_editor_property_overridden', 'is_package_external', 'list_all_pins', 'list_input_pins', 'list_output_pins', 'modify', 'rename', 'reset_editor_property', 'set_editor_properties', 'set_editor_property', 'set_node_pos', 'static_class']

@@ -1,0 +1,53 @@
+{
+  "index": 6,
+  "phase": 0,
+  "elapsed": 0,
+  "results": [
+    {
+      "clue": "Snack",
+      "expected": 5,
+      "nearby": 5,
+      "count": 1,
+      "passed": true
+    },
+    {
+      "clue": "Pawprints",
+      "expected": 6,
+      "nearby": 6,
+      "count": 2,
+      "passed": true
+    },
+    {
+      "clue": "Fur",
+      "expected": 2,
+      "nearby": 2,
+      "count": 3,
+      "passed": true
+    },
+    {
+      "clue": "Pot",
+      "expected": 1,
+      "nearby": 1,
+      "count": 4,
+      "passed": true
+    },
+    {
+      "clue": "Window",
+      "expected": 3,
+      "nearby": 3,
+      "count": 5,
+      "passed": true
+    },
+    {
+      "clue": "Door",
+      "expected": 4,
+      "nearby": 4,
+      "count": 5,
+      "passed": true
+    }
+  ],
+  "count": 5,
+  "deduced": true,
+  "door_open": true,
+  "complete": true
+}

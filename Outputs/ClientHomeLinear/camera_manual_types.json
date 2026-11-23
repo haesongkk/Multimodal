@@ -1,0 +1,51 @@
+{
+  "|+": [],
+  "Negate": [
+    "Utilities|Casting|CastToInputModifierNegate",
+    "Utilities|Casting|CastToInputModifierNegateClass",
+    "\uc218\ud559|\ubca1\ud130|NegateVector",
+    "\uc218\ud559|\ubca1\ud1302D|Negated2D",
+    "\uc218\ud559|\ubca1\ud1304D|Negated(Vector4)",
+    "Math|Float|NegateFloat",
+    "Math|Float|NegateFloat",
+    "Math|Integer|NegateInt",
+    "Math|Integer|NegateInt"
+  ],
+  "Multiply": [
+    "Utilities|Casting|CastToMaterialExpressionMultiply",
+    "Utilities|Casting|CastToMaterialExpressionMultiplyClass",
+    "\uc218\ud559|\ud50c\ub85c\ud2b8|MultiplybyPi",
+    "\ud53c\uc9c0\uceec\uc560\ub2c8\uba54\uc774\uc158|SetStrengthMultiplyer",
+    "Class|\ud53c\uc9c0\uceec\uc560\ub2c8\uba54\uc774\uc158\ucef4\ud3ec\ub10c\ud2b8|GetStrengthMultiplyer",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ScalarVectorMultiplyinPlace",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ScalarVectorMultiply",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ScalarMultiplyinPlace",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ScalarMultiply",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ConstantVectorMultiplyinPlace",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ConstantVectorMultiply",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ConstantScalarMultiplyinPlace",
+    "\uc9c0\uc624\uba54\ud2b8\ub9ac\uc2a4\ud06c\ub9bd\ud2b8|\uc218\ud559|\ubca1\ud130\uc218\ud559|ConstantScalarMultiply"
+  ],
+  "GetCameraPreviewAngle": [
+    "Variables|\ub514\ud3f4\ud2b8|GetCameraPreviewAngle"
+  ],
+  "SetCameraPreviewAngle": [
+    "Variables|\ub514\ud3f4\ud2b8|SetCameraPreviewAngle"
+  ],
+  "MakeRotator": [
+    "Utilities|Casting|CastToPCGMetadataMakeRotatorSettings",
+    "Utilities|Casting|CastToPCGMetadataMakeRotatorSettingsClass",
+    "Utilities|Struct|MakeRotator3fCameraParameter",
+    "Utilities|Struct|MakeRotator3dCameraParameter",
+    "\uc218\ud559|\ub85c\ud14c\uc774\ud130|MakeRotator"
+  ],
+  "Clamp(Float)": [
+    "\uc218\ud559|\ud50c\ub85c\ud2b8|Clamp(Float)"
+  ],
+  "nodes": [
+    {
+      "title": "StepCameraPreviewAngle",
+      "class": "K2Node_FunctionEntry"
+    }
+  ]
+}

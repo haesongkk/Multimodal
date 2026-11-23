@@ -1,0 +1,113 @@
+[
+  {
+    "clue": "Pawprints",
+    "expected": 6,
+    "nearby": 6,
+    "highlighted_components": 15,
+    "before": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "after": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "clue": "Fur",
+    "expected": 2,
+    "nearby": 2,
+    "highlighted_components": 5,
+    "before": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "after": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "clue": "Snack",
+    "expected": 5,
+    "nearby": 5,
+    "highlighted_components": 6,
+    "before": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "after": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "passed": true
+  },
+  {
+    "clue": "Pot",
+    "expected": 1,
+    "nearby": 1,
+    "highlighted_components": 1,
+    "before": [
+      true
+    ],
+    "after": [
+      false
+    ],
+    "passed": true
+  },
+  {
+    "clue": "Window",
+    "expected": 3,
+    "nearby": 3,
+    "highlighted_components": 1,
+    "before": [
+      true
+    ],
+    "after": [
+      false
+    ],
+    "passed": true
+  }
+]

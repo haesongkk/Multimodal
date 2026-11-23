@@ -1,0 +1,4738 @@
+[
+  {
+    "label": "Assets_Proxy_kitchen_Shelf_A_Proxy",
+    "location": [
+      -1410.5,
+      648.384,
+      280.172
+    ]
+  },
+  {
+    "label": "Assets_Proxy_Kitechen_CounterTop_B_Proxy",
+    "location": [
+      -1685.9389999999999,
+      434.727,
+      99.0
+    ]
+  },
+  {
+    "label": "Assets_Proxy_Stove_Proxy",
+    "location": [
+      -1561.3229999999999,
+      619.0,
+      70.748
+    ]
+  },
+  {
+    "label": "Assets_Proxy_LR_Window_Proxy",
+    "location": [
+      1409.65,
+      268.7,
+      209.9
+    ]
+  },
+  {
+    "label": "Assets_Proxy_LR_Chair_Proxy",
+    "location": [
+      1209.0059999999999,
+      206.034,
+      20.97
+    ]
+  },
+  {
+    "label": "Assets_Proxy_LR_Desk_Proxy2",
+    "location": [
+      1266.25,
+      480.0,
+      72.0
+    ]
+  },
+  {
+    "label": "Assets_Proxy_LR_Table_Proxy",
+    "location": [
+      935.0550000000001,
+      424.166,
+      20.661
+    ]
+  },
+  {
+    "label": "Assets_Proxy_Door_Proxy",
+    "location": [
+      -1738.5,
+      198.0,
+      22.008
+    ]
+  },
+  {
+    "label": "Fridge_SM",
+    "location": [
+      -1050.633,
+      578.932,
+      19.105
+    ]
+  },
+  {
+    "label": "DecalActor",
+    "location": [
+      -1756.295,
+      323.09,
+      134.789
+    ]
+  },
+  {
+    "label": "DecalActor2",
+    "location": [
+      -1748.525,
+      352.358,
+      341.908
+    ]
+  },
+  {
+    "label": "DecalActor3",
+    "location": [
+      -1739.441,
+      640.958,
+      332.614
+    ]
+  },
+  {
+    "label": "DecalActor4",
+    "location": [
+      -1749.978,
+      663.678,
+      54.192
+    ]
+  },
+  {
+    "label": "DecalActor5",
+    "location": [
+      -1752.385,
+      -117.26499999999999,
+      332.623
+    ]
+  },
+  {
+    "label": "DecalActor6",
+    "location": [
+      -1748.534,
+      233.837,
+      359.762
+    ]
+  },
+  {
+    "label": "DecalActor9",
+    "location": [
+      -1743.6889999999999,
+      498.317,
+      43.373
+    ]
+  },
+  {
+    "label": "DecalActor12",
+    "location": [
+      -1743.69,
+      242.71,
+      32.399
+    ]
+  },
+  {
+    "label": "DecalActor13",
+    "location": [
+      -1743.69,
+      24.357,
+      27.942
+    ]
+  },
+  {
+    "label": "DecalActor14",
+    "location": [
+      -1743.688,
+      668.056,
+      203.126
+    ]
+  },
+  {
+    "label": "DecalActor15",
+    "location": [
+      -1748.536,
+      462.482,
+      350.524
+    ]
+  },
+  {
+    "label": "DecalActor20",
+    "location": [
+      -1748.524,
+      -6.464999999999975,
+      346.605
+    ]
+  },
+  {
+    "label": "DecalActor21",
+    "location": [
+      -1748.5320000000002,
+      174.887,
+      351.553
+    ]
+  },
+  {
+    "label": "DecalActor22",
+    "location": [
+      1342.859,
+      650.485,
+      40.403
+    ]
+  },
+  {
+    "label": "DecalActor32",
+    "location": [
+      1342.859,
+      85.267,
+      345.027
+    ]
+  },
+  {
+    "label": "DecalActor36",
+    "location": [
+      1302.365,
+      675.109,
+      38.634
+    ]
+  },
+  {
+    "label": "DecalActor43",
+    "location": [
+      -310.13200000000006,
+      675.357,
+      36.925
+    ]
+  },
+  {
+    "label": "DecalActor44",
+    "location": [
+      -818.6759999999999,
+      674.944,
+      30.435
+    ]
+  },
+  {
+    "label": "DecalActor49",
+    "location": [
+      -1743.153,
+      424.889,
+      264.496
+    ]
+  },
+  {
+    "label": "DecalActor50",
+    "location": [
+      -1742.9650000000001,
+      266.438,
+      301.785
+    ]
+  },
+  {
+    "label": "DecalActor51",
+    "location": [
+      1347.4070000000002,
+      267.157,
+      280.206
+    ]
+  },
+  {
+    "label": "DecalActor52",
+    "location": [
+      1347.856,
+      406.175,
+      214.404
+    ]
+  },
+  {
+    "label": "LightmassPortal1",
+    "location": [
+      -1743.1390000000001,
+      131.563,
+      278.09
+    ]
+  },
+  {
+    "label": "LightmassPortal2",
+    "location": [
+      1349.121,
+      424.254,
+      207.434
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Toaster",
+    "location": [
+      -1366.8899999999999,
+      603.662,
+      124.656
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_Holder",
+    "location": [
+      -1417.192,
+      668.96,
+      216.532
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_Holder2",
+    "location": [
+      -1557.62,
+      668.96,
+      224.57
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_C",
+    "location": [
+      -1710.028,
+      495.366,
+      123.731
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_B",
+    "location": [
+      -1664.154,
+      484.749,
+      123.575
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_A",
+    "location": [
+      -1594.4389999999999,
+      593.914,
+      124.935
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_A2",
+    "location": [
+      -1609.269,
+      644.483,
+      168.919
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_A3",
+    "location": [
+      -1557.2849999999999,
+      647.206,
+      173.52
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_A4",
+    "location": [
+      -1498.75,
+      649.96,
+      178.382
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Ladel_B",
+    "location": [
+      -1461.175,
+      657.372,
+      173.724
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Ladel_B2",
+    "location": [
+      -1433.647,
+      659.605,
+      182.396
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Ladel_A2",
+    "location": [
+      -1406.7069999999999,
+      667.408,
+      182.418
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Pot_A5",
+    "location": [
+      -1387.183,
+      653.992,
+      180.583
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Kitchen_Shelf",
+    "location": [
+      -1658.9299999999998,
+      646.582,
+      235.778
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Chicken_Timer",
+    "location": [
+      -1654.3719999999998,
+      618.965,
+      124.396
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Blender",
+    "location": [
+      -1681.1799999999998,
+      592.549,
+      123.612
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Clock",
+    "location": [
+      -1729.8809999999999,
+      560.156,
+      248.525
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Glass_Jar_A2",
+    "location": [
+      -1338.504,
+      656.685,
+      126.142
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Glass_Jar_A3",
+    "location": [
+      -1311.71,
+      654.072,
+      126.142
+    ]
+  },
+  {
+    "label": "Dining_Set_Bowl",
+    "location": [
+      -1238.85,
+      241.909,
+      122.563
+    ]
+  },
+  {
+    "label": "Kitchen_Countertop_A_polySurface109",
+    "location": [
+      -1326.692,
+      618.009,
+      64.385
+    ]
+  },
+  {
+    "label": "Kitchen_Countertop_A_polySurface171",
+    "location": [
+      -1326.692,
+      618.009,
+      64.385
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A",
+    "location": [
+      -1219.026,
+      649.39,
+      131.318
+    ]
+  },
+  {
+    "label": "Cutting_Board",
+    "location": [
+      -1255.203,
+      610.404,
+      126.092
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A2",
+    "location": [
+      -1250.728,
+      639.6,
+      333.72
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A3",
+    "location": [
+      -1250.728,
+      639.6,
+      339.123
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A4",
+    "location": [
+      -1250.728,
+      639.6,
+      343.697
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A5",
+    "location": [
+      -1284.262,
+      647.164,
+      333.72
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A6",
+    "location": [
+      -1284.262,
+      647.164,
+      340.123
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A7",
+    "location": [
+      -1284.512,
+      647.164,
+      344.69
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A8",
+    "location": [
+      -1321.127,
+      639.6,
+      333.72
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A9",
+    "location": [
+      -1321.127,
+      639.6,
+      339.123
+    ]
+  },
+  {
+    "label": "Ceramic_Bottle_A",
+    "location": [
+      -1366.593,
+      638.508,
+      338.717
+    ]
+  },
+  {
+    "label": "Ceramic_Bottle_A2",
+    "location": [
+      -1378.224,
+      646.341,
+      338.717
+    ]
+  },
+  {
+    "label": "Ceramic_Bottle_B",
+    "location": [
+      -1720.963,
+      659.934,
+      148.098
+    ]
+  },
+  {
+    "label": "Wooden_Bowl_B",
+    "location": [
+      -1442.7759999999998,
+      643.84,
+      330.97
+    ]
+  },
+  {
+    "label": "Wooden_Bowl_B2",
+    "location": [
+      -1463.379,
+      640.245,
+      330.97
+    ]
+  },
+  {
+    "label": "Wooden_Bowl_B3",
+    "location": [
+      -1463.379,
+      640.245,
+      337.942
+    ]
+  },
+  {
+    "label": "Wooden_Bowl_B4",
+    "location": [
+      -1493.7559999999999,
+      632.413,
+      330.97
+    ]
+  },
+  {
+    "label": "Sticky_Note_SM",
+    "location": [
+      -1219.09,
+      630.651,
+      132.069
+    ]
+  },
+  {
+    "label": "Door_Frame_A2",
+    "location": [
+      -1737.723,
+      197.88400000000001,
+      20.953
+    ]
+  },
+  {
+    "label": "RectLight4",
+    "location": [
+      1335.127,
+      247.728,
+      213.561
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Glass_Jar_A7",
+    "location": [
+      -1652.976,
+      634.29,
+      240.479
+    ]
+  },
+  {
+    "label": "RectLight5",
+    "location": [
+      -1746.696,
+      133.598,
+      282.458
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Table",
+    "location": [
+      -1242.022,
+      241.72199999999987,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair",
+    "location": [
+      -1329.011,
+      242.235,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair2",
+    "location": [
+      -1123.3539999999998,
+      235.36399999999992,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair3",
+    "location": [
+      -1243.764,
+      300.8939999999999,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair4",
+    "location": [
+      -1239.983,
+      179.9989999999999,
+      20.953
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Cookie_Jar",
+    "location": [
+      -1674.2,
+      638.062,
+      239.634
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A4",
+    "location": [
+      -1717.8220000000001,
+      315.864,
+      123.992
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A5",
+    "location": [
+      -1705.4299999999998,
+      294.112,
+      123.992
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A6",
+    "location": [
+      -1705.4299999999998,
+      294.678,
+      126.246
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A7",
+    "location": [
+      -1705.4299999999998,
+      295.403,
+      128.756
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A8",
+    "location": [
+      -1717.46,
+      316.011,
+      127.992
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A",
+    "location": [
+      -1167.4959999999999,
+      238.5379999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A2",
+    "location": [
+      -1316.666,
+      239.1529999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A3",
+    "location": [
+      -1242.0529999999999,
+      291.3059999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A4",
+    "location": [
+      -1240.109,
+      193.245,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork",
+    "location": [
+      -1316.617,
+      260.3879999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A",
+    "location": [
+      -1189.609,
+      257.40599999999995,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A2",
+    "location": [
+      -1261.257,
+      270.3109999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A3",
+    "location": [
+      -1297.067,
+      222.149,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A4",
+    "location": [
+      -1219.799,
+      213.7499999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife",
+    "location": [
+      -1317.445,
+      222.10199999999998,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon",
+    "location": [
+      -1316.96,
+      265.4839999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife2",
+    "location": [
+      -1221.03,
+      193.1149999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon2",
+    "location": [
+      -1266.647,
+      191.7779999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife3",
+    "location": [
+      -1261.3039999999999,
+      290.3269999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon3",
+    "location": [
+      -1215.922,
+      293.0039999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife4",
+    "location": [
+      -1167.632,
+      257.5669999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon4",
+    "location": [
+      -1166.2939999999999,
+      212.94999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Mug_A3",
+    "location": [
+      -1655.722,
+      326.652,
+      124.396
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A9",
+    "location": [
+      -1699.533,
+      377.331,
+      98.137
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Bowl_A10",
+    "location": [
+      -1699.533,
+      377.331,
+      100.613
+    ]
+  },
+  {
+    "label": "Napkin_Folded",
+    "location": [
+      -1316.8429999999998,
+      262.4309999999999,
+      122.81
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork2",
+    "location": [
+      -1221.7579999999998,
+      291.91599999999994,
+      124.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded2",
+    "location": [
+      -1219.715,
+      292.14199999999994,
+      122.7
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork3",
+    "location": [
+      -1167.837,
+      218.40800000000002,
+      123.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded3",
+    "location": [
+      -1167.6109999999999,
+      216.3649999999999,
+      122.761
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork4",
+    "location": [
+      -1260.895,
+      191.84699999999987,
+      123.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded4",
+    "location": [
+      -1262.9379999999999,
+      191.62099999999998,
+      122.711
+    ]
+  },
+  {
+    "label": "SpotLight",
+    "location": [
+      -1239.1419999999998,
+      245.24599999999998,
+      279.23
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A5",
+    "location": [
+      -1691.949,
+      446.566,
+      114.279
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A6",
+    "location": [
+      -1694.6390000000001,
+      415.126,
+      98.995
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A7",
+    "location": [
+      -1691.949,
+      442.367,
+      114.279
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife5",
+    "location": [
+      -1679.259,
+      368.719,
+      99.342
+    ]
+  },
+  {
+    "label": "Spoon_Jar",
+    "location": [
+      -1475.228,
+      645.288,
+      124.879
+    ]
+  },
+  {
+    "label": "Placemat",
+    "location": [
+      -1316.297,
+      239.3449999999999,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat2",
+    "location": [
+      -1241.6219999999998,
+      286.178,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat3",
+    "location": [
+      -1171.5819999999999,
+      238.61899999999991,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat4",
+    "location": [
+      -1240.849,
+      196.63699999999994,
+      122.553
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A",
+    "location": [
+      -1021.806,
+      528.065,
+      152.095
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A2",
+    "location": [
+      -1062.1680000000001,
+      527.9449999999999,
+      149.266
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A3",
+    "location": [
+      -1027.055,
+      529.249,
+      119.422
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A4",
+    "location": [
+      -1011.316,
+      526.1949999999999,
+      208.613
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A",
+    "location": [
+      -1061.912,
+      527.836,
+      167.859
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A2",
+    "location": [
+      -1039.68,
+      528.0540000000001,
+      166.11
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A3",
+    "location": [
+      -1003.241,
+      528.0430000000001,
+      166.729
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A4",
+    "location": [
+      -1011.5590000000002,
+      526.172,
+      220.944
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A5",
+    "location": [
+      -1025.122,
+      529.329,
+      133.959
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A6",
+    "location": [
+      -1043.172,
+      526.512,
+      203.886
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A7",
+    "location": [
+      -1035.4340000000002,
+      526.594,
+      197.238
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A8",
+    "location": [
+      -1044.025,
+      526.7440000000001,
+      189.91
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A9",
+    "location": [
+      -1082.816,
+      528.777,
+      147.338
+    ]
+  },
+  {
+    "label": "Broom",
+    "location": [
+      -1268.5,
+      555.0,
+      20.954
+    ]
+  },
+  {
+    "label": "PlayerStart",
+    "location": [
+      -1638.5,
+      140.0,
+      114.0
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_A",
+    "location": [
+      -1654.134,
+      663.923,
+      124.461
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_B",
+    "location": [
+      -1666.021,
+      663.426,
+      124.461
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_C",
+    "location": [
+      -1671.826,
+      664.196,
+      139.447
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_D",
+    "location": [
+      -1695.184,
+      663.877,
+      139.404
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_E",
+    "location": [
+      -1677.7910000000002,
+      663.613,
+      124.396
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_F",
+    "location": [
+      -1660.062,
+      663.984,
+      139.464
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_G",
+    "location": [
+      -1701.1219999999998,
+      661.485,
+      124.396
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_H",
+    "location": [
+      -1689.3490000000002,
+      662.899,
+      124.396
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_I",
+    "location": [
+      -1683.902,
+      664.055,
+      139.375
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_A2",
+    "location": [
+      -1690.29,
+      664.392,
+      154.278
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_G2",
+    "location": [
+      -1678.036,
+      666.227,
+      154.379
+    ]
+  },
+  {
+    "label": "Food_Cans_Food_Can_C2",
+    "location": [
+      -1683.0410000000002,
+      643.329,
+      129.405
+    ]
+  },
+  {
+    "label": "Kitchen_Props_A_Glass_Jar_A8",
+    "location": [
+      -1638.679,
+      643.837,
+      240.479
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A8",
+    "location": [
+      -1291.693,
+      199.60899999999992,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Mug_A4",
+    "location": [
+      -1291.493,
+      200.09799999999996,
+      122.748
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Mug_A5",
+    "location": [
+      -1187.224,
+      279.86799999999994,
+      122.748
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A9",
+    "location": [
+      -1187.35,
+      280.1919999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Cutting_Board2",
+    "location": [
+      -1434.48,
+      610.972,
+      126.075
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Curtain_A",
+    "location": [
+      -1637.179,
+      261.278,
+      55.964
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Towel_A",
+    "location": [
+      -1639.844,
+      264.251,
+      27.761
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Towel_B",
+    "location": [
+      -1639.844,
+      264.251,
+      27.761
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Towel_A2",
+    "location": [
+      -1581.1970000000001,
+      570.885,
+      88.003
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Towel_B2",
+    "location": [
+      -1545.9589999999998,
+      570.745,
+      88.012
+    ]
+  },
+  {
+    "label": "Curtain_Towels_Towel_A3",
+    "location": [
+      -1665.484,
+      204.204,
+      95.401
+    ]
+  },
+  {
+    "label": "Cereal_Box_Cereal_Box_A",
+    "location": [
+      -1179.142,
+      650.781,
+      124.879
+    ]
+  },
+  {
+    "label": "Cereal_Box_Cereal_Box_B",
+    "location": [
+      -1199.522,
+      652.46,
+      124.879
+    ]
+  },
+  {
+    "label": "Cereal_Box_Cereal_Box_C",
+    "location": [
+      -1188.788,
+      654.73,
+      124.879
+    ]
+  },
+  {
+    "label": "Cereal_Box_Cereal_Box_C2",
+    "location": [
+      -1170.4270000000001,
+      652.733,
+      124.879
+    ]
+  },
+  {
+    "label": "Cereal_Box_Cereal_Box_A2",
+    "location": [
+      -1183.112,
+      656.054,
+      160.496
+    ]
+  },
+  {
+    "label": "Kitchen_Chandelier2",
+    "location": [
+      -1238.569,
+      247.6769999999999,
+      354.118
+    ]
+  },
+  {
+    "label": "PointLight",
+    "location": [
+      -1238.7839999999999,
+      247.50199999999995,
+      249.775
+    ]
+  },
+  {
+    "label": "Kitchen_Mat",
+    "location": [
+      -1401.397,
+      513.818,
+      18.063
+    ]
+  },
+  {
+    "label": "Trash_Can",
+    "location": [
+      -1662.8200000000002,
+      180.803,
+      21.45
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_01",
+    "location": [
+      -1502.029,
+      623.035,
+      229.366
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_02",
+    "location": [
+      -1535.73,
+      623.138,
+      229.366
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_03",
+    "location": [
+      -1553.097,
+      623.138,
+      229.366
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_04",
+    "location": [
+      -1580.71,
+      623.138,
+      229.366
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_05",
+    "location": [
+      -1600.315,
+      623.138,
+      229.366
+    ]
+  },
+  {
+    "label": "Extra_Sticky_Notes_Sticky_Note_06",
+    "location": [
+      -1446.454,
+      623.041,
+      230.091
+    ]
+  },
+  {
+    "label": "SM_Bottles_07",
+    "location": [
+      -1157.5,
+      660.0,
+      125.0
+    ]
+  },
+  {
+    "label": "SM_Bottles_05",
+    "location": [
+      -1155.0,
+      645.0,
+      125.0
+    ]
+  },
+  {
+    "label": "SM_Bottles_8",
+    "location": [
+      -1666.5,
+      178.0,
+      26.0
+    ]
+  },
+  {
+    "label": "SM_Bottles_9",
+    "location": [
+      -1647.5,
+      174.0,
+      37.0
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread",
+    "location": [
+      -1447.5,
+      606.0,
+      128.0
+    ]
+  },
+  {
+    "label": "SM_Candle",
+    "location": [
+      -1206.744,
+      242.19999999999993,
+      122.0
+    ]
+  },
+  {
+    "label": "SM_Candle2",
+    "location": [
+      -1274.744,
+      242.19999999999993,
+      122.0
+    ]
+  },
+  {
+    "label": "SM_Bottles_02",
+    "location": [
+      -1152.5,
+      635.0,
+      125.0
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread2",
+    "location": [
+      -1166.744,
+      238.19999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread3",
+    "location": [
+      -1423.616,
+      607.558,
+      128.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife6",
+    "location": [
+      -1421.259,
+      586.719,
+      128.342
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread4",
+    "location": [
+      -1241.744,
+      292.19999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_02",
+    "location": [
+      1169.25,
+      455.0,
+      39.0
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_01",
+    "location": [
+      -1231.556,
+      242.79399999999998,
+      122.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_2",
+    "location": [
+      -1240.9389999999999,
+      242.32299999999998,
+      123.485
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_3",
+    "location": [
+      -1236.3159999999998,
+      235.4559999999999,
+      125.568
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_4",
+    "location": [
+      -1238.8449999999998,
+      234.29399999999998,
+      131.124
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_5",
+    "location": [
+      -1249.291,
+      242.322,
+      123.737
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_6",
+    "location": [
+      -1233.2069999999999,
+      254.07499999999993,
+      122.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_8",
+    "location": [
+      -1247.445,
+      246.02599999999995,
+      127.047
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Banana",
+    "location": [
+      -1234.636,
+      241.07299999999998,
+      133.815
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Banana2",
+    "location": [
+      -1247.663,
+      242.2969999999999,
+      133.637
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Carrot_01",
+    "location": [
+      -1402.9850000000001,
+      627.76,
+      126.063
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Carrot_2",
+    "location": [
+      -1402.6399999999999,
+      635.568,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Carrot_3",
+    "location": [
+      -1401.579,
+      641.667,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Clementine",
+    "location": [
+      -1416.9940000000001,
+      633.135,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Egg",
+    "location": [
+      -1239.9769999999999,
+      193.5759999999999,
+      123.676
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Garlic",
+    "location": [
+      -1424.865,
+      663.455,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Garlic2",
+    "location": [
+      -1433.7179999999998,
+      662.349,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Lemon",
+    "location": [
+      -1442.923,
+      662.88,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Pepper_03",
+    "location": [
+      -1448.993,
+      648.656,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Pepper_4",
+    "location": [
+      -1457.755,
+      649.483,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Pepper_5",
+    "location": [
+      -1450.667,
+      660.48,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread5",
+    "location": [
+      -1371.704,
+      596.544,
+      152.443
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread6",
+    "location": [
+      -1364.0729999999999,
+      608.618,
+      152.443
+    ]
+  },
+  {
+    "label": "SM_FoodPot_07",
+    "location": [
+      -1724.266,
+      624.306,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_8",
+    "location": [
+      -1726.683,
+      634.589,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_9",
+    "location": [
+      -1725.453,
+      614.842,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_10",
+    "location": [
+      -1725.453,
+      571.231,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_11",
+    "location": [
+      -1725.453,
+      583.309,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_09",
+    "location": [
+      -1726.202,
+      594.959,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_08",
+    "location": [
+      -1724.921,
+      605.306,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_FoodPot_02",
+    "location": [
+      -1655.134,
+      666.38,
+      239.419
+    ]
+  },
+  {
+    "label": "SM_FoodPot_3",
+    "location": [
+      -1641.344,
+      661.53,
+      239.419
+    ]
+  },
+  {
+    "label": "SM_FoodPot_03",
+    "location": [
+      -1392.995,
+      665.803,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_FoodPot_04",
+    "location": [
+      -1378.221,
+      664.827,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_KitchenUstensil_Knife",
+    "location": [
+      -1207.911,
+      600.556,
+      125.173
+    ]
+  },
+  {
+    "label": "SM_Glove",
+    "location": [
+      -1356.798,
+      666.446,
+      184.646
+    ]
+  },
+  {
+    "label": "SM_Sponge_02",
+    "location": [
+      -1724.492,
+      366.699,
+      125.927
+    ]
+  },
+  {
+    "label": "SM_Sponge_01",
+    "location": [
+      -1723.397,
+      359.648,
+      129.492
+    ]
+  },
+  {
+    "label": "SM_SaucePan_Black_Pan_01",
+    "location": [
+      -1528.846,
+      592.566,
+      124.593
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Egg2",
+    "location": [
+      -1531.595,
+      599.209,
+      125.543
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Egg3",
+    "location": [
+      -1531.4,
+      587.924,
+      125.425
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Egg4",
+    "location": [
+      -1521.888,
+      593.474,
+      125.618
+    ]
+  },
+  {
+    "label": "SM_SmallTable_01",
+    "location": [
+      1035.85,
+      316.246,
+      24.336
+    ]
+  },
+  {
+    "label": "SM_Microwave",
+    "location": [
+      -1710.1770000000001,
+      236.55,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_KitchenUstensil_Roll",
+    "location": [
+      -1727.73,
+      647.083,
+      149.364
+    ]
+  },
+  {
+    "label": "SM_FoodPot_14",
+    "location": [
+      -1726.516,
+      555.643,
+      124.396
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Pepper_6",
+    "location": [
+      -1445.563,
+      654.797,
+      126.325
+    ]
+  },
+  {
+    "label": "SM_Frames_06",
+    "location": [
+      1083.464,
+      673.961,
+      204.217
+    ]
+  },
+  {
+    "label": "SM_Frames_7",
+    "location": [
+      1172.3110000000001,
+      673.961,
+      265.111
+    ]
+  },
+  {
+    "label": "SM_Frames_8",
+    "location": [
+      993.2910000000002,
+      673.961,
+      148.119
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Waffle",
+    "location": [
+      -1315.7269999999999,
+      239.3749999999999,
+      123.039
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Waffle2",
+    "location": [
+      -1315.7269999999999,
+      239.3749999999999,
+      125.395
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_02",
+    "location": [
+      1152.25,
+      444.0,
+      29.0
+    ]
+  },
+  {
+    "label": "SM_KitchenUstensil_Spoon",
+    "location": [
+      -1483.353,
+      593.394,
+      124.948
+    ]
+  },
+  {
+    "label": "SM_Radio",
+    "location": [
+      1252.874,
+      505.387,
+      124.855
+    ]
+  },
+  {
+    "label": "SM_Bottles_7",
+    "location": [
+      1318.498,
+      418.827,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_KitchenUstensil_Whip",
+    "location": [
+      -1417.439,
+      668.924,
+      186.223
+    ]
+  },
+  {
+    "label": "DecalActor42",
+    "location": [
+      1342.859,
+      650.485,
+      343.074
+    ]
+  },
+  {
+    "label": "DecalActor53",
+    "location": [
+      1302.365,
+      675.109,
+      341.305
+    ]
+  },
+  {
+    "label": "SM_FoodPot_4",
+    "location": [
+      -1323.851,
+      633.261,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_FoodPot_5",
+    "location": [
+      -1310.896,
+      630.539,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_FoodPot_05",
+    "location": [
+      -1319.533,
+      616.607,
+      124.879
+    ]
+  },
+  {
+    "label": "SM_Carpet_01",
+    "location": [
+      1027.549,
+      313.553,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_Carpet_04",
+    "location": [
+      -1660.5,
+      140.0,
+      20.953
+    ]
+  },
+  {
+    "label": "Assets_Proxy_LR_Chair_Proxy2",
+    "location": [
+      1024.351,
+      96.35500000000002,
+      20.97
+    ]
+  },
+  {
+    "label": "Light_Bulb_SM6",
+    "location": [
+      965.328,
+      306.712,
+      352.552
+    ]
+  },
+  {
+    "label": "SpotLight6",
+    "location": [
+      965.643,
+      306.959,
+      316.497
+    ]
+  },
+  {
+    "label": "PointLight4",
+    "location": [
+      965.7049999999999,
+      306.671,
+      288.558
+    ]
+  },
+  {
+    "label": "SM_Frames_10",
+    "location": [
+      993.2910000000002,
+      673.962,
+      247.522
+    ]
+  },
+  {
+    "label": "SM_Frames_11",
+    "location": [
+      1172.3110000000001,
+      673.961,
+      141.656
+    ]
+  },
+  {
+    "label": "Kitchen_Curtain_Low3",
+    "location": [
+      1330.47,
+      153.84,
+      257.347
+    ]
+  },
+  {
+    "label": "Kitchen_Curtain_Low4",
+    "location": [
+      1330.47,
+      312.027,
+      257.347
+    ]
+  },
+  {
+    "label": "Curtain_Rod2",
+    "location": [
+      1326.222,
+      227.941,
+      322.426
+    ]
+  },
+  {
+    "label": "Wood_Bowl_A10",
+    "location": [
+      1047.115,
+      313.658,
+      76.347
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_7",
+    "location": [
+      1049.885,
+      312.012,
+      70.107
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_9",
+    "location": [
+      1050.97,
+      320.592,
+      70.713
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_10",
+    "location": [
+      1051.618,
+      313.371,
+      81.797
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_11",
+    "location": [
+      1042.976,
+      318.499,
+      82.237
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_12",
+    "location": [
+      1039.2179999999998,
+      312.86,
+      70.107
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_13",
+    "location": [
+      1045.182,
+      310.152,
+      83.425
+    ]
+  },
+  {
+    "label": "SM_Carpet_5",
+    "location": [
+      -1236.0449999999998,
+      241.4749999999999,
+      20.862
+    ]
+  },
+  {
+    "label": "Kitchen_Mat2",
+    "location": [
+      -1583.446,
+      323.901,
+      18.063
+    ]
+  },
+  {
+    "label": "SM_Frames_13",
+    "location": [
+      -273.832,
+      673.962,
+      177.8
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_01",
+    "location": [
+      1032.993,
+      551.726,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_4",
+    "location": [
+      1005.2089999999998,
+      581.007,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_7",
+    "location": [
+      1041.143,
+      592.81,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_03",
+    "location": [
+      1020.654,
+      617.732,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_8",
+    "location": [
+      979.4450000000002,
+      605.158,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_9",
+    "location": [
+      1000.0929999999998,
+      547.428,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_07",
+    "location": [
+      1050.01,
+      523.838,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_6",
+    "location": [
+      1003.384,
+      547.527,
+      56.519
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_7",
+    "location": [
+      1001.953,
+      580.779,
+      36.701
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_01",
+    "location": [
+      979.0140000000001,
+      604.28,
+      49.468
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_8",
+    "location": [
+      1031.28,
+      551.409,
+      34.67
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_2",
+    "location": [
+      1022.3049999999998,
+      619.148,
+      53.681
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_9",
+    "location": [
+      1040.842,
+      592.185,
+      53.681
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_10",
+    "location": [
+      1051.693,
+      524.899,
+      66.482
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_11",
+    "location": [
+      1051.693,
+      524.899,
+      46.5
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_2",
+    "location": [
+      924.992,
+      586.296,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_11",
+    "location": [
+      908.005,
+      548.01,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_12",
+    "location": [
+      1132.976,
+      84.631,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_13",
+    "location": [
+      965.4760000000001,
+      522.395,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_14",
+    "location": [
+      958.0320000000002,
+      583.252,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_15",
+    "location": [
+      914.5260000000001,
+      617.243,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_12",
+    "location": [
+      954.799,
+      583.88,
+      56.52
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_14",
+    "location": [
+      966.0900000000001,
+      523.157,
+      49.468
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_15",
+    "location": [
+      926.733,
+      586.228,
+      34.67
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_16",
+    "location": [
+      1134.5900000000001,
+      83.174,
+      53.681
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_17",
+    "location": [
+      908.437,
+      548.554,
+      53.681
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_18",
+    "location": [
+      912.65,
+      616.579,
+      66.483
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_16",
+    "location": [
+      997.6280000000002,
+      306.493,
+      67.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_18",
+    "location": [
+      1179.6219999999998,
+      68.16300000000001,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_19",
+    "location": [
+      -1698.5,
+      12.99799999999999,
+      16.969
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_20",
+    "location": [
+      1094.25,
+      575.0,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_21",
+    "location": [
+      859.25,
+      580.0,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowerPot_22",
+    "location": [
+      1266.011,
+      535.8910000000001,
+      20.953
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_19",
+    "location": [
+      856.7239999999999,
+      577.888,
+      56.52
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_21",
+    "location": [
+      1094.046,
+      575.957,
+      49.468
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_22",
+    "location": [
+      998.491,
+      307.474,
+      78.241
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_23",
+    "location": [
+      -1695.413,
+      14.050000000000011,
+      66.06
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_24",
+    "location": [
+      1179.473,
+      68.84,
+      53.681
+    ]
+  },
+  {
+    "label": "SM_FlowersPlant_25",
+    "location": [
+      1267.233,
+      537.35,
+      66.483
+    ]
+  },
+  {
+    "label": "RectLight",
+    "location": [
+      -817.748,
+      592.495,
+      115.862
+    ]
+  },
+  {
+    "label": "SphereReflectionCapture3",
+    "location": [
+      -498.591,
+      113.852,
+      235.056
+    ]
+  },
+  {
+    "label": "RectLight2",
+    "location": [
+      -606.071,
+      458.712,
+      176.964
+    ]
+  },
+  {
+    "label": "CH_Minimal_Soil0",
+    "location": [
+      1168.25,
+      469.0,
+      23.6
+    ]
+  },
+  {
+    "label": "CH_Minimal_Soil1",
+    "location": [
+      1187.25,
+      480.0,
+      23.6
+    ]
+  },
+  {
+    "label": "CH_Minimal_Soil2",
+    "location": [
+      1207.25,
+      491.0,
+      23.6
+    ]
+  },
+  {
+    "label": "CH_Minimal_Soil3",
+    "location": [
+      1226.25,
+      505.0,
+      23.6
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur0",
+    "location": [
+      35.0,
+      400.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur1",
+    "location": [
+      39.0,
+      403.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur2",
+    "location": [
+      43.0,
+      398.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur3",
+    "location": [
+      46.0,
+      404.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur4",
+    "location": [
+      50.0,
+      401.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Bowl",
+    "location": [
+      -1058.5,
+      220.0,
+      23.0
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb0",
+    "location": [
+      -1059.5,
+      221.0,
+      27.0
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb1",
+    "location": [
+      -1054.5,
+      217.0,
+      27.0
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb2",
+    "location": [
+      -1063.5,
+      216.0,
+      27.0
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb3",
+    "location": [
+      -1036.5,
+      202.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb4",
+    "location": [
+      -1018.5,
+      188.0,
+      23.8
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Pad",
+    "location": [
+      -530.0,
+      285.0,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe0",
+    "location": [
+      -519.238,
+      285.871,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe1",
+    "location": [
+      -518.548,
+      282.321,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe2",
+    "location": [
+      -523.048,
+      279.908,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe3",
+    "location": [
+      -530.937,
+      279.597,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Pad",
+    "location": [
+      -569.0,
+      306.6,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe0",
+    "location": [
+      -558.738,
+      308.299,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe1",
+    "location": [
+      -556.688,
+      304.856,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe2",
+    "location": [
+      -560.188,
+      302.128,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe3",
+    "location": [
+      -567.838,
+      301.206,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Pad",
+    "location": [
+      -626.0,
+      312.0,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe0",
+    "location": [
+      -616.549,
+      314.475,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe1",
+    "location": [
+      -613.202,
+      311.245,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe2",
+    "location": [
+      -615.596,
+      308.285,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe3",
+    "location": [
+      -622.774,
+      306.779,
+      26.2
+    ]
+  },
+  {
+    "label": "CH_Cozy_CatRug",
+    "location": [
+      -10.0,
+      550.0,
+      21.5
+    ]
+  },
+  {
+    "label": "CH_Cozy_HallRunner",
+    "location": [
+      539.0,
+      430.0,
+      21.3
+    ]
+  },
+  {
+    "label": "CH_Cozy_StudyPlantPot",
+    "location": [
+      -385.0,
+      570.0,
+      20.993
+    ]
+  },
+  {
+    "label": "CH_Cozy_StudyPlantLeaves",
+    "location": [
+      -385.0,
+      570.0,
+      63.743
+    ]
+  },
+  {
+    "label": "CH_Cozy_CatPlantPot",
+    "location": [
+      -195.0,
+      565.0,
+      20.993
+    ]
+  },
+  {
+    "label": "CH_Cozy_CatPlantLeaves",
+    "location": [
+      -195.0,
+      565.0,
+      60.893
+    ]
+  },
+  {
+    "label": "CH_Cozy_ReadingGlow",
+    "location": [
+      -585.0,
+      410.0,
+      235.0
+    ]
+  },
+  {
+    "label": "CH_Cozy_CatCornerGlow",
+    "location": [
+      0.0,
+      470.0,
+      245.0
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_Assets_Proxy_LR_Desk_Proxy",
+    "location": [
+      0.0,
+      610.0,
+      72.0
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Book_01",
+    "location": [
+      55.91300000000001,
+      598.0,
+      122.685
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Book_2",
+    "location": [
+      37.91300000000001,
+      598.0,
+      126.348
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_BookOpen_01",
+    "location": [
+      -9.108000000000004,
+      589.371,
+      123.0
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Candle3",
+    "location": [
+      53.15499999999997,
+      636.3299999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Crayon01",
+    "location": [
+      39.57900000000001,
+      632.113,
+      135.857
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Crayon2",
+    "location": [
+      35.372000000000014,
+      633.127,
+      135.443
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Crayon3",
+    "location": [
+      -8.956999999999994,
+      585.0,
+      126.458
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Crayon4",
+    "location": [
+      40.242999999999995,
+      633.088,
+      135.717
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Frames_08",
+    "location": [
+      -64.98199999999997,
+      632.0029999999999,
+      123.151
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Scotch",
+    "location": [
+      25.093999999999994,
+      644.304,
+      122.965
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_FlowerPot_05",
+    "location": [
+      37.622000000000014,
+      633.223,
+      122.965
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Crayon03",
+    "location": [
+      37.396000000000015,
+      635.855,
+      135.009
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Book_26",
+    "location": [
+      -58.90699999999998,
+      593.1600000000001,
+      130.967
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_Kitchen_Props_B_Mug_A6",
+    "location": [
+      -31.103999999999985,
+      619.424,
+      122.639
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Letter_01",
+    "location": [
+      -58.17399999999998,
+      588.085,
+      131.306
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Letter_02",
+    "location": [
+      35.44499999999999,
+      594.8720000000001,
+      133.396
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_Trash_Can2",
+    "location": [
+      -92.666,
+      588.7,
+      21.45
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Letter_2",
+    "location": [
+      -58.17399999999998,
+      588.085,
+      131.913
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_Letter_3",
+    "location": [
+      -58.17399999999998,
+      588.085,
+      131.044
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_FlowerPot_17",
+    "location": [
+      -40.79000000000002,
+      640.893,
+      124.953
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_SM_FlowersPlant_20",
+    "location": [
+      -41.021000000000015,
+      640.605,
+      132.142
+    ]
+  },
+  {
+    "label": "CH_Native_Desk_Chair",
+    "location": [
+      0.0,
+      485.0,
+      21.0
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_LeatherCouch",
+    "location": [
+      -462.174,
+      435.08,
+      22.532
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_LeatherCouch2",
+    "location": [
+      -710.238,
+      448.88,
+      21.911
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_TableBasse_2",
+    "location": [
+      -579.571,
+      632.305,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_FlowerPot_5",
+    "location": [
+      -578.107,
+      632.296,
+      91.628
+    ]
+  },
+  {
+    "label": "CH_Native_B_Kitchen_Props_A_Clock2",
+    "location": [
+      -578.106,
+      663.68,
+      265.783
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_FlowersPlant_03",
+    "location": [
+      -579.37,
+      636.725,
+      107.824
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Carpet_02",
+    "location": [
+      -586.662,
+      364.147,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_Light_Bulb_SM7",
+    "location": [
+      -566.131,
+      422.276,
+      352.552
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Bookshelf",
+    "location": [
+      -468.30600000000004,
+      627.257,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Bookshelf2",
+    "location": [
+      -695.8430000000001,
+      627.257,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book01",
+    "location": [
+      -403.188,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book2",
+    "location": [
+      -408.605,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book3",
+    "location": [
+      -412.014,
+      631.582,
+      119.015
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book4",
+    "location": [
+      -420.22299999999996,
+      631.582,
+      105.789
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book5",
+    "location": [
+      -428.7660000000001,
+      631.582,
+      105.979
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book6",
+    "location": [
+      -435.918,
+      631.582,
+      106.138
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_32",
+    "location": [
+      -513.931,
+      631.582,
+      106.094
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_33",
+    "location": [
+      -527.249,
+      635.203,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_34",
+    "location": [
+      -522.249,
+      635.12,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_35",
+    "location": [
+      -536.2470000000001,
+      635.354,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_36",
+    "location": [
+      -531.248,
+      635.27,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_37",
+    "location": [
+      -490.43499999999995,
+      633.997,
+      118.644
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_38",
+    "location": [
+      -501.451,
+      635.203,
+      119.585
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_39",
+    "location": [
+      -495.457,
+      635.12,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_40",
+    "location": [
+      -510.44900000000007,
+      635.354,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_41",
+    "location": [
+      -505.45000000000005,
+      633.249,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_42",
+    "location": [
+      -465.00700000000006,
+      636.019,
+      118.644
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_43",
+    "location": [
+      -476.02199999999993,
+      635.203,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_44",
+    "location": [
+      -471.023,
+      633.099,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_45",
+    "location": [
+      -480.40200000000004,
+      635.285,
+      104.448
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_46",
+    "location": [
+      -480.02199999999993,
+      635.27,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_47",
+    "location": [
+      -455.85699999999997,
+      638.71,
+      168.374
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_48",
+    "location": [
+      -466.87200000000007,
+      636.678,
+      169.08
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_49",
+    "location": [
+      -461.87300000000005,
+      636.594,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_50",
+    "location": [
+      -475.871,
+      636.829,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_51",
+    "location": [
+      -470.871,
+      637.962,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_52",
+    "location": [
+      -430.05899999999997,
+      637.493,
+      169.012
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_53",
+    "location": [
+      -441.07400000000007,
+      636.678,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_54",
+    "location": [
+      -436.07500000000005,
+      637.811,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_55",
+    "location": [
+      -450.073,
+      636.829,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_56",
+    "location": [
+      -445.073,
+      637.962,
+      168.188
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_57",
+    "location": [
+      -404.63,
+      637.493,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_58",
+    "location": [
+      -415.645,
+      637.895,
+      168.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_59",
+    "location": [
+      -410.64599999999996,
+      636.594,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_60",
+    "location": [
+      -424.644,
+      638.046,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_61",
+    "location": [
+      -419.645,
+      636.745,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_62",
+    "location": [
+      -455.85699999999997,
+      638.71,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_63",
+    "location": [
+      -466.87200000000007,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_64",
+    "location": [
+      -461.87300000000005,
+      636.173,
+      218.521
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_65",
+    "location": [
+      -475.871,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_66",
+    "location": [
+      -470.871,
+      637.962,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_67",
+    "location": [
+      -430.05899999999997,
+      638.71,
+      218.428
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_68",
+    "location": [
+      -441.07400000000007,
+      636.257,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_69",
+    "location": [
+      -436.07500000000005,
+      637.811,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_70",
+    "location": [
+      -450.073,
+      636.408,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_71",
+    "location": [
+      -445.073,
+      637.962,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_72",
+    "location": [
+      -404.63,
+      638.71,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_73",
+    "location": [
+      -415.645,
+      636.257,
+      218.814
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_74",
+    "location": [
+      -410.64599999999996,
+      636.173,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_75",
+    "location": [
+      -424.644,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_76",
+    "location": [
+      -419.645,
+      637.962,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_82",
+    "location": [
+      -504.298,
+      637.072,
+      205.658
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_83",
+    "location": [
+      -518.65,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_84",
+    "location": [
+      -513.6510000000001,
+      637.811,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_85",
+    "location": [
+      -530.285,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_86",
+    "location": [
+      -522.65,
+      636.324,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_87",
+    "location": [
+      -481.54099999999994,
+      637.072,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_88",
+    "location": [
+      -492.557,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_89",
+    "location": [
+      -487.557,
+      636.173,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_90",
+    "location": [
+      -501.55500000000006,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_91",
+    "location": [
+      -496.55600000000004,
+      637.962,
+      218.101
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book7",
+    "location": [
+      -630.634,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book8",
+    "location": [
+      -636.052,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book9",
+    "location": [
+      -638.451,
+      631.582,
+      119.015
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book10",
+    "location": [
+      -646.659,
+      629.495,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book11",
+    "location": [
+      -655.204,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book12",
+    "location": [
+      -679.586,
+      631.582,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_77",
+    "location": [
+      -741.3779999999999,
+      635.952,
+      105.015
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_78",
+    "location": [
+      -752.7339999999999,
+      635.203,
+      105.517
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_79",
+    "location": [
+      -749.696,
+      633.032,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_80",
+    "location": [
+      -763.694,
+      635.354,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_81",
+    "location": [
+      -758.6949999999999,
+      635.27,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_92",
+    "location": [
+      -717.8820000000001,
+      636.019,
+      118.644
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_93",
+    "location": [
+      -728.8969999999999,
+      635.203,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_94",
+    "location": [
+      -722.904,
+      633.032,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_95",
+    "location": [
+      -737.896,
+      633.267,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_96",
+    "location": [
+      -732.8969999999999,
+      635.27,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_97",
+    "location": [
+      -692.454,
+      636.019,
+      118.644
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_98",
+    "location": [
+      -703.469,
+      633.116,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_99",
+    "location": [
+      -698.47,
+      635.12,
+      118.649
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_100",
+    "location": [
+      -708.144,
+      635.285,
+      105.742
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_101",
+    "location": [
+      -707.4680000000001,
+      635.27,
+      118.648
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_102",
+    "location": [
+      -683.303,
+      638.71,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_103",
+    "location": [
+      -694.319,
+      635.425,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_104",
+    "location": [
+      -689.319,
+      635.344,
+      168.389
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_105",
+    "location": [
+      -703.317,
+      638.046,
+      168.389
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_106",
+    "location": [
+      -698.318,
+      637.962,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_107",
+    "location": [
+      -657.506,
+      636.241,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_108",
+    "location": [
+      -668.521,
+      635.425,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_109",
+    "location": [
+      -663.521,
+      637.811,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_110",
+    "location": [
+      -677.519,
+      635.576,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_111",
+    "location": [
+      -672.52,
+      637.964,
+      168.389
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_112",
+    "location": [
+      -632.077,
+      638.71,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_113",
+    "location": [
+      -643.092,
+      637.895,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_114",
+    "location": [
+      -638.0930000000001,
+      635.347,
+      168.389
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_115",
+    "location": [
+      -652.085,
+      638.047,
+      168.559
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_116",
+    "location": [
+      -647.092,
+      635.492,
+      167.82
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_117",
+    "location": [
+      -683.303,
+      638.71,
+      205.013
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_118",
+    "location": [
+      -694.319,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_119",
+    "location": [
+      -689.3199999999999,
+      636.604,
+      217.853
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_120",
+    "location": [
+      -703.317,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_121",
+    "location": [
+      -698.318,
+      637.965,
+      217.853
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_122",
+    "location": [
+      -657.506,
+      635.773,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_123",
+    "location": [
+      -668.521,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_124",
+    "location": [
+      -663.521,
+      637.811,
+      218.659
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_125",
+    "location": [
+      -677.519,
+      636.835,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_126",
+    "location": [
+      -672.52,
+      637.962,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_127",
+    "location": [
+      -632.077,
+      638.71,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_128",
+    "location": [
+      -643.092,
+      637.895,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_129",
+    "location": [
+      -638.0930000000001,
+      636.6,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_130",
+    "location": [
+      -652.091,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_131",
+    "location": [
+      -647.092,
+      636.75,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_132",
+    "location": [
+      -734.417,
+      638.71,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_133",
+    "location": [
+      -745.432,
+      634.136,
+      217.853
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_134",
+    "location": [
+      -740.433,
+      636.6,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_135",
+    "location": [
+      -757.066,
+      636.835,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_136",
+    "location": [
+      -749.431,
+      636.75,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_137",
+    "location": [
+      -708.988,
+      637.499,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_138",
+    "location": [
+      -720.002,
+      637.895,
+      217.905
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_139",
+    "location": [
+      -715.004,
+      636.602,
+      217.853
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_140",
+    "location": [
+      -729.002,
+      638.046,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_141",
+    "location": [
+      -724.0029999999999,
+      637.962,
+      216.948
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Scotch2",
+    "location": [
+      -654.8389999999999,
+      634.688,
+      70.023
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Letter_4",
+    "location": [
+      -747.7180000000001,
+      632.356,
+      155.673
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Letter_5",
+    "location": [
+      -747.7180000000001,
+      632.356,
+      156.28
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Letter_6",
+    "location": [
+      -747.7180000000001,
+      632.356,
+      155.412
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon5",
+    "location": [
+      -721.89,
+      634.062,
+      167.619
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon6",
+    "location": [
+      -720.876,
+      638.269,
+      167.204
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon7",
+    "location": [
+      -720.915,
+      633.399,
+      167.479
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_FlowerPot_6",
+    "location": [
+      -720.78,
+      636.02,
+      154.727
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon8",
+    "location": [
+      -718.148,
+      636.245,
+      166.771
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon9",
+    "location": [
+      -719.658,
+      638.134,
+      166.771
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon10",
+    "location": [
+      -722.086,
+      636.29,
+      167.204
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon11",
+    "location": [
+      -719.756,
+      637.289,
+      167.619
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Crayon12",
+    "location": [
+      -720.729,
+      637.954,
+      167.479
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Candle4",
+    "location": [
+      -750.361,
+      637.002,
+      284.212
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Candle5",
+    "location": [
+      -643.258,
+      637.002,
+      284.212
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Candle6",
+    "location": [
+      -522.28,
+      637.002,
+      284.212
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Candle7",
+    "location": [
+      -415.177,
+      637.002,
+      284.212
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Frames_12",
+    "location": [
+      -455.649,
+      639.901,
+      285.243
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book_142",
+    "location": [
+      -456.08400000000006,
+      636.019,
+      115.958
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Timer",
+    "location": [
+      -737.0609999999999,
+      636.638,
+      69.342
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Trash_Can",
+    "location": [
+      -794.457,
+      640.622,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_Wooden_Bowl_B5",
+    "location": [
+      -493.43499999999995,
+      638.736,
+      289.876
+    ]
+  },
+  {
+    "label": "CH_Native_B_Wooden_Bowl_B6",
+    "location": [
+      -493.43499999999995,
+      638.736,
+      296.848
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book13",
+    "location": [
+      -663.2850000000001,
+      629.495,
+      105.85
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book14",
+    "location": [
+      -662.617,
+      631.582,
+      117.183
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Book15",
+    "location": [
+      -444.65200000000004,
+      631.582,
+      106.138
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_FlowerPot_3",
+    "location": [
+      -503.52099999999996,
+      629.113,
+      154.543
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_FlowersPlant_3",
+    "location": [
+      -504.36,
+      629.126,
+      162.555
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Bottles_10",
+    "location": [
+      -644.183,
+      474.233,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_TableMin",
+    "location": [
+      -583.994,
+      499.134,
+      20.953
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Mug_A",
+    "location": [
+      -603.5889999999999,
+      480.566,
+      75.428
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Mug_A2",
+    "location": [
+      -560.669,
+      480.566,
+      75.428
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM__Drawing_D",
+    "location": [
+      -523.7429999999999,
+      634.445,
+      155.53
+    ]
+  },
+  {
+    "label": "CH_Native_B_SM_Candle8",
+    "location": [
+      -582.9680000000001,
+      506.863,
+      75.428
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Bathtub",
+    "location": [
+      612.436,
+      818.8639999999999,
+      21.682
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Toilet",
+    "location": [
+      414.56600000000003,
+      836.4680000000001,
+      20.119
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Sink",
+    "location": [
+      688.952,
+      651.815,
+      18.544
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Mirror",
+    "location": [
+      718.126,
+      652.8180000000001,
+      213.604
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Water_Glass",
+    "location": [
+      724.427,
+      689.7350000000001,
+      118.918
+    ]
+  },
+  {
+    "label": "CH_SmallBath_SM_Soap_01",
+    "location": [
+      723.233,
+      621.3359999999999,
+      118.643
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Shower_Head",
+    "location": [
+      723.72,
+      821.417,
+      249.804
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Towel_Rack2",
+    "location": [
+      723.997,
+      728.4470000000001,
+      150.771
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Towels2",
+    "location": [
+      717.725,
+      723.903,
+      121.623
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Mat_A",
+    "location": [
+      576.5,
+      674.0,
+      22.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_DoorFrame",
+    "location": [
+      341.5,
+      626.0,
+      21.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_WarmLight",
+    "location": [
+      561.5,
+      715.0,
+      235.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_TileFloor",
+    "location": [
+      539.067,
+      710.0,
+      20.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackTile",
+    "location": [
+      539.067,
+      870.0,
+      101.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackUpper",
+    "location": [
+      539.067,
+      870.0,
+      221.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackTrim",
+    "location": [
+      539.067,
+      870.0,
+      181.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftTile",
+    "location": [
+      736.635,
+      710.0,
+      101.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftUpper",
+    "location": [
+      736.635,
+      710.0,
+      221.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftTrim",
+    "location": [
+      736.635,
+      710.0,
+      181.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackTile",
+    "location": [
+      341.5,
+      780.0,
+      101.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackUpper",
+    "location": [
+      341.5,
+      780.0,
+      221.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackTrim",
+    "location": [
+      341.5,
+      780.0,
+      181.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontTile",
+    "location": [
+      341.5,
+      558.0,
+      101.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontUpper",
+    "location": [
+      341.5,
+      558.0,
+      221.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontTrim",
+    "location": [
+      341.5,
+      558.0,
+      181.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_DoorLintel",
+    "location": [
+      341.5,
+      628.0,
+      255.0
+    ]
+  },
+  {
+    "label": "CH_SmallBath_OpenDoor",
+    "location": [
+      341.5,
+      690.0,
+      21.0
+    ]
+  },
+  {
+    "label": "CH_Linear_FloorRight",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_FloorLeft",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_RearRight",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_RearLeftA",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_RearLeftB",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_BaseRight",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_BaseLeftA",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_BaseLeftB",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_CrownRight",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_CrownLeftA",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_CrownLeftB",
+    "location": [
+      706.8,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_LivingEnd",
+    "location": [
+      475.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_EntryEndBack",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_EntryEndFront",
+    "location": [
+      -950.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "label": "CH_Linear_FrontSkirting",
+    "location": [
+      -197.6,
+      -40.0,
+      20.0
+    ]
+  },
+  {
+    "label": "CH_Linear_EntryLintel",
+    "location": [
+      -1745.1499999999999,
+      152.0,
+      327.0
+    ]
+  },
+  {
+    "label": "CH_Linear_EntryJambA",
+    "location": [
+      -1745.1499999999999,
+      68.0,
+      155.0
+    ]
+  },
+  {
+    "label": "CH_Linear_EntryJambB",
+    "location": [
+      -1745.1499999999999,
+      236.0,
+      155.0
+    ]
+  },
+  {
+    "label": "CH_Minimal_ExitTarget",
+    "location": [
+      -1698.5,
+      140.0,
+      110.0
+    ]
+  },
+  {
+    "label": "CH_Linear_FrontBoundary",
+    "location": [
+      -197.6,
+      -58.0,
+      160.0
+    ]
+  },
+  {
+    "label": "CH_Linear_LivingBoundary",
+    "location": [
+      1350.8999999999999,
+      320.0,
+      170.0
+    ]
+  },
+  {
+    "label": "CH_Linear_RightBoundary",
+    "location": [
+      -1762.25,
+      320.0,
+      170.0
+    ]
+  }
+]

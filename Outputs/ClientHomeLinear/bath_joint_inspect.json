@@ -1,0 +1,526 @@
+[
+  {
+    "label": "CH_SmallBath_Bathroom_Bathtub",
+    "lo": [
+      504.30246352437086,
+      873.848276546705,
+      20.519359558105478
+    ],
+    "hi": [
+      722.4509573720449,
+      1003.8801742777092,
+      117.48309989929201
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathtub.SM_Bathtub",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base01.MM_Base01"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Toilet",
+    "lo": [
+      376.3316734313965,
+      908.9160366210938,
+      20.49061456298829
+    ],
+    "hi": [
+      452.8003151550293,
+      1004.0199633789064,
+      132.2968348388672
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Toilet.SM_Toilet",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_ToiletParts.MI_ToiletParts"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Sink",
+    "lo": [
+      648.4270884072657,
+      720.2046841686697,
+      19.575298828125014
+    ],
+    "hi": [
+      729.4769115927863,
+      823.4253402453928,
+      139.38577246093752
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathroom_Sink.SM_Bathroom_Sink",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_ToiletParts.MI_ToiletParts"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Mirror",
+    "lo": [
+      703.4805984787243,
+      731.0343018056462,
+      167.83004370117186
+    ],
+    "hi": [
+      732.7714015213277,
+      814.6017226084164,
+      259.37796240234377
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_BTWindow.SM_BTWindow",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base01.MM_Base01",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Mirror_base.MM_Mirror_base"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Water_Glass",
+    "lo": [
+      718.9139323730469,
+      804.2220788574219,
+      119.02479473876954
+    ],
+    "hi": [
+      729.9400676269531,
+      815.2482690429689,
+      131.82279278564454
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathroom_Water_Glass.SM_Bathroom_Water_Glass",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Glass01.MI_Glass01"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_SM_Soap_01",
+    "lo": [
+      713.7798613361898,
+      731.2607900843832,
+      118.6429997973442
+    ],
+    "hi": [
+      732.6861328458207,
+      751.4112143175371,
+      123.40933027791976
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Soap_01.SM_Soap_01",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Soap.MI_Soap"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Shower_Head",
+    "lo": [
+      696.302373046875,
+      930.4898515625,
+      231.2639853515625
+    ],
+    "hi": [
+      733.077470703125,
+      952.34307421875,
+      253.72751074218752
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Shower_Head.SM_Shower_Head",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base01.MM_Base01"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Towel_Rack2",
+    "lo": [
+      715.2808038279026,
+      800.0437258058907,
+      143.69041452026366
+    ],
+    "hi": [
+      732.713219060429,
+      896.8502314695793,
+      157.85159616088865
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Towel_Rack.SM_Towel_Rack",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base01.MM_Base01"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Towels2",
+    "lo": [
+      709.9656723179924,
+      820.9889402919756,
+      87.68110323140417
+    ],
+    "hi": [
+      725.4843193245972,
+      866.8170586756072,
+      155.56488892974284
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Curtain_Towels_Towel_B.SM_Curtain_Towels_Towel_B",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Curtain_Towels.MI_Curtain_Towels"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_Bathroom_Mat_A",
+    "lo": [
+      516.7910431343821,
+      748.6495233876688,
+      21.277135583698747
+    ],
+    "hi": [
+      636.2535207677049,
+      839.900399391408,
+      23.36342676872015
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Placemat.SM_Placemat",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Placemat.MI_Placemat"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_DoorFrame",
+    "lo": [
+      328.649953297615,
+      554.0987446746826,
+      21.0
+    ],
+    "hi": [
+      354.3501077051163,
+      693.9136991424562,
+      259.0648193359375
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Door_Frame_A.SM_Door_Frame_A",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Door.MI_Door"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_WarmLight",
+    "lo": [
+      433.5,
+      707.0,
+      107.0
+    ],
+    "hi": [
+      689.5,
+      963.0,
+      363.0
+    ],
+    "mesh": null,
+    "mesh_mats": []
+  },
+  {
+    "label": "CH_SmallBath_TileFloor",
+    "lo": [
+      351.5,
+      670.0,
+      18.0
+    ],
+    "hi": [
+      729.5999999999999,
+      990.0,
+      22.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_TileFloor.SM_CH_Bath_TileFloor",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackTile",
+    "lo": [
+      345.5,
+      984.0,
+      21.0
+    ],
+    "hi": [
+      735.5999999999999,
+      996.0,
+      181.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackTile.SM_CH_Bath_BackTile",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackUpper",
+    "lo": [
+      345.5,
+      984.0,
+      181.0
+    ],
+    "hi": [
+      735.5999999999999,
+      996.0,
+      261.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackUpper.SM_CH_Bath_BackUpper",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_BackTrim",
+    "lo": [
+      344.5,
+      983.0,
+      178.5
+    ],
+    "hi": [
+      736.5999999999999,
+      997.0,
+      183.5
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackTrim.SM_CH_Bath_BackTrim",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftTile",
+    "lo": [
+      728.0,
+      710.0,
+      21.0
+    ],
+    "hi": [
+      731.2,
+      990.0,
+      181.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftTile.SM_CH_Bath_LeftTile",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftUpper",
+    "lo": [
+      728.0,
+      710.0,
+      181.0
+    ],
+    "hi": [
+      731.2,
+      990.0,
+      261.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftUpper.SM_CH_Bath_LeftUpper",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_LeftTrim",
+    "lo": [
+      727.0,
+      709.0,
+      178.5
+    ],
+    "hi": [
+      732.2,
+      991.0,
+      183.5
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftTrim.SM_CH_Bath_LeftTrim",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackTile",
+    "lo": [
+      345.5,
+      710.0,
+      21.0
+    ],
+    "hi": [
+      357.5,
+      990.0,
+      181.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackTile.SM_CH_Bath_RightBackTile",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackUpper",
+    "lo": [
+      345.5,
+      710.0,
+      181.0
+    ],
+    "hi": [
+      357.5,
+      990.0,
+      261.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackUpper.SM_CH_Bath_RightBackUpper",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightBackTrim",
+    "lo": [
+      344.5,
+      709.0,
+      178.5
+    ],
+    "hi": [
+      358.5,
+      991.0,
+      183.5
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackTrim.SM_CH_Bath_RightBackTrim",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontTile",
+    "lo": [
+      335.5,
+      550.0,
+      21.0
+    ],
+    "hi": [
+      347.5,
+      566.0,
+      181.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightFrontTile.SM_CH_Bath_RightFrontTile",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontUpper",
+    "lo": [
+      335.5,
+      550.0,
+      181.0
+    ],
+    "hi": [
+      347.5,
+      566.0,
+      261.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightFrontUpper.SM_CH_Bath_RightFrontUpper",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_RightFrontTrim",
+    "lo": [
+      334.5,
+      549.0,
+      178.5
+    ],
+    "hi": [
+      348.5,
+      567.0,
+      183.5
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightFrontTrim.SM_CH_Bath_RightFrontTrim",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_DoorLintel",
+    "lo": [
+      335.5,
+      566.0,
+      249.0
+    ],
+    "hi": [
+      347.5,
+      690.0,
+      261.0
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_DoorLintel.SM_CH_Bath_DoorLintel",
+    "mesh_mats": [
+      "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+    ]
+  },
+  {
+    "label": "CH_SmallBath_OpenDoor",
+    "lo": [
+      225.08978271484375,
+      690.0,
+      21.0
+    ],
+    "hi": [
+      341.5,
+      700.1230163574219,
+      249.97402343750002
+    ],
+    "mesh": "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Door.SM_Door",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Door.MI_Door"
+    ]
+  },
+  {
+    "label": "CH_Linear_RearRight",
+    "lo": [
+      -1738.9956420898438,
+      665.0,
+      6.918919563293457
+    ],
+    "hi": [
+      -82.146240234375,
+      674.373291015625,
+      353.9740905761719
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearRight.SM_CH_Linear_RearRight",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base_Mat_2.MM_Base_Mat_2",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Walls_Tile.MI_Walls_Tile",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Kitchen_Wall.MI_Kitchen_Wall",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Backsplash.MI_Backsplash",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Molding_Trim.MI_Molding_Trim"
+    ]
+  },
+  {
+    "label": "CH_Linear_RearLeftA",
+    "lo": [
+      -82.1956420898438,
+      674.3732299804688,
+      6.918919563293457
+    ],
+    "hi": [
+      351.4999999999999,
+      674.373291015625,
+      353.9740905761719
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftA.SM_CH_Linear_RearLeftA",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base_Mat_2.MM_Base_Mat_2",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Molding_Trim.MI_Molding_Trim"
+    ]
+  },
+  {
+    "label": "CH_Linear_RearLeftB",
+    "lo": [
+      729.5999999999999,
+      674.3732299804688,
+      6.918919563293457
+    ],
+    "hi": [
+      1344.25,
+      674.373291015625,
+      353.9740905761719
+    ],
+    "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftB.SM_CH_Linear_RearLeftB",
+    "mesh_mats": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MM_Base_Mat_2.MM_Base_Mat_2",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wallpaper_A.MI_Wallpaper_A",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Molding_Trim.MI_Molding_Trim"
+    ]
+  }
+]

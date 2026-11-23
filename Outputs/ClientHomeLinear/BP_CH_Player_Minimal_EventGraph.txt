@@ -1,0 +1,11 @@
+(event EventBeginPlay
+  (bind _returnvalue (Transformation|GetActorLocation))
+  (Rendering|Material|SetVectorParameterValue "/Game/Multimodal/03_Graphics/Materials/Buildings/ClientHome/BathroomFade/MPC_CH_Occlusion.MPC_CH_Occlusion" "PlayerPosition" (Utilities|Struct|MakeLinearColor (.x _returnvalue) (.y _returnvalue) (.z _returnvalue) 1.0))
+  (Transformation|SetWorldLocation (Variables|Default|GetViewCamera) (Math|Vector|MakeVector (select (< (.x _returnvalue) -350.0) -350.0 (select (> (.x _returnvalue) 430.0) 430.0 (.x _returnvalue))) (- (select (< (.y _returnvalue) -75.0) -75.0 (select (> (.y _returnvalue) 80.0) 80.0 (.y _returnvalue))) 1000.0) 720.0)))
+
+(event Collision|EventActorBeginOverlap (OtherActor))
+
+(event EventTick (DeltaSeconds)
+  (bind _returnvalue (Transformation|GetActorLocation))
+  (Rendering|Material|SetVectorParameterValue "/Game/Multimodal/03_Graphics/Materials/Buildings/ClientHome/BathroomFade/MPC_CH_Occlusion.MPC_CH_Occlusion" "PlayerPosition" (Utilities|Struct|MakeLinearColor (.x _returnvalue) (.y _returnvalue) (.z _returnvalue) 1.0))
+  (Transformation|SetWorldLocation (Variables|Default|GetViewCamera) (Math|Interpolation|VInterpTo (Transformation|GetWorldLocation (Variables|Default|GetViewCamera)) (Math|Vector|MakeVector (select (< (.x _returnvalue) -350.0) -350.0 (select (> (.x _returnvalue) 430.0) 430.0 (.x _returnvalue))) (- (select (< (.y _returnvalue) -75.0) -75.0 (select (> (.y _returnvalue) 80.0) 80.0 (.y _returnvalue))) 1000.0) 720.0) DeltaSeconds 3.5)))

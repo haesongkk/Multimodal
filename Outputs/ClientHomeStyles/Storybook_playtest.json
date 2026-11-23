@@ -1,0 +1,32 @@
+[
+  {
+    "clue": "Fur",
+    "nearby": 2,
+    "expected": 2,
+    "passed": true
+  },
+  {
+    "clue": "Pawprints",
+    "nearby": 6,
+    "expected": 6,
+    "passed": true
+  },
+  {
+    "clue": "Snack",
+    "nearby": 5,
+    "expected": 5,
+    "passed": true
+  },
+  {
+    "clue": "Pot",
+    "nearby": 1,
+    "expected": 1,
+    "passed": true
+  },
+  {
+    "clue": "Window",
+    "nearby": 3,
+    "expected": 3,
+    "passed": true
+  }
+]

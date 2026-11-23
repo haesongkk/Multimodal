@@ -1,0 +1,18 @@
+[
+  {
+    "clue": "Pawprints",
+    "nearby": 6,
+    "expected": 6,
+    "before": 0,
+    "after": 1,
+    "passed": true
+  },
+  {
+    "clue": "Fur",
+    "nearby": 2,
+    "expected": 2,
+    "before": 1,
+    "after": 2,
+    "passed": true
+  }
+]

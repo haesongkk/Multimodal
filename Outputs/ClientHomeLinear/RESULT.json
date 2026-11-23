@@ -1,0 +1,285 @@
+{
+  "source_map_preserved": "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Minimal",
+  "new_map": "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Linear",
+  "layout_screen_left_to_right": [
+    "Living",
+    "Study with bathroom alcove",
+    "Dining",
+    "Kitchen and entry"
+  ],
+  "main_floor_depth_cm": 720,
+  "original_floor_depth_cm": 1227.584,
+  "depth_reduction_percent": 41.3,
+  "walk_test": {
+    "index": 11,
+    "elapsed": 0.0,
+    "last_distance": 99999.0,
+    "stuck": 0.0,
+    "results": [
+      {
+        "target": [
+          -1530,
+          120
+        ],
+        "actual": [
+          -1554.9366070415058,
+          121.1266927219744,
+          111.10296498600499
+        ],
+        "seconds": 0.81893490254879,
+        "passed": true
+      },
+      {
+        "target": [
+          -1150,
+          120
+        ],
+        "actual": [
+          -1174.059961049936,
+          120.02111843033454,
+          111.10296498600499
+        ],
+        "seconds": 1.417393498122692,
+        "passed": true
+      },
+      {
+        "target": [
+          -750,
+          120
+        ],
+        "actual": [
+          -773.8771540406603,
+          120.00035847538389,
+          111.10296498600499
+        ],
+        "seconds": 1.4917539022862911,
+        "passed": true
+      },
+      {
+        "target": [
+          -350,
+          120
+        ],
+        "actual": [
+          -374.68099819205105,
+          120.0000059440853,
+          111.10296498600499
+        ],
+        "seconds": 1.481758899986744,
+        "passed": true
+      },
+      {
+        "target": [
+          100,
+          120
+        ],
+        "actual": [
+          77.50268633016628,
+          120.00000008924776,
+          111.10296498600499
+        ],
+        "seconds": 1.6767865978181362,
+        "passed": true
+      },
+      {
+        "target": [
+          450,
+          120
+        ],
+        "actual": [
+          427.40666398883036,
+          120.0000000013748,
+          111.10296498600499
+        ],
+        "seconds": 1.3035377003252506,
+        "passed": true
+      },
+      {
+        "target": [
+          850,
+          120
+        ],
+        "actual": [
+          827.7995752098682,
+          120.00000000001731,
+          111.10296498600499
+        ],
+        "seconds": 1.491355799138546,
+        "passed": true
+      },
+      {
+        "target": [
+          930,
+          300
+        ],
+        "actual": [
+          920.020623740296,
+          277.8675287925548,
+          111.10296498600499
+        ],
+        "seconds": 0.7009248025715351,
+        "passed": true
+      },
+      {
+        "target": [
+          1050,
+          400
+        ],
+        "actual": [
+          1055.1802329637928,
+          376.5707826735167,
+          126.26993089989062
+        ],
+        "seconds": 0.696272000670433,
+        "passed": true
+      },
+      {
+        "target": [
+          1190,
+          530
+        ],
+        "actual": [
+          1176.143516176915,
+          511.5424438826719,
+          111.24484089281032
+        ],
+        "seconds": 0.683186799287796,
+        "passed": true
+      },
+      {
+        "target": [
+          1350,
+          355
+        ],
+        "actual": [
+          1325.933773694872,
+          357.4884444932244,
+          111.10297046833475
+        ],
+        "seconds": 1.0037734992802143,
+        "passed": true
+      }
+    ],
+    "complete": true
+  },
+  "clue_test": {
+    "index": 6,
+    "phase": 0,
+    "elapsed": 0,
+    "results": [
+      {
+        "clue": "Snack",
+        "expected": 5,
+        "nearby": 5,
+        "count": 1,
+        "passed": true
+      },
+      {
+        "clue": "Pawprints",
+        "expected": 6,
+        "nearby": 6,
+        "count": 2,
+        "passed": true
+      },
+      {
+        "clue": "Fur",
+        "expected": 2,
+        "nearby": 2,
+        "count": 3,
+        "passed": true
+      },
+      {
+        "clue": "Pot",
+        "expected": 1,
+        "nearby": 1,
+        "count": 4,
+        "passed": true
+      },
+      {
+        "clue": "Window",
+        "expected": 3,
+        "nearby": 3,
+        "count": 5,
+        "passed": true
+      },
+      {
+        "clue": "Door",
+        "expected": 4,
+        "nearby": 4,
+        "count": 5,
+        "passed": true
+      }
+    ],
+    "count": 5,
+    "deduced": true,
+    "door_open": true,
+    "complete": true
+  },
+  "validation": {
+    "world": "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Linear.LV_ClientHome_Linear",
+    "blueprints": [
+      {
+        "asset": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear",
+        "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+      },
+      {
+        "asset": "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear",
+        "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+      }
+    ],
+    "clues": [
+      {
+        "label": "Assets_Proxy_LR_Window_Proxy",
+        "tags": [
+          "Home_Window"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EB3BF80) {x: 1480.400000, y: 268.700000, z: 209.900000}>"
+      },
+      {
+        "label": "Assets_Proxy_Door_Proxy",
+        "tags": [
+          "Home_Door"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: -1830.000000, y: 198.000000, z: 22.008000}>"
+      },
+      {
+        "label": "SM_FlowerPot_02",
+        "tags": [
+          "Home_Pot"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: 1240.000000, y: 455.000000, z: 39.000000}>"
+      },
+      {
+        "label": "CH_Minimal_Fur0",
+        "tags": [
+          "Home_Fur"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: 235.000000, y: 295.000000, z: 23.800000}>"
+      },
+      {
+        "label": "CH_Minimal_ExitTarget",
+        "tags": [
+          "Home_Exit"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBFD50) {x: -1790.000000, y: 140.000000, z: 110.000000}>"
+      },
+      {
+        "label": "CH_Minimal_Snack_Bowl",
+        "tags": [
+          "Home_Snack"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBF8A0) {x: -1150.000000, y: 220.000000, z: 23.000000}>"
+      },
+      {
+        "label": "CH_Minimal_Pawprint0_Pad",
+        "tags": [
+          "Home_Pawprints"
+        ],
+        "location": "<Struct 'Vector' (0x000002E68EBBF800) {x: -195.000000, y: 285.000000, z: 26.200000}>"
+      }
+    ],
+    "dirty_maps": [],
+    "dirty_content": []
+  },
+  "packaging_tested": false
+}

@@ -1,0 +1,32 @@
+X.save_map(world, asset_path) -> bool
+
+Saves the specified map, returning true on success.
+
+
+
+Args:
+
+    world (World): The world to save.
+
+    asset_path (str): The valid content directory path and name for the asset.  E.g "/Game/MyMap"
+
+
+
+Returns:
+
+    bool: true if the map was saved successfully.
+x.load_level(asset_path) -> bool
+
+Close the current Persistent Level (without saving it). Loads the specified level.
+
+
+
+Args:
+
+    asset_path (str): Asset Path of the level to be loaded. ie. /Game/MyFolder/MyAsset
+
+
+
+Returns:
+
+    bool: True if the operation succeeds.

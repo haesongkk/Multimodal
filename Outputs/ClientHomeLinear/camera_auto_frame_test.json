@@ -1,0 +1,47 @@
+[
+  {
+    "angle": 15,
+    "pitch": -14.999999999999996,
+    "y": -508.31473905322997,
+    "height": 350.01672290729744,
+    "front_floor_y": 0.027673799314186454,
+    "rear_wall_top_in_view": 411.8269568820796,
+    "passes": true
+  },
+  {
+    "angle": 20,
+    "pitch": -20.000000000000004,
+    "y": -505.7279553210537,
+    "height": 415.0,
+    "front_floor_y": 0.0,
+    "rear_wall_top_in_view": 373.61877187060946,
+    "passes": true
+  },
+  {
+    "angle": 25,
+    "pitch": -25.000000000000018,
+    "y": -493.4329152652444,
+    "height": 480.0,
+    "front_floor_y": 0.0,
+    "rear_wall_top_in_view": 336.43968007532703,
+    "passes": true
+  },
+  {
+    "angle": 30,
+    "pitch": -30.000000000000018,
+    "y": -414.31678976448484,
+    "height": 480.0,
+    "front_floor_y": -0.010236594009313649,
+    "rear_wall_top_in_view": 248.4269169287287,
+    "passes": true
+  },
+  {
+    "angle": 35,
+    "pitch": -35.000000000000014,
+    "y": -346.73936436854325,
+    "height": 480.0,
+    "front_floor_y": 0.0,
+    "rear_wall_top_in_view": 167.652756051445,
+    "passes": true
+  }
+]

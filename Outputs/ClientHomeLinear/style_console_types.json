@@ -1,0 +1,10 @@
+{
+  "events": [
+    "BeginPlay 이벤트",
+    "ActorBeginOverlap 이벤트",
+    "Tick 이벤트"
+  ],
+  "types": [
+    "개발|ExecuteConsoleCommand"
+  ]
+}

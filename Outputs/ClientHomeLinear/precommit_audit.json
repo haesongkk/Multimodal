@@ -1,0 +1,37 @@
+{
+  "new_assets": [
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseLeftA",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseLeftB",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseRight",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownLeftA",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownLeftB",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownRight",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_EntryEndBack",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_EntryEndFront",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorLeft",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorRight",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_LivingEnd",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftA",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftB",
+    "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearRight",
+    "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Linear",
+    "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear"
+  ],
+  "checked_packages": 721,
+  "missing_game_dependencies": [],
+  "sandbox_dependencies": [],
+  "redirectors": [],
+  "blueprints": [
+    {
+      "asset": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  ],
+  "dirty_maps": [],
+  "dirty_content": []
+}

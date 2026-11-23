@@ -1,0 +1,89 @@
+{
+  "reference_image": "varco-detective-refined.png",
+  "original_map_unchanged": true,
+  "comparison_only": true,
+  "maps": {
+    "Original": "/Game/Multimodal/90_Sandbox/Maps/ClientHome/LV_ClientHome_Original",
+    "Storybook": "/Game/Multimodal/90_Sandbox/Maps/ClientHome/LV_ClientHome_Storybook"
+  },
+  "support_props": "Papercraft props referenced by Storybook are retained.",
+  "preserved": [
+    "room layout",
+    "main furniture footprints",
+    "camera presets F6/F7",
+    "clue identities and investigation anchors",
+    "five-clue completion"
+  ],
+  "validation": {
+    "Storybook": [
+      {
+        "clue": "Fur",
+        "nearby": 2,
+        "expected": 2,
+        "passed": true
+      },
+      {
+        "clue": "Pawprints",
+        "nearby": 6,
+        "expected": 6,
+        "passed": true
+      },
+      {
+        "clue": "Snack",
+        "nearby": 5,
+        "expected": 5,
+        "passed": true
+      },
+      {
+        "clue": "Pot",
+        "nearby": 1,
+        "expected": 1,
+        "passed": true
+      },
+      {
+        "clue": "Window",
+        "nearby": 3,
+        "expected": 3,
+        "passed": true
+      }
+    ],
+    "assets": {
+      "maps": [
+        "/Game/Multimodal/90_Sandbox/Maps/ClientHome/LV_ClientHome_Original",
+        "/Game/Multimodal/90_Sandbox/Maps/ClientHome/LV_ClientHome_Storybook"
+      ],
+      "checked_packages": 726,
+      "missing_dependencies": [],
+      "redirectors": [],
+      "dirty_maps": [],
+      "dirty_content": []
+    },
+    "keys": {
+      "F1": "LV_ClientHome_Original",
+      "F2": "LV_ClientHome_Storybook"
+    }
+  },
+  "launchers": [
+    "PreviewOriginal.ps1",
+    "PreviewStorybook.ps1"
+  ],
+  "not_performed": [
+    "packaged build",
+    "character model replacement",
+    "commit or push"
+  ],
+  "keys": {
+    "F1": "Original",
+    "F2": "Storybook",
+    "F6/F7": "Camera angle"
+  },
+  "removed_comparisons": [
+    "Papercraft",
+    "Kenney"
+  ],
+  "source_model_types": {
+    "Papercraft": 36,
+    "Storybook": 15
+  },
+  "retained_papercraft_asset_count": 22
+}

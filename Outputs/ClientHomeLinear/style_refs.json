@@ -1,0 +1,4 @@
+{
+  "ref": [],
+  "api": "x.rename_referencing_soft_object_paths(packages_to_check, asset_redirector_map) -> None\r\nFunction that renames all FSoftObjectPath object with the old asset path to the new one.\r\n\r\nArgs:\r\n    packages_to_check (Array[Package]): Packages to check for referencing FSoftObjectPath.\r\n    asset_redirector_map (Map[SoftObjectPath, SoftObjectPath]): Map from old asset path to new asset path"
+}

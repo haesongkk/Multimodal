@@ -1,0 +1,23 @@
+{
+  "graph": "<Object '/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.BP_CH_Player_Linear:EventGraph' (0x000002E5107F9600) Class 'EdGraph'>",
+  "nodes": 785,
+  "functions": "[{name: \"UserConstructionScript\", description: \"\", is_implemented: True}, {name: \"CanJumpInternal\", description: NSLOCTEXT(\"UObjectToolTips\", \"Character:CanJumpInternal\", \"Customizable event to check if the character can jump in the current state.\\nDefault implementation returns true if the character is on the ground and not crouching,\\nhas a valid CharacterMovementComponent and CanEverJump() returns true.\\nDefault implementation also allows for \\'hold to jump higher\\' functionality:\\nAs well as returning true when on the ground, it also returns true when GetMaxJumpTime is more\\nthan zero and IsJumping returns true.\\n\\n\\n@Return Whether the character can jump in the current state.\"), is_implemented: False}]",
+  "methods": [
+    "_is_dispatcher_graph",
+    "add_function_graph",
+    "get_connected_subgraph",
+    "get_graph",
+    "get_graph_dsl_docs",
+    "list_graphs",
+    "read_graph_dsl",
+    "remove_function_graph",
+    "write_graph_dsl"
+  ],
+  "types": {
+    "F6": "[\"Input|KeyboardEvents|F6\", \"Input|DebugEvents|KeyboardEvents|DebugKeyF6\"]",
+    "F7": "[\"Input|KeyboardEvents|F7\", \"Input|DebugEvents|KeyboardEvents|DebugKeyF7\"]",
+    "WasInputKeyJustPressed": "[\"\uac8c\uc784|\ud50c\ub808\uc774\uc5b4|WasInputKeyJustPressed\"]",
+    "SetWorldRotation": "[\"\ud2b8\ub79c\uc2a4\ud3ec\uba54\uc774\uc158|SetWorldRotation\"]",
+    "PrintString": "[\"\uac1c\ubc1c|PrintString\", \"Class|PCG\ud504\ub9b0\ud2b8\uc5d8\ub9ac\uba3c\ud2b8\uc138\ud305|GetPrintString\", \"Class|PCG\ud504\ub9b0\ud2b8\uc5d8\ub9ac\uba3c\ud2b8\uc138\ud305|SetPrintString\"]"
+  }
+}

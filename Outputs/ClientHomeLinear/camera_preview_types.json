@@ -1,0 +1,12 @@
+{
+  "GetCameraPreviewAngle": [
+    "Variables|\ub514\ud3f4\ud2b8|GetCameraPreviewAngle"
+  ],
+  "SetCameraPreviewAngle": [
+    "Variables|\ub514\ud3f4\ud2b8|SetCameraPreviewAngle"
+  ],
+  "GetViewCamera": [
+    "Class|BPCHPlayerMinimal|GetViewCamera",
+    "Variables|\ub514\ud3f4\ud2b8|GetViewCamera"
+  ]
+}

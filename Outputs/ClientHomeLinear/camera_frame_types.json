@@ -1,0 +1,21 @@
+{
+  "SwitchOnInt": [],
+  "GetCameraPreviewAngle": [
+    "Variables|\ub514\ud3f4\ud2b8|GetCameraPreviewAngle"
+  ],
+  "GetCameraPreviewHeight": [
+    "Variables|\ub514\ud3f4\ud2b8|GetCameraPreviewHeight"
+  ],
+  "SetCameraPreviewHeight": [
+    "Variables|\ub514\ud3f4\ud2b8|SetCameraPreviewHeight"
+  ],
+  "GetCameraPreviewDepth": [
+    "Variables|\ub514\ud3f4\ud2b8|GetCameraPreviewDepth"
+  ],
+  "SetCameraPreviewDepth": [
+    "Variables|\ub514\ud3f4\ud2b8|SetCameraPreviewDepth"
+  ],
+  "MapRangeClamped": [
+    "\uc218\ud559|\ud50c\ub85c\ud2b8|MapRangeClamped"
+  ]
+}

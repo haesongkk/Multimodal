@@ -1,0 +1,2330 @@
+{
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Shelf_A.SM_Kitchen_Shelf_A": {
+    "min": [
+      -236.36331176757812,
+      -23.558624267578125,
+      -49.2178955078125
+    ],
+    "max": [
+      236.6005859375,
+      29.746925354003906,
+      49.20521545410156
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Countertop_B.SM_Kitchen_Countertop_B": {
+    "min": [
+      -52.5753288269043,
+      -236.07022094726562,
+      -78.3882064819336
+    ],
+    "max": [
+      55.4279899597168,
+      236.07022094726562,
+      86.18433380126953
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Stove_A.SM_Stove_A": {
+    "min": [
+      -71.03827667236328,
+      -52.129947662353516,
+      -49.93070983886719
+    ],
+    "max": [
+      71.03827667236328,
+      52.064510345458984,
+      71.02196502685547
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Window.SM_Window": {
+    "min": [
+      -15.80328369140625,
+      -88.62501525878906,
+      -102.65740966796875
+    ],
+    "max": [
+      15.80328369140625,
+      88.62503051757812,
+      102.65740966796875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_LeatherCouch.SM_LeatherCouch": {
+    "min": [
+      -60.068023681640625,
+      -68.15331268310547,
+      -7.62939453125e-06
+    ],
+    "max": [
+      31.437416076660156,
+      68.15332794189453,
+      139.1940689086914
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Desk.SM_Desk": {
+    "min": [
+      -78.36048126220703,
+      -54.9434928894043,
+      -50.964630126953125
+    ],
+    "max": [
+      78.36048126220703,
+      53.915653228759766,
+      50.964630126953125
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_TVSet.SM_TVSet": {
+    "min": [
+      -38.87574005126953,
+      -26.955516815185547,
+      -0.19727325439453125
+    ],
+    "max": [
+      38.85991668701172,
+      26.95901870727539,
+      112.93743896484375
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Door.SM_Door": {
+    "min": [
+      -10.123016357421875,
+      -116.41021728515625,
+      0.0
+    ],
+    "max": [
+      0.0,
+      0.0,
+      260.19775390625
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Fridge.SM_Fridge": {
+    "min": [
+      -76.10820770263672,
+      -60.795982360839844,
+      -0.6834259033203125
+    ],
+    "max": [
+      75.39795684814453,
+      60.841087341308594,
+      234.8448944091797
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Toaster.SM_Toaster": {
+    "min": [
+      -28.116802215576172,
+      -15.7274169921875,
+      0.0
+    ],
+    "max": [
+      29.48712921142578,
+      15.7274169921875,
+      36.62217330932617
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pot_Holder.SM_Pot_Holder": {
+    "min": [
+      -62.293212890625,
+      -2.05029296875,
+      -8.009048461914062
+    ],
+    "max": [
+      62.29327392578125,
+      3.5491943359375,
+      3.2183399200439453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pot01.SM_Pot01": {
+    "min": [
+      -19.682388305664062,
+      -24.68023681640625,
+      0.3463134765625
+    ],
+    "max": [
+      19.68238067626953,
+      24.68023681640625,
+      38.73417663574219
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pot02.SM_Pot02": {
+    "min": [
+      -19.682388305664062,
+      -24.12298583984375,
+      0.48749542236328125
+    ],
+    "max": [
+      19.68238067626953,
+      24.12298583984375,
+      32.1426887512207
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pot03.SM_Pot03": {
+    "min": [
+      -19.5671443939209,
+      -21.56549072265625,
+      0.0
+    ],
+    "max": [
+      19.567148208618164,
+      50.19366455078125,
+      26.306825637817383
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Ladel01.SM_Ladel01": {
+    "min": [
+      -9.7513427734375,
+      -10.343475341796875,
+      -2.479562759399414
+    ],
+    "max": [
+      9.7513427734375,
+      10.343475341796875,
+      48.62229347229004
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Ladel02.SM_Ladel02": {
+    "min": [
+      -8.18017578125,
+      -1.8031005859375,
+      -8.20679759979248
+    ],
+    "max": [
+      8.18017578125,
+      2.02703857421875,
+      37.24232578277588
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Shelf.SM_Kitchen_Shelf": {
+    "min": [
+      -39.20904541015625,
+      -21.1636962890625,
+      -3.5987510681152344
+    ],
+    "max": [
+      39.20904541015625,
+      21.1636962890625,
+      3.6407928466796875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Timer.SM_Timer": {
+    "min": [
+      -7.984496116638184,
+      -8.041748046875,
+      0.08001708984375
+    ],
+    "max": [
+      7.984495162963867,
+      8.041748046875,
+      16.969600677490234
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Blender.SM_Blender": {
+    "min": [
+      -14.73333740234375,
+      -14.73333740234375,
+      -0.6521453857421875
+    ],
+    "max": [
+      22.94945526123047,
+      14.98602294921875,
+      72.41572570800781
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Clock.SM_Clock": {
+    "min": [
+      -22.666908264160156,
+      -9.921142578125,
+      -22.666912078857422
+    ],
+    "max": [
+      22.666927337646484,
+      11.63330078125,
+      22.666912078857422
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Glass_Jar_A.SM_Glass_Jar_A": {
+    "min": [
+      -11.97039794921875,
+      -11.97039794921875,
+      -1.3696651458740234
+    ],
+    "max": [
+      11.970458984375,
+      11.97039794921875,
+      34.02775764465332
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Dining_Set_Bowl.SM_Dining_Set_Bowl": {
+    "min": [
+      -28.98199462890625,
+      -28.982006072998047,
+      -0.48003387451171875
+    ],
+    "max": [
+      28.98199462890625,
+      28.982006072998047,
+      9.411567687988281
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Countertop_C.SM_Kitchen_Countertop_C": {
+    "min": [
+      -162.96157836914062,
+      -53.47946548461914,
+      51.065673828125
+    ],
+    "max": [
+      194.64889526367188,
+      52.575374603271484,
+      60.493743896484375
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Countertop_A.SM_Kitchen_Countertop_A": {
+    "min": [
+      -160.158447265625,
+      -53.479522705078125,
+      -55.79022216796875
+    ],
+    "max": [
+      194.10076904296875,
+      53.89398956298828,
+      55.79022216796875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Wood_Bowl_A.SM_Wood_Bowl_A": {
+    "min": [
+      -12.385876655578613,
+      -12.437238693237305,
+      -5.004059791564941
+    ],
+    "max": [
+      12.385876655578613,
+      12.437238693237305,
+      5.004059791564941
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Cutting_Board.SM_Cutting_Board": {
+    "min": [
+      -25.647991180419922,
+      -18.04646110534668,
+      -1.5003269910812378
+    ],
+    "max": [
+      25.647991180419922,
+      18.04646110534668,
+      1.5003267526626587
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Ceramic_Bottle_A.SM_Ceramic_Bottle_A": {
+    "min": [
+      -4.083834171295166,
+      -4.10189151763916,
+      -12.752674102783203
+    ],
+    "max": [
+      4.083834171295166,
+      4.10189151763916,
+      12.752674102783203
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Ceramic_Bottle_B.SM_Ceramic_Bottle_B": {
+    "min": [
+      -7.855250358581543,
+      -7.83606481552124,
+      -17.000377655029297
+    ],
+    "max": [
+      7.855250358581543,
+      7.83606481552124,
+      17.000377655029297
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Wooden_Bowl_B.SM_Wooden_Bowl_B": {
+    "min": [
+      -5.242461204528809,
+      -5.275662899017334,
+      -3.7500407695770264
+    ],
+    "max": [
+      5.242461204528809,
+      5.275662899017334,
+      3.7500407695770264
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Sticky_Note.SM_Sticky_Note": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Door_Frame.SM_Door_Frame": {
+    "min": [
+      -4.2835693359375,
+      -125.46312713623047,
+      0.0
+    ],
+    "max": [
+      0.0,
+      9.942726135253906,
+      270.5281982421875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Vintage_Dining_Table.SM_Vintage_Dining_Table": {
+    "min": [
+      -75.03182983398438,
+      -104.36865997314453,
+      -0.5847969055175781
+    ],
+    "max": [
+      75.03182983398438,
+      104.36869049072266,
+      101.56256484985352
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Vintage_Chair.SM_Vintage_Chair": {
+    "min": [
+      -34.80046081542969,
+      -41.278076171875,
+      -0.07465362548828125
+    ],
+    "max": [
+      34.75220489501953,
+      40.46943664550781,
+      130.31018829345703
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Props_B_Cookie_Jar.SM_Kitchen_Props_B_Cookie_Jar": {
+    "min": [
+      -12.659457206726074,
+      -12.659472465515137,
+      -0.011920928955078125
+    ],
+    "max": [
+      12.6594877243042,
+      12.659476280212402,
+      33.90336608886719
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Plate_Mug_Bowl_A.SM_Plate_Mug_Bowl_A": {
+    "min": [
+      -11.68997859954834,
+      -11.68997859954834,
+      0.0
+    ],
+    "max": [
+      11.689972877502441,
+      11.68997859954834,
+      9.827293395996094
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Plate_Mug_Plate_A.SM_Plate_Mug_Plate_A": {
+    "min": [
+      -16.736597061157227,
+      -16.73661231994629,
+      -0.5755016803741455
+    ],
+    "max": [
+      16.73661994934082,
+      16.73661994934082,
+      3.974714994430542
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Fork.SM_Fork": {
+    "min": [
+      -1.7848037481307983,
+      -13.360909461975098,
+      -0.2859087586402893
+    ],
+    "max": [
+      1.7847989797592163,
+      13.36091136932373,
+      1.6759349703788757
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Glass_Cup_A.SM_Glass_Cup_A": {
+    "min": [
+      -4.443359375,
+      -4.443359375,
+      -0.07394790649414062
+    ],
+    "max": [
+      4.4433746337890625,
+      4.443359375,
+      18.75543785095215
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Knife.SM_Knife": {
+    "min": [
+      -1.5692503452301025,
+      -14.774174690246582,
+      -0.2859819531440735
+    ],
+    "max": [
+      1.5692245960235596,
+      14.774176597595215,
+      0.9257437586784363
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Props_B_Spoon.SM_Props_B_Spoon": {
+    "min": [
+      -2.2903811931610107,
+      -11.76478099822998,
+      -0.2421208620071411
+    ],
+    "max": [
+      2.2903764247894287,
+      11.76478099822998,
+      1.5715514421463013
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Mug_A.SM_Mug_A": {
+    "min": [
+      -5.615068435668945,
+      -5.73012638092041,
+      0.0
+    ],
+    "max": [
+      10.068944931030273,
+      5.499991416931152,
+      12.798606872558594
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Napkin_Folded.SM_Napkin_Folded": {
+    "min": [
+      -9.980932235717773,
+      -20.934696197509766,
+      -0.4334273934364319
+    ],
+    "max": [
+      9.883800506591797,
+      19.290775299072266,
+      0.48367995023727417
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Spoon_Jar.SM_Spoon_Jar": {
+    "min": [
+      -8.393070220947266,
+      -8.393070220947266,
+      -9.5367431640625e-07
+    ],
+    "max": [
+      8.393058776855469,
+      8.393070220947266,
+      25.76418972015381
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Placemat.SM_Placemat": {
+    "min": [
+      -27.065969467163086,
+      -36.93812561035156,
+      -0.4554911255836487
+    ],
+    "max": [
+      26.705835342407227,
+      36.93812561035156,
+      0.859122097492218
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM__Drawing_C.SM__Drawing_C": {
+    "min": [
+      -12.712960243225098,
+      -16.452064514160156,
+      -1.0073984129052864e-15
+    ],
+    "max": [
+      12.712960243225098,
+      16.452064514160156,
+      1.0073984129052864e-15
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM__Drawing_B.SM__Drawing_B": {
+    "min": [
+      -12.712960243225098,
+      -16.452064514160156,
+      -1.0073984129052864e-15
+    ],
+    "max": [
+      12.712960243225098,
+      16.452064514160156,
+      1.0073984129052864e-15
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM__Drawing_D.SM__Drawing_D": {
+    "min": [
+      -12.712960243225098,
+      -16.452064514160156,
+      -1.0073984129052864e-15
+    ],
+    "max": [
+      12.712960243225098,
+      16.452064514160156,
+      1.0073984129052864e-15
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM__Drawing_A.SM__Drawing_A": {
+    "min": [
+      -12.712960243225098,
+      -16.452064514160156,
+      -1.0073984129052864e-15
+    ],
+    "max": [
+      12.712960243225098,
+      16.452064514160156,
+      1.0073984129052864e-15
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Fridge_Magnet_A.SM_Fridge_Magnet_A": {
+    "min": [
+      -1.403770923614502,
+      -1.3960814476013184,
+      -0.17709071934223175
+    ],
+    "max": [
+      1.4037704467773438,
+      1.396080493927002,
+      0.17709054052829742
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Broom.SM_Broom": {
+    "min": [
+      -2.394939422607422,
+      -22.29888153076172,
+      -0.7551422119140625
+    ],
+    "max": [
+      2.399211883544922,
+      22.46295928955078,
+      147.3094482421875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan01.SM_FoodCan01": {
+    "min": [
+      -5.166306495666504,
+      -5.166343688964844,
+      -0.15125322341918945
+    ],
+    "max": [
+      5.166387557983398,
+      5.166378021240234,
+      15.004163265228271
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan02.SM_FoodCan02": {
+    "min": [
+      -5.1665730476379395,
+      -5.166546821594238,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.166589260101318,
+      5.166540145874023,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan03.SM_FoodCan03": {
+    "min": [
+      -5.163516998291016,
+      -5.163486003875732,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.163522720336914,
+      5.163519382476807,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan04.SM_FoodCan04": {
+    "min": [
+      -5.1633172035217285,
+      -5.1633172035217285,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.163341045379639,
+      5.1633124351501465,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan05.SM_FoodCan05": {
+    "min": [
+      -5.161607265472412,
+      -5.161586284637451,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.161610126495361,
+      5.161590099334717,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan06.SM_FoodCan06": {
+    "min": [
+      -5.164133548736572,
+      -5.1641035079956055,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.164135456085205,
+      5.164162635803223,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan07.SM_FoodCan07": {
+    "min": [
+      -5.159710884094238,
+      -5.159731864929199,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.159712791442871,
+      5.159728050231934,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan08.SM_FoodCan08": {
+    "min": [
+      -5.166174411773682,
+      -5.166163921356201,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.166188716888428,
+      5.166164875030518,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodCan09.SM_FoodCan09": {
+    "min": [
+      -5.164133548736572,
+      -5.1641130447387695,
+      -0.15713167190551758
+    ],
+    "max": [
+      5.164135456085205,
+      5.164153099060059,
+      14.998284816741943
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Curtain_A.SM_Curtain_A": {
+    "min": [
+      -3.7089996337890625,
+      -48.090476989746094,
+      -35.009098052978516
+    ],
+    "max": [
+      3.708995819091797,
+      48.090476989746094,
+      35.00910568237305
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Curtain_Towels_Towel_A.SM_Curtain_Towels_Towel_A": {
+    "min": [
+      -2.4491119384765625,
+      -9.090829849243164,
+      -16.04574966430664
+    ],
+    "max": [
+      2.4491119384765625,
+      9.090829849243164,
+      16.045753479003906
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Curtain_Towels_Towel_B.SM_Curtain_Towels_Towel_B": {
+    "min": [
+      -2.7096710205078125,
+      -10.593841552734375,
+      -16.043079376220703
+    ],
+    "max": [
+      2.709674835205078,
+      10.593841552734375,
+      16.043075561523438
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Cereal_Box_B.SM_Cereal_Box_B": {
+    "min": [
+      -3.8215866088867188,
+      -12.309450149536133,
+      0.06030082702636719
+    ],
+    "max": [
+      3.8215789794921875,
+      12.309450149536133,
+      35.95845985412598
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Cereal_Box.SM_Cereal_Box": {
+    "min": [
+      -3.82159423828125,
+      -12.309450149536133,
+      0.06030082702636719
+    ],
+    "max": [
+      3.8215713500976562,
+      12.309450149536133,
+      35.95845985412598
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Cereal_Box_C.SM_Cereal_Box_C": {
+    "min": [
+      -3.82159423828125,
+      -12.309450149536133,
+      0.06030082702636719
+    ],
+    "max": [
+      3.8215713500976562,
+      12.309450149536133,
+      35.95845985412598
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Chandelier.SM_Kitchen_Chandelier": {
+    "min": [
+      -27.143678665161133,
+      -27.143678665161133,
+      -92.77845001220703
+    ],
+    "max": [
+      27.143678665161133,
+      27.143678665161133,
+      0.7293624877929688
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen.SM_Kitchen": {
+    "min": [
+      -103.45470428466797,
+      -50.467803955078125,
+      1.921013355255127
+    ],
+    "max": [
+      103.44979095458984,
+      50.311439514160156,
+      3.4912195205688477
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Trash_Can.SM_Trash_Can": {
+    "min": [
+      -17.797542572021484,
+      -23.658906936645508,
+      0.0
+    ],
+    "max": [
+      17.429912567138672,
+      23.721670150756836,
+      59.14561080932617
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_06.SM_StickyNotes_06": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_05.SM_StickyNotes_05": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_04.SM_StickyNotes_04": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_03.SM_StickyNotes_03": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_02.SM_StickyNotes_02": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_StickyNotes_01.SM_StickyNotes_01": {
+    "min": [
+      -5.684887886047363,
+      -2.4199981689453125,
+      -4.67387580871582
+    ],
+    "max": [
+      6.642895698547363,
+      2.1848812103271484,
+      6.536426544189453
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bottles_07.SM_Bottles_07": {
+    "min": [
+      -3.348358154296875,
+      -3.34765625,
+      0.026123046875
+    ],
+    "max": [
+      3.348358154296875,
+      3.39111328125,
+      29.510650634765625
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bottles_05.SM_Bottles_05": {
+    "min": [
+      -4.598602294921875,
+      -4.599365234375,
+      0.073516845703125
+    ],
+    "max": [
+      4.598602294921875,
+      4.598388671875,
+      30.141632080078125
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bread.SM_Bread": {
+    "min": [
+      -8.18280029296875,
+      -9.353515625,
+      0.03958892822265625
+    ],
+    "max": [
+      8.52349853515625,
+      8.911069869995117,
+      2.5891666412353516
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Candle.SM_Candle": {
+    "min": [
+      -8.246482849121094,
+      -8.749436378479004,
+      0.0
+    ],
+    "max": [
+      8.246551513671875,
+      7.743807792663574,
+      37.49009704589844
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bottles_02.SM_Bottles_02": {
+    "min": [
+      -2.91778564453125,
+      -2.91748046875,
+      -0.0001220703125
+    ],
+    "max": [
+      2.91778564453125,
+      2.998544692993164,
+      38.868316650390625
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_02.SM_FlowerPot_02": {
+    "min": [
+      -13.984375,
+      -13.907886505126953,
+      0.417999267578125
+    ],
+    "max": [
+      13.984130859375,
+      13.907886505126953,
+      22.148887634277344
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Apple_01.SM_Food_SM_Apple_01": {
+    "min": [
+      -3.9681501388549805,
+      -3.9472782611846924,
+      -0.3455009460449219
+    ],
+    "max": [
+      3.9162449836730957,
+      3.897383451461792,
+      8.190690994262695
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Apple_02.SM_Food_SM_Apple_02": {
+    "min": [
+      -4.48370885848999,
+      -3.3386049270629883,
+      -0.07128190994262695
+    ],
+    "max": [
+      4.437153339385986,
+      5.613981246948242,
+      8.532588481903076
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Pear.SM_Food_SM_Pear": {
+    "min": [
+      -5.347194671630859,
+      -4.195873260498047,
+      -0.8845539093017578
+    ],
+    "max": [
+      4.547957420349121,
+      5.273410797119141,
+      13.80876636505127
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Banana.SM_Food_SM_Banana": {
+    "min": [
+      -10.894316673278809,
+      -3.5854990482330322,
+      -0.09534430503845215
+    ],
+    "max": [
+      10.780964851379395,
+      4.348113775253296,
+      3.7113142013549805
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Carrot_02.SM_Food_SM_Carrot_02": {
+    "min": [
+      -2.320829391479492,
+      -6.304755210876465,
+      -0.979312539100647
+    ],
+    "max": [
+      1.8643145561218262,
+      6.774319648742676,
+      3.197900176048279
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Carrot_01.SM_Food_SM_Carrot_01": {
+    "min": [
+      -1.693861961364746,
+      -10.272600173950195,
+      -0.7204673290252686
+    ],
+    "max": [
+      1.6401739120483398,
+      10.725290298461914,
+      2.7659547328948975
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Clementine.SM_Food_SM_Clementine": {
+    "min": [
+      -3.566762924194336,
+      -3.434767723083496,
+      -0.20586490631103516
+    ],
+    "max": [
+      3.3578314781188965,
+      3.3895773887634277,
+      6.010272979736328
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Egg.SM_Food_SM_Egg": {
+    "min": [
+      -8.460906028747559,
+      -7.654425621032715,
+      -0.4155508875846863
+    ],
+    "max": [
+      8.034712791442871,
+      8.868695259094238,
+      0.7721922993659973
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Garlic.SM_Food_SM_Garlic": {
+    "min": [
+      -4.615581512451172,
+      -4.362958908081055,
+      -0.4825272560119629
+    ],
+    "max": [
+      4.230642318725586,
+      4.567226409912109,
+      7.094991683959961
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Lemon.SM_Food_SM_Lemon": {
+    "min": [
+      -4.102560520172119,
+      -2.3652994632720947,
+      -0.15668797492980957
+    ],
+    "max": [
+      3.910351276397705,
+      3.917327642440796,
+      5.772135496139526
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pepper_03.SM_Pepper_03": {
+    "min": [
+      -4.066530704498291,
+      -4.6981635093688965,
+      -0.17181158065795898
+    ],
+    "max": [
+      5.8320794105529785,
+      4.725487232208252,
+      11.329626560211182
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pepper_02.SM_Pepper_02": {
+    "min": [
+      -5.1824951171875,
+      -5.433465480804443,
+      -0.060779571533203125
+    ],
+    "max": [
+      5.643211364746094,
+      5.425568103790283,
+      10.955501556396484
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Pepper_01.SM_Pepper_01": {
+    "min": [
+      -4.220633029937744,
+      -4.697373390197754,
+      -0.21027803421020508
+    ],
+    "max": [
+      5.677977085113525,
+      4.7262773513793945,
+      11.006844997406006
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_07.SM_FoodPot_07": {
+    "min": [
+      -4.777494430541992,
+      -4.77740478515625,
+      0.0
+    ],
+    "max": [
+      4.777496337890625,
+      4.77752685546875,
+      10.781576156616211
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_06.SM_FoodPot_06": {
+    "min": [
+      -4.19036865234375,
+      -4.19036865234375,
+      0.0
+    ],
+    "max": [
+      4.19036865234375,
+      4.1903076171875,
+      8.763284683227539
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_11.SM_FoodPot_11": {
+    "min": [
+      -3.717315673828125,
+      -3.71734619140625,
+      0.0
+    ],
+    "max": [
+      3.717315673828125,
+      3.7174072265625,
+      11.892261505126953
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_12.SM_FoodPot_12": {
+    "min": [
+      -5.9820556640625,
+      -5.9820556640625,
+      0.0
+    ],
+    "max": [
+      5.9820556640625,
+      5.9820556640625,
+      13.527145385742188
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_13.SM_FoodPot_13": {
+    "min": [
+      -4.5313568115234375,
+      -4.531494140625,
+      -2.86102294921875e-06
+    ],
+    "max": [
+      4.5313568115234375,
+      4.5313720703125,
+      17.821240425109863
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_09.SM_FoodPot_09": {
+    "min": [
+      -5.4219818115234375,
+      -5.33331298828125,
+      -8.869171142578125e-05
+    ],
+    "max": [
+      5.424407958984375,
+      5.32940673828125,
+      13.082871437072754
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_08.SM_FoodPot_08": {
+    "min": [
+      -6.075076103210449,
+      -6.20489501953125,
+      -0.19880104064941406
+    ],
+    "max": [
+      6.075075149536133,
+      6.204833984375,
+      12.683177947998047
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_02.SM_FoodPot_02": {
+    "min": [
+      -6.9381866455078125,
+      -3.194091796875,
+      -9.5367431640625e-07
+    ],
+    "max": [
+      6.9381866455078125,
+      3.19403076171875,
+      21.4026460647583
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_03.SM_FoodPot_03": {
+    "min": [
+      -5.3946533203125,
+      -5.30340576171875,
+      -0.40249156951904297
+    ],
+    "max": [
+      5.3946533203125,
+      5.293421745300293,
+      17.411059379577637
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_04.SM_FoodPot_04": {
+    "min": [
+      -5.2108154296875,
+      -5.2108154296875,
+      0.0
+    ],
+    "max": [
+      5.2108154296875,
+      5.331358909606934,
+      17.57790756225586
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_KitchenUstensil_Knife.SM_KitchenUstensil_Knife": {
+    "min": [
+      -24.538677215576172,
+      -1.6011962890625,
+      0.8580470085144043
+    ],
+    "max": [
+      31.228031158447266,
+      1.6011962890625,
+      9.476033687591553
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Glove.SM_Glove": {
+    "min": [
+      -6.805821895599365,
+      -2.221923828125,
+      -0.004337310791015625
+    ],
+    "max": [
+      14.282379627227783,
+      2.221923828125,
+      25.28141212463379
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Soap_01.SM_Soap_01": {
+    "min": [
+      -5.0427937507629395,
+      -3.1575286388397217,
+      -1.1920928955078125e-07
+    ],
+    "max": [
+      5.0427937507629395,
+      3.1575329303741455,
+      2.803723692893982
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Sponge_01.SM_Sponge_01": {
+    "min": [
+      -5.749999523162842,
+      -3.843698501586914,
+      -0.17127776145935059
+    ],
+    "max": [
+      5.749999523162842,
+      3.843698501586914,
+      2.45499324798584
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_SaucePan_Black_Pan_01.SM_SaucePan_Black_Pan_01": {
+    "min": [
+      -15.574322700500488,
+      -15.57427978515625,
+      0.21039295196533203
+    ],
+    "max": [
+      44.65892314910889,
+      15.57427978515625,
+      8.437514305114746
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_SmallTable_01.SM_SmallTable_01": {
+    "min": [
+      -45.03852462768555,
+      -81.52547454833984,
+      0.0
+    ],
+    "max": [
+      45.03862380981445,
+      81.52542877197266,
+      45.474666595458984
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Microwave.SM_Microwave": {
+    "min": [
+      -29.364492416381836,
+      -21.273500442504883,
+      1.9073486328125e-06
+    ],
+    "max": [
+      41.00631904602051,
+      29.70603370666504,
+      39.32589149475098
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_KitchenUstensil_Roll.SM_KitchenUstensil_Roll": {
+    "min": [
+      -28.318246841430664,
+      -4.868895053863525,
+      -4.76837158203125e-07
+    ],
+    "max": [
+      28.318349838256836,
+      4.86890172958374,
+      9.737574100494385
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_14.SM_FoodPot_14": {
+    "min": [
+      -7.9128570556640625,
+      -7.912841796875,
+      0.0
+    ],
+    "max": [
+      7.9128570556640625,
+      7.912841796875,
+      24.970918655395508
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_06.SM_Frames_06": {
+    "min": [
+      -0.695949912071228,
+      -12.259231567382812,
+      -0.3209114074707031
+    ],
+    "max": [
+      0.6959500312805176,
+      12.259231567382812,
+      27.025997161865234
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_05.SM_Frames_05": {
+    "min": [
+      -1.000553846359253,
+      -16.915084838867188,
+      -3.814697265625e-06
+    ],
+    "max": [
+      1.000553846359253,
+      16.915084838867188,
+      37.25101089477539
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_03.SM_Frames_03": {
+    "min": [
+      -1.000553846359253,
+      -18.42034912109375,
+      -1.9073486328125e-06
+    ],
+    "max": [
+      1.000553846359253,
+      18.42035675048828,
+      40.39348793029785
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Food_SM_Waffle.SM_Food_SM_Waffle": {
+    "min": [
+      -14.58383560180664,
+      -10.064231872558594,
+      -0.3284529447555542
+    ],
+    "max": [
+      12.674095153808594,
+      10.100433349609375,
+      4.008559346199036
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowersPlant_02.SM_FlowersPlant_02": {
+    "min": [
+      -27.367813110351562,
+      -24.090944290161133,
+      -3.814697265625e-06
+    ],
+    "max": [
+      28.660247802734375,
+      26.610074996948242,
+      32.63207244873047
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_KitchenUstensil_Spoon.SM_KitchenUstensil_Spoon": {
+    "min": [
+      -24.590787887573242,
+      -4.809154510498047,
+      -0.09362542629241943
+    ],
+    "max": [
+      24.45884895324707,
+      4.809152603149414,
+      3.045711398124695
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Radio.SM_Radio": {
+    "min": [
+      -21.343299865722656,
+      -10.743160247802734,
+      -0.3854789733886719
+    ],
+    "max": [
+      21.343299865722656,
+      12.107929229736328,
+      41.245975494384766
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bottles_06.SM_Bottles_06": {
+    "min": [
+      -4.001220703125,
+      -4.039551258087158,
+      -3.0517578125e-05
+    ],
+    "max": [
+      4.001220703125,
+      4.015380382537842,
+      25.141021728515625
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_KitchenUstensil_Whip.SM_KitchenUstensil_Whip": {
+    "min": [
+      -24.562885284423828,
+      -5.20352840423584,
+      -0.35187387466430664
+    ],
+    "max": [
+      31.371234893798828,
+      5.368582725524902,
+      10.21289873123169
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FoodPot_05.SM_FoodPot_05": {
+    "min": [
+      -4.143035888671875,
+      -4.14288330078125,
+      7.62939453125e-06
+    ],
+    "max": [
+      4.143035888671875,
+      4.14306640625,
+      20.212848663330078
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Carpet_01.SM_Carpet_01": {
+    "min": [
+      -112.49490356445312,
+      -112.49491882324219,
+      0.00027310848236083984
+    ],
+    "max": [
+      112.494873046875,
+      112.49488830566406,
+      2.739235997200012
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Carpet_04.SM_Carpet_04": {
+    "min": [
+      -62.072052001953125,
+      -102.73751068115234,
+      0.00017759203910827637
+    ],
+    "max": [
+      62.072052001953125,
+      102.73751068115234,
+      0.6962566673755646
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Light_Bulb.SM_Light_Bulb": {
+    "min": [
+      -14.22113037109375,
+      -14.2547607421875,
+      -35.44287109375
+    ],
+    "max": [
+      14.39898681640625,
+      14.36273193359375,
+      1.12530517578125
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_04.SM_Frames_04": {
+    "min": [
+      -1.000553846359253,
+      -16.91508674621582,
+      -3.814697265625e-06
+    ],
+    "max": [
+      1.000553846359253,
+      16.915082931518555,
+      37.25101089477539
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Kitchen_Curtain.SM_Kitchen_Curtain": {
+    "min": [
+      3.76846981048584,
+      -86.52413940429688,
+      -43.63705062866211
+    ],
+    "max": [
+      9.612771034240723,
+      120.85472106933594,
+      42.56966018676758
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Curtain_Rod.SM_Curtain_Rod": {
+    "min": [
+      -3.64678692817688,
+      -142.1339569091797,
+      -3.64678955078125
+    ],
+    "max": [
+      3.6467864513397217,
+      142.1339569091797,
+      3.64678955078125
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_02.SM_Frames_02": {
+    "min": [
+      -1.000553846359253,
+      -35.671241760253906,
+      -3.814697265625e-06
+    ],
+    "max": [
+      1.000553846359253,
+      35.671234130859375,
+      40.68966293334961
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_01.SM_FlowerPot_01": {
+    "min": [
+      -11.7802734375,
+      -11.7801513671875,
+      -0.0002593994140625
+    ],
+    "max": [
+      11.7802734375,
+      11.7801513671875,
+      17.74285888671875
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_04.SM_FlowerPot_04": {
+    "min": [
+      -11.563720703125,
+      -11.563743591308594,
+      0.00487518310546875
+    ],
+    "max": [
+      11.56396484375,
+      11.563751220703125,
+      45.502037048339844
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_03.SM_FlowerPot_03": {
+    "min": [
+      -10.14794921875,
+      -10.208267211914062,
+      0.2692718505859375
+    ],
+    "max": [
+      10.228271484375,
+      10.208267211914062,
+      45.47157287597656
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_07.SM_FlowerPot_07": {
+    "min": [
+      -14.369384765625,
+      -14.290794372558594,
+      0.0
+    ],
+    "max": [
+      14.369384765625,
+      14.290817260742188,
+      51.695457458496094
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowersPlant_03.SM_FlowersPlant_03": {
+    "min": [
+      -11.229732513427734,
+      -14.384883880615234,
+      -0.7147712707519531
+    ],
+    "max": [
+      8.76547622680664,
+      10.79802131652832,
+      58.24433898925781
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowersPlant_01.SM_FlowersPlant_01": {
+    "min": [
+      -11.070701599121094,
+      -11.07054328918457,
+      0.0
+    ],
+    "max": [
+      11.070693969726562,
+      11.070920944213867,
+      53.36315155029297
+    ]
+  },
+  "/Engine/BasicShapes/Sphere.Sphere": {
+    "min": [
+      -50.0,
+      -49.999996185302734,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.000003814697266,
+      50.0
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Carpet_05.SM_Carpet_05": {
+    "min": [
+      -69.47732543945312,
+      -104.32825469970703,
+      0.00011587142944335938
+    ],
+    "max": [
+      69.47731018066406,
+      104.32825469970703,
+      1.1584417819976807
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_01.SM_Book_01": {
+    "min": [
+      -12.187140464782715,
+      -9.4995756149292,
+      -0.09243118762969971
+    ],
+    "max": [
+      13.709900856018066,
+      9.236588478088379,
+      3.993376135826111
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_02.SM_Book_02": {
+    "min": [
+      -12.187140464782715,
+      -9.05181884765625,
+      -0.11056780815124512
+    ],
+    "max": [
+      13.709900856018066,
+      9.684345245361328,
+      4.729877233505249
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_BookOpen_01.SM_BookOpen_01": {
+    "min": [
+      -11.763851165771484,
+      -19.206804275512695,
+      -0.19544684886932373
+    ],
+    "max": [
+      13.618743896484375,
+      19.206804275512695,
+      4.0013686418533325
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Crayon01.SM_Crayon01": {
+    "min": [
+      -8.406984329223633,
+      -0.4779798090457916,
+      0.14080697298049927
+    ],
+    "max": [
+      9.479839324951172,
+      0.6302251517772675,
+      1.2321131825447083
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Crayon02.SM_Crayon02": {
+    "min": [
+      -8.406984329223633,
+      -0.5541024804115295,
+      0.14080697298049927
+    ],
+    "max": [
+      9.479839324951172,
+      0.5541024804115295,
+      1.2321131825447083
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Crayon03.SM_Crayon03": {
+    "min": [
+      -8.406984329223633,
+      -0.4540940821170807,
+      0.14080697298049927
+    ],
+    "max": [
+      9.479839324951172,
+      0.6541107594966888,
+      1.2321131825447083
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Crayon04.SM_Crayon04": {
+    "min": [
+      -8.406984329223633,
+      -0.3951529264450073,
+      0.14080697298049927
+    ],
+    "max": [
+      9.479839324951172,
+      0.7130519151687622,
+      1.2321131825447083
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Frames_08.SM_Frames_08": {
+    "min": [
+      -10.496718406677246,
+      -16.915084838867188,
+      -0.028903961181640625
+    ],
+    "max": [
+      10.496718406677246,
+      16.91510009765625,
+      36.12187576293945
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Scotch.SM_Scotch": {
+    "min": [
+      -12.61298942565918,
+      -4.210780143737793,
+      0.11668968200683594
+    ],
+    "max": [
+      14.400344848632812,
+      4.210780143737793,
+      15.531791687011719
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_FlowerPot_05.SM_FlowerPot_05": {
+    "min": [
+      -8.839599609375,
+      -8.840011596679688,
+      0.294952392578125
+    ],
+    "max": [
+      8.84033203125,
+      8.840011596679688,
+      34.891265869140625
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_03.SM_Book_03": {
+    "min": [
+      -12.187140464782715,
+      -9.05181884765625,
+      -0.13160181045532227
+    ],
+    "max": [
+      13.709900856018066,
+      9.684345245361328,
+      5.34420108795166
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Letter_01.SM_Letter_01": {
+    "min": [
+      -16.814821243286133,
+      -25.156635284423828,
+      0.10705375671386719
+    ],
+    "max": [
+      17.306150436401367,
+      24.66347885131836,
+      2.6786208152770996
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Letter_02.SM_Letter_02": {
+    "min": [
+      -13.068599700927734,
+      -18.544225692749023,
+      0.08031755685806274
+    ],
+    "max": [
+      12.93701171875,
+      18.538358688354492,
+      1.712954342365265
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Letter_03.SM_Letter_03": {
+    "min": [
+      -15.753475189208984,
+      -24.498722076416016,
+      0.0560571551322937
+    ],
+    "max": [
+      15.770668029785156,
+      24.068809509277344,
+      1.6237264275550842
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_TableBasse_01.SM_TableBasse_01": {
+    "min": [
+      -37.18235778808594,
+      -27.711021423339844,
+      -0.48062896728515625
+    ],
+    "max": [
+      37.64656066894531,
+      31.52203369140625,
+      83.7551498413086
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bookshelf.SM_Bookshelf": {
+    "min": [
+      -72.79999542236328,
+      -39.0,
+      0.0
+    ],
+    "max": [
+      72.79999542236328,
+      13.987442016601562,
+      265.0362243652344
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book01.SM_Book01": {
+    "min": [
+      -2.3999996185302734,
+      -8.908403396606445,
+      -2.86102294921875e-06
+    ],
+    "max": [
+      2.3999996185302734,
+      9.639516830444336,
+      31.99999713897705
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book02.SM_Book02": {
+    "min": [
+      -3.119999647140503,
+      -9.936758995056152,
+      -3.814697265625e-06
+    ],
+    "max": [
+      3.119999647140503,
+      10.730198860168457,
+      35.12075424194336
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book03.SM_Book03": {
+    "min": [
+      -0.9599986672401428,
+      -8.908403396606445,
+      -2.86102294921875e-06
+    ],
+    "max": [
+      0.9600010514259338,
+      9.639516830444336,
+      31.99999713897705
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book04.SM_Book04": {
+    "min": [
+      -3.119999647140503,
+      -8.908406257629395,
+      -1.9073486328125e-06
+    ],
+    "max": [
+      3.119999647140503,
+      9.639517784118652,
+      31.999998092651367
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_04.SM_Book_04": {
+    "min": [
+      -12.187140464782715,
+      -9.05181884765625,
+      -0.08812069892883301
+    ],
+    "max": [
+      13.709900856018066,
+      9.684345245361328,
+      3.8183324337005615
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_06.SM_Book_06": {
+    "min": [
+      -12.187140464782715,
+      -9.05181884765625,
+      -0.10644030570983887
+    ],
+    "max": [
+      13.709900856018066,
+      9.684345245361328,
+      4.562268018722534
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Book_05.SM_Book_05": {
+    "min": [
+      -12.187140464782715,
+      -9.05181884765625,
+      -0.09243118762969971
+    ],
+    "max": [
+      13.709900856018066,
+      9.684345245361328,
+      3.993376135826111
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_TableMin.SM_TableMin": {
+    "min": [
+      -38.875736236572266,
+      -26.955514907836914,
+      -0.19727325439453125
+    ],
+    "max": [
+      38.85991287231445,
+      26.959016799926758,
+      48.39610290527344
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathtub.SM_Bathtub": {
+    "min": [
+      -152.94659423828125,
+      -91.95931243896484,
+      -1.64447021484375
+    ],
+    "max": [
+      155.60772705078125,
+      91.9599380493164,
+      135.50367736816406
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Toilet.SM_Toilet": {
+    "min": [
+      -51.115394592285156,
+      -63.5721435546875,
+      0.4968109130859375
+    ],
+    "max": [
+      51.11540985107422,
+      63.5721435546875,
+      149.97036743164062
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathroom_Sink.SM_Bathroom_Sink": {
+    "min": [
+      -64.51278686523438,
+      -50.656002044677734,
+      1.28912353515625
+    ],
+    "max": [
+      64.5128173828125,
+      50.656002044677734,
+      151.05221557617188
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_BTWindow.SM_BTWindow": {
+    "min": [
+      -52.229583740234375,
+      -18.306640625,
+      -57.217445373535156
+    ],
+    "max": [
+      52.2296142578125,
+      18.306640625,
+      57.21745300292969
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Bathroom_Water_Glass.SM_Bathroom_Water_Glass": {
+    "min": [
+      -6.891334533691406,
+      -6.8915863037109375,
+      0.13349342346191406
+    ],
+    "max": [
+      6.891334533691406,
+      6.891151428222656,
+      16.130990982055664
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Shower_Head.SM_Shower_Head": {
+    "min": [
+      -11.69683837890625,
+      -13.6575927734375,
+      -23.175018310546875
+    ],
+    "max": [
+      34.27203369140625,
+      13.658935546875,
+      4.904388427734375
+    ]
+  },
+  "/Game/ExternalAssets/StylizedKitchen/Meshes/SM_Towel_Rack.SM_Towel_Rack": {
+    "min": [
+      -10.895035743713379,
+      -60.50405502319336,
+      -8.85073184967041
+    ],
+    "max": [
+      10.895064353942871,
+      60.50400161743164,
+      8.85074520111084
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_TileFloor.SM_CH_Bath_TileFloor": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackTile.SM_CH_Bath_BackTile": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackUpper.SM_CH_Bath_BackUpper": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_BackTrim.SM_CH_Bath_BackTrim": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftTile.SM_CH_Bath_LeftTile": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftUpper.SM_CH_Bath_LeftUpper": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_LeftTrim.SM_CH_Bath_LeftTrim": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackTile.SM_CH_Bath_RightBackTile": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackUpper.SM_CH_Bath_RightBackUpper": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/SmallBathroom/SM_CH_Bath_RightBackTrim.SM_CH_Bath_RightBackTrim": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  },
+  "/Engine/BasicShapes/Plane.Plane": {
+    "min": [
+      -50.0,
+      -50.0,
+      -8.040613564774899e-15
+    ],
+    "max": [
+      50.0,
+      50.0,
+      8.040613564774899e-15
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorRight.SM_CH_Linear_FloorRight": {
+    "min": [
+      -830.521728515625,
+      -40.0,
+      20.952964782714844
+    ],
+    "max": [
+      913.5302734375,
+      677.5833129882812,
+      20.952964782714844
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorLeft.SM_CH_Linear_FloorLeft": {
+    "min": [
+      -830.521728515625,
+      -40.0,
+      20.952964782714844
+    ],
+    "max": [
+      671.0,
+      677.5833129882812,
+      20.952964782714844
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearRight.SM_CH_Linear_RearRight": {
+    "min": [
+      -830.521728515625,
+      665.0,
+      6.918919563293457
+    ],
+    "max": [
+      913.5302734375,
+      674.373291015625,
+      480.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftA.SM_CH_Linear_RearLeftA": {
+    "min": [
+      -830.521728515625,
+      674.3732299804688,
+      6.918919563293457
+    ],
+    "max": [
+      -374.0,
+      674.373291015625,
+      480.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_RearLeftB.SM_CH_Linear_RearLeftB": {
+    "min": [
+      24.0,
+      674.3732299804688,
+      6.918919563293457
+    ],
+    "max": [
+      671.0,
+      674.373291015625,
+      480.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseRight.SM_CH_Linear_BaseRight": {
+    "min": [
+      -435.6925354003906,
+      660.0,
+      18.63471221923828
+    ],
+    "max": [
+      912.3073120117188,
+      674.2318115234375,
+      32.20783615112305
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseLeftA.SM_CH_Linear_BaseLeftA": {
+    "min": [
+      -435.6925354003906,
+      669.4463500976562,
+      18.63471221923828
+    ],
+    "max": [
+      -374.0,
+      670.19921875,
+      29.92314338684082
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_BaseLeftB.SM_CH_Linear_BaseLeftB": {
+    "min": [
+      24.0,
+      669.4463500976562,
+      18.63471221923828
+    ],
+    "max": [
+      671.0,
+      674.215087890625,
+      32.20783615112305
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownRight.SM_CH_Linear_CrownRight": {
+    "min": [
+      -435.83551025390625,
+      660.0,
+      342.7007751464844
+    ],
+    "max": [
+      912.164306640625,
+      675.477783203125,
+      354.2379455566406
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownLeftA.SM_CH_Linear_CrownLeftA": {
+    "min": [
+      -435.83551025390625,
+      670.6923217773438,
+      344.64190673828125
+    ],
+    "max": [
+      -374.0,
+      671.4469604492188,
+      354.2379455566406
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_CrownLeftB.SM_CH_Linear_CrownLeftB": {
+    "min": [
+      24.0,
+      670.6923217773438,
+      342.7007751464844
+    ],
+    "max": [
+      671.0,
+      675.4610595703125,
+      354.2379455566406
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_LivingEnd.SM_CH_Linear_LivingEnd": {
+    "min": [
+      900.0,
+      -40.0,
+      6.918919563293457
+    ],
+    "max": [
+      913.5302734375,
+      674.3732299804688,
+      480.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_EntryEndBack.SM_CH_Linear_EntryEndBack": {
+    "min": [
+      -830.521728515625,
+      235.0,
+      6.91892147064209
+    ],
+    "max": [
+      -830.521484375,
+      674.373291015625,
+      480.0
+    ]
+  },
+  "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_EntryEndFront.SM_CH_Linear_EntryEndFront": {
+    "min": [
+      -830.521728515625,
+      -40.0,
+      6.91893196105957
+    ],
+    "max": [
+      -830.521484375,
+      70.0,
+      480.0
+    ]
+  },
+  "/Engine/BasicShapes/Cube.Cube": {
+    "min": [
+      -50.0,
+      -50.0,
+      -50.0
+    ],
+    "max": [
+      50.0,
+      50.0,
+      50.0
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "checked_packages": 667,
+  "missing": [],
+  "sandbox": [],
+  "redirectors": [],
+  "blueprints": {
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+    "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_HUD_Linear": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+  },
+  "hud_class": "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_HUD_Linear.BP_CH_HUD_Linear_C",
+  "dirty_maps": [],
+  "dirty_content": []
+}

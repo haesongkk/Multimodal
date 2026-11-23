@@ -1,0 +1,65 @@
+[
+  {
+    "tag": "Home_Pot",
+    "label": "SM_FlowerPot_02",
+    "pos": [
+      1240.0,
+      455.0,
+      39.0
+    ]
+  },
+  {
+    "tag": "Home_Fur",
+    "label": "CH_Minimal_Fur0",
+    "pos": [
+      235.0,
+      295.0,
+      23.8
+    ]
+  },
+  {
+    "tag": "Home_Window",
+    "label": "Assets_Proxy_LR_Window_Proxy",
+    "pos": [
+      1480.4,
+      268.7,
+      209.9
+    ]
+  },
+  {
+    "tag": "Home_Snack",
+    "label": "CH_Minimal_Snack_Bowl",
+    "pos": [
+      -1150.0,
+      220.0,
+      23.0
+    ]
+  },
+  {
+    "tag": "Home_Pawprints",
+    "label": "CH_Minimal_Pawprint0_Pad",
+    "pos": [
+      -195.0,
+      285.0,
+      26.2
+    ]
+  },
+  {
+    "tag": "Home_Door",
+    "label": "Assets_Proxy_Door_Proxy",
+    "pos": [
+      -1830.0,
+      198.0,
+      22.008
+    ]
+  },
+  {
+    "tag": "Home_Exit",
+    "label": "CH_Minimal_ExitTarget",
+    "pos": [
+      -925.0,
+      -238.0,
+      110.0
+    ]
+  }
+]

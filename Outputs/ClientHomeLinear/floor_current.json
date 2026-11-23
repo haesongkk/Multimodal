@@ -1,0 +1,16 @@
+[
+  {
+    "label": "CH_Linear_FloorRight",
+    "materials": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor"
+    ]
+  },
+  {
+    "label": "CH_Linear_FloorLeft",
+    "materials": [
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor",
+      "/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor"
+    ]
+  }
+]

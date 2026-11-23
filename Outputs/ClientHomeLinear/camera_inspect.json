@@ -1,0 +1,43 @@
+{
+  "methods": [
+    "add_component_bound_event",
+    "get_default_object",
+    "list_component_events"
+  ],
+  "components": [
+    {
+      "name": "CollisionCylinder",
+      "class": "CapsuleComponent",
+      "rot": "<Struct 'Rotator' (0x000002E708587F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+    },
+    {
+      "name": "Arrow",
+      "class": "ArrowComponent",
+      "rot": "<Struct 'Rotator' (0x000002E708588D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+    },
+    {
+      "name": "CharacterMesh0",
+      "class": "SkeletalMeshComponent",
+      "rot": "<Struct 'Rotator' (0x000002E70761C998) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>"
+    }
+  ],
+  "pins": [
+    "720.0",
+    "1000.0",
+    "720.0",
+    "1000.0",
+    "720.0",
+    "720.0",
+    "720.0",
+    "1000.0",
+    "720.0",
+    "1000.0",
+    "720.0",
+    "1000.0",
+    "720.0",
+    "1000.0",
+    "720.0",
+    "1000.0",
+    "720.0"
+  ]
+}

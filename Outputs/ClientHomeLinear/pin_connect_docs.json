@@ -1,0 +1,8 @@
+{
+  "break_pin_links": "x.break_pin_links() -> bool\r\nBreaks all pin links associated with this pin\r\n\r\nReturns:\r\n    bool:",
+  "break_single_pin_link": "x.break_single_pin_link(other) -> bool\r\nBreaks a pin link between this pin and Other\r\n\r\nArgs:\r\n    other (BlueprintGraphPin): \r\n\r\nReturns:\r\n    bool:",
+  "can_create_connection": "x.can_create_connection(other) -> bool\r\nReturns true if this and Other pin can be connected. Performing connection may result in implicitly created conversion nodes.\r\n\r\nArgs:\r\n    other (BlueprintGraphPin): \r\n\r\nReturns:\r\n    bool:",
+  "is_valid": "x.is_valid() -> bool\r\n\r\n\r\nReturns:\r\n    bool: true if the pin has a valid underlying pin",
+  "list_connected_pins": "x.list_connected_pins() -> Array[BlueprintGraphPin]\r\nReturns a list of pins this pin is connected to, note that these pin objects are\nproxies and so comparison to other pin objects must be done via IsSameNativePin\r\n\r\nReturns:\r\n    Array[BlueprintGraphPin]:",
+  "try_create_connection": "x.try_create_connection(other) -> bool\r\nTries to create a connection between this pin and Other, returning false if the connection is not allowed\r\n\r\nArgs:\r\n    other (BlueprintGraphPin): \r\n\r\nReturns:\r\n    bool:"
+}

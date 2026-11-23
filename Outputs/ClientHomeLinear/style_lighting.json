@@ -1,0 +1,171 @@
+[
+  {
+    "decal": "DecalActor"
+  },
+  {
+    "decal": "DecalActor2"
+  },
+  {
+    "decal": "DecalActor3"
+  },
+  {
+    "decal": "DecalActor4"
+  },
+  {
+    "decal": "DecalActor5"
+  },
+  {
+    "decal": "DecalActor6"
+  },
+  {
+    "decal": "DecalActor8"
+  },
+  {
+    "decal": "DecalActor9"
+  },
+  {
+    "decal": "DecalActor10"
+  },
+  {
+    "decal": "DecalActor12"
+  },
+  {
+    "decal": "DecalActor13"
+  },
+  {
+    "decal": "DecalActor14"
+  },
+  {
+    "decal": "DecalActor15"
+  },
+  {
+    "decal": "DecalActor17"
+  },
+  {
+    "decal": "DecalActor19"
+  },
+  {
+    "decal": "DecalActor20"
+  },
+  {
+    "decal": "DecalActor21"
+  },
+  {
+    "decal": "DecalActor22"
+  },
+  {
+    "decal": "DecalActor23"
+  },
+  {
+    "decal": "DecalActor24"
+  },
+  {
+    "decal": "DecalActor25"
+  },
+  {
+    "decal": "DecalActor26"
+  },
+  {
+    "decal": "DecalActor27"
+  },
+  {
+    "decal": "DecalActor28"
+  },
+  {
+    "decal": "DecalActor29"
+  },
+  {
+    "decal": "DecalActor30"
+  },
+  {
+    "decal": "DecalActor31"
+  },
+  {
+    "decal": "DecalActor32"
+  },
+  {
+    "decal": "DecalActor33"
+  },
+  {
+    "decal": "DecalActor34"
+  },
+  {
+    "decal": "DecalActor35"
+  },
+  {
+    "decal": "DecalActor36"
+  },
+  {
+    "decal": "DecalActor37"
+  },
+  {
+    "decal": "DecalActor38"
+  },
+  {
+    "decal": "DecalActor39"
+  },
+  {
+    "decal": "DecalActor40"
+  },
+  {
+    "decal": "DecalActor41"
+  },
+  {
+    "decal": "DecalActor43"
+  },
+  {
+    "decal": "DecalActor44"
+  },
+  {
+    "decal": "DecalActor45"
+  },
+  {
+    "decal": "DecalActor46"
+  },
+  {
+    "decal": "DecalActor47"
+  },
+  {
+    "decal": "DecalActor48"
+  },
+  {
+    "decal": "DecalActor49"
+  },
+  {
+    "decal": "DecalActor50"
+  },
+  {
+    "decal": "DecalActor51"
+  },
+  {
+    "decal": "DecalActor52"
+  },
+  {
+    "decal": "DecalActor59"
+  },
+  {
+    "label": "PostProcessVolume2",
+    "bias": -0.15000000596046448,
+    "override": true,
+    "min": 1.0,
+    "max": 1.0,
+    "priority": 0.0
+  },
+  {
+    "decal": "Wallpaper_Decal_B"
+  },
+  {
+    "decal": "DecalActor42"
+  },
+  {
+    "decal": "DecalActor53"
+  },
+  {
+    "label": "CH_ClueHighlight_PostProcess",
+    "bias": 1.0,
+    "override": false,
+    "min": -10.0,
+    "max": 20.0,
+    "priority": 100.0
+  }
+]

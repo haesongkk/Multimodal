@@ -1,0 +1,7 @@
+{
+  "map": "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Linear.LV_ClientHome_Linear",
+  "rotation": "<Struct 'Rotator' (0x000002E68EC124A0) {pitch: -90.000000, yaw: 90.000000, roll: 0.000000}>",
+  "intensity": 8000.0,
+  "temperature": 4800.0,
+  "dirty_maps": []
+}

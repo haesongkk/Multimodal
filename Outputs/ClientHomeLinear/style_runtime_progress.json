@@ -1,0 +1,18 @@
+{
+  "count": 4,
+  "nearby": 1,
+  "anchors": {
+    "Home_Window": [
+      {
+        "label": "CH_Style_ClueAnchor_Window",
+        "pos": "<Struct 'Vector' (0x000002E58404C2E0) {x: 1409.650000, y: 268.700000, z: 209.900000}>"
+      }
+    ],
+    "Home_Pot": [
+      {
+        "label": "CH_Style_ClueAnchor_Pot",
+        "pos": "<Struct 'Vector' (0x000002E584CC3120) {x: 1169.250000, y: 455.000000, z: 39.000000}>"
+      }
+    ]
+  }
+}

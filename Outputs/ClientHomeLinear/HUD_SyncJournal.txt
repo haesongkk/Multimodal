@@ -1,0 +1,2 @@
+(fn SyncJournal ()
+  (Class|WBPCHPopup|UpdateJournal (Variables|디폴트|GetPopupUI) (Variables|디폴트|GetCount) (Utilities|Text|ToText(String) (select (>= (Variables|디폴트|GetCount) 5) (select (== (Variables|디폴트|GetNearby) 4) "[E] 현관문 열고 나가기" "코코의 길을 찾았어! 현관으로 나가 보자.") (Variables|디폴트|GetPrompt))) (Variables|디폴트|GetDeduced)))

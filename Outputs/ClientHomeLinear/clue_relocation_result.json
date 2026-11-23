@@ -1,0 +1,186 @@
+[
+  {
+    "label": "CH_Minimal_Fur0",
+    "location": [
+      455.0,
+      745.0,
+      23.8
+    ],
+    "tags": [
+      "Home_Fur"
+    ]
+  },
+  {
+    "label": "CH_Minimal_Fur1",
+    "location": [
+      459.0,
+      748.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Fur2",
+    "location": [
+      463.0,
+      743.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Fur3",
+    "location": [
+      466.0,
+      749.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Fur4",
+    "location": [
+      470.0,
+      746.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Pad",
+    "location": [
+      -240.0,
+      420.0,
+      23.8
+    ],
+    "tags": [
+      "Home_Pawprints"
+    ]
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe0",
+    "location": [
+      -229.23800000000006,
+      420.871,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe1",
+    "location": [
+      -228.548,
+      417.321,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe2",
+    "location": [
+      -233.048,
+      414.908,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe3",
+    "location": [
+      -240.937,
+      414.597,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Pad",
+    "location": [
+      -279.0,
+      441.6,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe0",
+    "location": [
+      -268.73800000000006,
+      443.299,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe1",
+    "location": [
+      -266.688,
+      439.856,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe2",
+    "location": [
+      -270.188,
+      437.128,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe3",
+    "location": [
+      -277.83799999999997,
+      436.206,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Pad",
+    "location": [
+      -336.0,
+      447.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe0",
+    "location": [
+      -326.549,
+      449.475,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe1",
+    "location": [
+      -323.202,
+      446.245,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe2",
+    "location": [
+      -325.596,
+      443.285,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe3",
+    "location": [
+      -332.774,
+      441.779,
+      23.8
+    ],
+    "tags": []
+  }
+]

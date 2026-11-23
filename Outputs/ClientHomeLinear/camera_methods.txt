@@ -1,0 +1,31 @@
+Populates a Blueprint graph with nodes from a DSL script and compiles the Blueprint.
+
+        Call get_graph_dsl_docs() for the full syntax reference and examples.
+
+        Args:
+            graph: The graph to populate with nodes.
+            code: The S-expression DSL script to convert into Blueprint nodes.
+
+_make_variable_type
+add_function_graph
+add_function_param
+add_object_function_param
+add_object_variable
+add_struct_function_param
+add_struct_variable
+add_variable
+find_node_types
+get_create_event_function
+get_node_type_pins
+get_variable_category
+get_variable_replication
+list_compatible_event_functions
+list_functions
+list_variables
+remove_function_graph
+remove_function_param
+remove_variable
+set_create_event_function
+set_variable_category
+set_variable_instance_editable
+set_variable_replication

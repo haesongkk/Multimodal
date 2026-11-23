@@ -1,0 +1,66 @@
+{
+  "world": "/Game/Multimodal/01_Maps/ClientHome/LV_ClientHome_Linear.LV_ClientHome_Linear",
+  "blueprints": [
+    {
+      "asset": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "asset": "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear",
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    }
+  ],
+  "clues": [
+    {
+      "label": "Assets_Proxy_LR_Window_Proxy",
+      "tags": [
+        "Home_Window"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EB3BF80) {x: 1480.400000, y: 268.700000, z: 209.900000}>"
+    },
+    {
+      "label": "Assets_Proxy_Door_Proxy",
+      "tags": [
+        "Home_Door"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: -1830.000000, y: 198.000000, z: 22.008000}>"
+    },
+    {
+      "label": "SM_FlowerPot_02",
+      "tags": [
+        "Home_Pot"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: 1240.000000, y: 455.000000, z: 39.000000}>"
+    },
+    {
+      "label": "CH_Minimal_Fur0",
+      "tags": [
+        "Home_Fur"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBF3F0) {x: 235.000000, y: 295.000000, z: 23.800000}>"
+    },
+    {
+      "label": "CH_Minimal_ExitTarget",
+      "tags": [
+        "Home_Exit"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBFD50) {x: -1790.000000, y: 140.000000, z: 110.000000}>"
+    },
+    {
+      "label": "CH_Minimal_Snack_Bowl",
+      "tags": [
+        "Home_Snack"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBF8A0) {x: -1150.000000, y: 220.000000, z: 23.000000}>"
+    },
+    {
+      "label": "CH_Minimal_Pawprint0_Pad",
+      "tags": [
+        "Home_Pawprints"
+      ],
+      "location": "<Struct 'Vector' (0x000002E68EBBF800) {x: -195.000000, y: 285.000000, z: 26.200000}>"
+    }
+  ],
+  "dirty_maps": [],
+  "dirty_content": []
+}

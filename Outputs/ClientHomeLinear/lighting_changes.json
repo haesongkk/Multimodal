@@ -1,0 +1,62 @@
+[
+  {
+    "label": "RectLight4",
+    "intensity": 0
+  },
+  {
+    "label": "RectLight5",
+    "intensity": 0
+  },
+  {
+    "label": "SpotLight",
+    "intensity": 1.1
+  },
+  {
+    "label": "PointLight",
+    "intensity": 1.98
+  },
+  {
+    "label": "SpotLight6",
+    "intensity": 3.3
+  },
+  {
+    "label": "PointLight4",
+    "intensity": 0.11
+  },
+  {
+    "label": "RectLight",
+    "intensity": 0
+  },
+  {
+    "label": "RectLight2",
+    "intensity": 0
+  },
+  {
+    "label": "CH_Cozy_ReadingGlow",
+    "intensity": 70.4
+  },
+  {
+    "label": "CH_Cozy_CatCornerGlow",
+    "intensity": 50.6
+  },
+  {
+    "label": "CH_SmallBath_WarmLight",
+    "intensity": 2.64
+  },
+  {
+    "label": "CH_Linear_Kitchen_Fill",
+    "intensity": 0
+  },
+  {
+    "label": "CH_Linear_Dining_Fill",
+    "intensity": 0
+  },
+  {
+    "label": "CH_Linear_Study_Fill",
+    "intensity": 0
+  },
+  {
+    "label": "CH_Linear_Living_Fill",
+    "intensity": 0
+  }
+]

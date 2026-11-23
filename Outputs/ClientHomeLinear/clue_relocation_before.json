@@ -1,0 +1,308 @@
+[
+  {
+    "name": "SM_Bookshelf_3",
+    "label": "SM_Bookshelf",
+    "loc": [
+      126.694,
+      627.257,
+      20.953
+    ],
+    "tags": []
+  },
+  {
+    "name": "SM_Bookshelf2",
+    "label": "SM_Bookshelf2",
+    "loc": [
+      -100.843,
+      627.257,
+      20.953
+    ],
+    "tags": []
+  },
+  {
+    "name": "SM_Bookshelf3",
+    "label": "SM_Bookshelf3",
+    "loc": [
+      26.694,
+      627.257,
+      20.953
+    ],
+    "tags": [
+      "CH_Reading_A",
+      "CH_FurnitureCollision"
+    ]
+  },
+  {
+    "name": "SM_Bookshelf4",
+    "label": "SM_Bookshelf4",
+    "loc": [
+      177.808,
+      627.257,
+      20.953
+    ],
+    "tags": [
+      "CH_Reading_A",
+      "CH_FurnitureCollision"
+    ]
+  },
+  {
+    "name": "StaticMeshActor_4",
+    "label": "CH_Minimal_Fur0",
+    "loc": [
+      35.0,
+      400.0,
+      23.8
+    ],
+    "tags": [
+      "Home_Fur"
+    ]
+  },
+  {
+    "name": "StaticMeshActor_5",
+    "label": "CH_Minimal_Fur1",
+    "loc": [
+      39.0,
+      403.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_6",
+    "label": "CH_Minimal_Fur2",
+    "loc": [
+      43.0,
+      398.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_7",
+    "label": "CH_Minimal_Fur3",
+    "loc": [
+      46.0,
+      404.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_8",
+    "label": "CH_Minimal_Fur4",
+    "loc": [
+      50.0,
+      401.0,
+      23.8
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_20",
+    "label": "CH_Minimal_Pawprint0_Pad",
+    "loc": [
+      -530.0,
+      285.0,
+      26.2
+    ],
+    "tags": [
+      "Home_Pawprints"
+    ]
+  },
+  {
+    "name": "StaticMeshActor_21",
+    "label": "CH_Minimal_Pawprint0_Toe0",
+    "loc": [
+      -519.238,
+      285.871,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_22",
+    "label": "CH_Minimal_Pawprint0_Toe1",
+    "loc": [
+      -518.548,
+      282.321,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_23",
+    "label": "CH_Minimal_Pawprint0_Toe2",
+    "loc": [
+      -523.048,
+      279.908,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_24",
+    "label": "CH_Minimal_Pawprint0_Toe3",
+    "loc": [
+      -530.937,
+      279.597,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_25",
+    "label": "CH_Minimal_Pawprint1_Pad",
+    "loc": [
+      -569.0,
+      306.6,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_26",
+    "label": "CH_Minimal_Pawprint1_Toe0",
+    "loc": [
+      -558.738,
+      308.299,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_27",
+    "label": "CH_Minimal_Pawprint1_Toe1",
+    "loc": [
+      -556.688,
+      304.856,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_28",
+    "label": "CH_Minimal_Pawprint1_Toe2",
+    "loc": [
+      -560.188,
+      302.128,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_29",
+    "label": "CH_Minimal_Pawprint1_Toe3",
+    "loc": [
+      -567.838,
+      301.206,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_30",
+    "label": "CH_Minimal_Pawprint2_Pad",
+    "loc": [
+      -626.0,
+      312.0,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_31",
+    "label": "CH_Minimal_Pawprint2_Toe0",
+    "loc": [
+      -616.549,
+      314.475,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_32",
+    "label": "CH_Minimal_Pawprint2_Toe1",
+    "loc": [
+      -613.202,
+      311.245,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_33",
+    "label": "CH_Minimal_Pawprint2_Toe2",
+    "loc": [
+      -615.596,
+      308.285,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_34",
+    "label": "CH_Minimal_Pawprint2_Toe3",
+    "loc": [
+      -622.774,
+      306.779,
+      26.2
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_119",
+    "label": "CH_Native_Desk_Assets_Proxy_LR_Desk_Proxy",
+    "loc": [
+      0.0,
+      610.0,
+      72.0
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_150",
+    "label": "CH_Native_B_SM_Bookshelf",
+    "loc": [
+      -468.30600000000004,
+      627.257,
+      20.953
+    ],
+    "tags": [
+      "CH_Reading_B",
+      "CH_FurnitureCollision"
+    ]
+  },
+  {
+    "name": "StaticMeshActor_151",
+    "label": "CH_Native_B_SM_Bookshelf2",
+    "loc": [
+      -695.8430000000001,
+      627.257,
+      20.953
+    ],
+    "tags": [
+      "CH_Reading_B",
+      "CH_FurnitureCollision"
+    ]
+  },
+  {
+    "name": "StaticMeshActor_322",
+    "label": "CH_SmallBath_Bathroom_Mat_A",
+    "loc": [
+      576.5,
+      798.373291015625,
+      22.0
+    ],
+    "tags": []
+  },
+  {
+    "name": "StaticMeshActor_324",
+    "label": "CH_SmallBath_TileFloor",
+    "loc": [
+      540.55,
+      834.373291015625,
+      20.0
+    ],
+    "tags": []
+  }
+]

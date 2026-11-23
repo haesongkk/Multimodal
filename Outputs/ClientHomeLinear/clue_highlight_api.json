@@ -1,0 +1,79 @@
+{
+  "ForEachLoop": [
+    "Utilities|Array|ForEachLoop",
+    "Utilities|Array|ForEachLoopwithBreak",
+    "Utilities|Array|ReverseforEachLoop",
+    "Utilities|Array|ForEachLoop",
+    "Utilities|Array|ForEachLoopwithBreak",
+    "Utilities|Array|ReverseforEachLoop",
+    "\uc720\ud2f8\ub9ac\ud2f0|\ub9f5|ForEachLoop(Map)",
+    "\uc720\ud2f8\ub9ac\ud2f0|\uc138\ud2b8|ForEachLoop(Set)"
+  ],
+  "GetAllActorsWithTag": [
+    "\uc561\ud130|GetAllActorswithTag"
+  ],
+  "GetComponentByClass": [
+    "\uc561\ud130|GetComponentbyClass"
+  ],
+  "CastToPrimitiveComponent": [
+    "Utilities|Casting|CastToPrimitiveComponent",
+    "Utilities|Casting|CastToPrimitiveComponentClass"
+  ],
+  "SetRenderCustomDepth": [
+    "\ub80c\ub354\ub9c1|SetRenderCustomDepth"
+  ],
+  "SetRenderCustomDepthStencilValue": [],
+  "enum": {
+    "BlendableLocation": [
+      "BL_REPLACING_TONEMAPPER",
+      "BL_SCENE_COLOR_AFTER_DOF",
+      "BL_SCENE_COLOR_AFTER_TONEMAPPING",
+      "BL_SCENE_COLOR_BEFORE_BLOOM",
+      "BL_SCENE_COLOR_BEFORE_DOF",
+      "BL_SSR_INPUT",
+      "BL_TRANSLUCENCY_AFTER_DOF"
+    ],
+    "SceneTextureId": [
+      "PPI_AMBIENT_OCCLUSION",
+      "PPI_ANISOTROPY",
+      "PPI_BASE_COLOR",
+      "PPI_CUSTOM_DEPTH",
+      "PPI_CUSTOM_STENCIL",
+      "PPI_DECAL_MASK",
+      "PPI_DIFFUSE_COLOR",
+      "PPI_IS_FIRST_PERSON",
+      "PPI_MATERIAL_AO",
+      "PPI_METALLIC",
+      "PPI_OPACITY",
+      "PPI_POST_PROCESS_INPUT0",
+      "PPI_POST_PROCESS_INPUT1",
+      "PPI_POST_PROCESS_INPUT2",
+      "PPI_POST_PROCESS_INPUT3",
+      "PPI_POST_PROCESS_INPUT4",
+      "PPI_POST_PROCESS_INPUT5",
+      "PPI_POST_PROCESS_INPUT6",
+      "PPI_ROUGHNESS",
+      "PPI_SCENE_COLOR",
+      "PPI_SCENE_DEPTH",
+      "PPI_SEPARATE_TRANSLUCENCY",
+      "PPI_SHADING_MODEL_COLOR",
+      "PPI_SHADING_MODEL_ID",
+      "PPI_SPECULAR",
+      "PPI_SPECULAR_COLOR",
+      "PPI_STORED_BASE_COLOR",
+      "PPI_STORED_SPECULAR",
+      "PPI_SUBSURFACE_COLOR",
+      "PPI_VELOCITY",
+      "PPI_WORLD_NORMAL",
+      "PPI_WORLD_TANGENT"
+    ],
+    "MaterialDomain": [
+      "MD_DEFERRED_DECAL",
+      "MD_LIGHT_FUNCTION",
+      "MD_POST_PROCESS",
+      "MD_SURFACE",
+      "MD_UI",
+      "MD_VOLUME"
+    ]
+  }
+}

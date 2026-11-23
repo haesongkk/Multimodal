@@ -1,0 +1,29 @@
+{
+  "F1": [
+    "Input|KeyboardEvents|F1",
+    "Input|KeyboardEvents|F10",
+    "Input|KeyboardEvents|F11",
+    "Input|KeyboardEvents|F12",
+    "인터체인지|팩토리노드|메시|SetCustomUseBackwardsCompatibleF16TruncUVs",
+    "인터체인지|팩토리노드|메시|GetCustomUseBackwardsCompatibleF16TruncUVs",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF1",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF10",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF11",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF12",
+    "Class|InterchangeGenericCommonMeshesProperties|GetUseBackwardsCompatibleF16TruncUVs",
+    "Class|InterchangeGenericCommonMeshesProperties|SetUseBackwardsCompatibleF16TruncUVs"
+  ],
+  "F2": [
+    "Input|KeyboardEvents|F2",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF2"
+  ],
+  "F3": [
+    "Input|KeyboardEvents|F3",
+    "Input|DebugEvents|KeyboardEvents|DebugKeyF3"
+  ],
+  "OpenLevel": [
+    "게임|OpenLevel(byObjectReference)",
+    "게임|OpenLevel(byName)"
+  ],
+  "source": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear"
+}

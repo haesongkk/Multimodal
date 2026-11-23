@@ -1,0 +1,38 @@
+[
+  {
+    "mesh": "RearRight",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 48
+  },
+  {
+    "mesh": "RearLeftA",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 14
+  },
+  {
+    "mesh": "RearLeftB",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 25
+  },
+  {
+    "mesh": "LivingEnd",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 28
+  },
+  {
+    "mesh": "EntryEndBack",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 68
+  },
+  {
+    "mesh": "EntryEndFront",
+    "old_top": 353.9740905761719,
+    "new_top": 480,
+    "vertices_changed": 16
+  }
+]

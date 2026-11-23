@@ -1,0 +1,7 @@
+{
+  "find_camera_component_when_view_target": "True",
+  "generate_overlap_events_during_level_streaming": "True",
+  "jump_max_count": "1",
+  "jump_max_hold_time": "0.0",
+  "min_net_update_frequency": "2.0"
+}

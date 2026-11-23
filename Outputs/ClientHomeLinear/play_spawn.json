@@ -1,0 +1,6 @@
+{
+  "pawn": "/Game/Multimodal/01_Maps/ClientHome/UEDPIE_0_LV_ClientHome_Linear.LV_ClientHome_Linear:PersistentLevel.BP_CH_Player_Linear_C_0",
+  "loc": "<Struct 'Vector' (0x000002E65AA55B40) {x: -1725.561099, y: 128.982805, z: 111.961040}>",
+  "camera": "<Struct 'Vector' (0x000002E68EADDF00) {x: -1450.000000, y: -720.000000, z: 720.000000}>",
+  "gm": "/Game/Multimodal/02_Blueprints/Framework/ClientHome/BP_CH_GameMode_Linear.BP_CH_GameMode_Linear_C"
+}

@@ -1,0 +1,9 @@
+{
+  "Falsebefore": 334,
+  "rot": "<Struct 'Rotator' (0x000002E68EBBF490) {pitch: 0.000000, yaw: 180.000000, roll: -90.000000}>",
+  "Falseafter": 158,
+  "Falsebounds": "<Struct 'Box' (0x000002E50203F880) {min: {x: -831.124512, y: -549.178040, z: 1.341965}, max: {x: 912.927246, y: -40.000000, z: 1.342026}, is_valid: True}>",
+  "Truebefore": 334,
+  "Trueafter": 240,
+  "Truebounds": "<Struct 'Box' (0x000002E502036580) {min: {x: -831.124756, y: -40.000000, z: 1.341965}, max: {x: 912.927246, y: 678.405334, z: 1.341965}, is_valid: True}>"
+}

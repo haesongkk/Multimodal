@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Assets_Proxy_LR_Window_Proxy",
+    "group": "Window"
+  },
+  {
+    "label": "SM_FlowerPot_02",
+    "group": "Pot"
+  },
+  {
+    "label": "CH_Minimal_Fur0",
+    "group": "Fur"
+  },
+  {
+    "label": "CH_Minimal_Fur1",
+    "group": "Fur"
+  },
+  {
+    "label": "CH_Minimal_Fur2",
+    "group": "Fur"
+  },
+  {
+    "label": "CH_Minimal_Fur3",
+    "group": "Fur"
+  },
+  {
+    "label": "CH_Minimal_Fur4",
+    "group": "Fur"
+  },
+  {
+    "label": "CH_Minimal_Snack_Bowl",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb0",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb1",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb2",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb3",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Snack_Crumb4",
+    "group": "Snack"
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Pad",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe0",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe1",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe2",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint0_Toe3",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Pad",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe0",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe1",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe2",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint1_Toe3",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Pad",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe0",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe1",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe2",
+    "group": "Pawprints"
+  },
+  {
+    "label": "CH_Minimal_Pawprint2_Toe3",
+    "group": "Pawprints"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "hooked": [
+    "Pot",
+    "Fur",
+    "Window",
+    "Snack",
+    "Pawprints"
+  ],
+  "hud_status": "<BlueprintStatus.BS_UP_TO_DATE: 3>",
+  "game_mode_status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+}

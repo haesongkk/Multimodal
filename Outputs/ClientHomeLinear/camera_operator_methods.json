@@ -1,0 +1,4 @@
+{
+  "delete_node": "\n        Deletes the node from its graph.\n\n        Args:\n            node: The node to be deleted\n        ",
+  "remove_node_pin": "Removes a specific pin from a node that supports dynamic pin removal.\n\n        Works for Switch nodes (removes one case pin), Sequence nodes (removes one Then output),\n        commutative binary operators like Add/Multiply (removes one input), Make Array nodes, etc.\n\n        Args:\n            node: The node to remove a pin from. Must support dynamic pin removal.\n            pin: The PinID of the pin to remove.\n        "
+}

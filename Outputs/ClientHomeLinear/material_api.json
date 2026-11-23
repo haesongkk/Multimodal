@@ -1,0 +1,76 @@
+{
+  "GeometryScriptCopyMeshToAssetOptions": "Geometry Script Copy Mesh to Asset Options\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: GeometryScripting\r\n- **Module**: GeometryScriptingCore\r\n- **File**: MeshAssetFunctions.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``apply_nanite_settings`` (bool):  [Read-Write] If enabled, NaniteSettings will be applied to the target Asset if possible\r\n- ``bone_hierarchy_mismatch_handling`` (GeometryScriptBoneHierarchyMismatchHandling):  [Read-Write] An option that specifies, for skeletal mesh assets, how mismatches between the existing reference skeleton on the asset, and the bone\r\n  hierarchy stored on the geometry are handled. By default, no attempt is made to resolve this mismatch.\r\n- ``clean_assigned_materials`` (bool):  [Read-Write] Whether to apply a cleanup pass to assigned materials -- fixing invalid material assignments\r\n- ``defer_mesh_post_edit_change`` (bool):  [Read-Write]\r\n- ``emit_transaction`` (bool):  [Read-Write]\r\n- ``enable_recompute_normals`` (bool):  [Read-Write]\r\n- ``enable_recompute_tangents`` (bool):  [Read-Write]\r\n- ``enable_remove_degenerates`` (bool):  [Read-Write]\r\n- ``generate_lightmap_u_vs`` (GeometryScriptGenerateLightmapUVOptions):  [Read-Write] Whether to generate lightmap UVs\r\n- ``nanite_settings`` (GeometryScriptNaniteOptions):  [Read-Write] Replaced FGeometryScriptNaniteOptions with usage of Engine FMeshNaniteSettings\r\n- ``new_material_slot_names`` (Array[Name]):  [Read-Write] Optional slot names for the New Materials. Ignored if not the same length as the New Materials array.\r\n- ``new_material_usage`` (CopyMeshToAssetUseNewMaterialsOptions):  [Read-Write] If using New Materials, whether to use them as a full replacement of all asset materials, or just to update the target LOD\r\n- ``new_materials`` (Array[MaterialInterface]):  [Read-Write] New materials to set if Replace Materials is enabled. Ignored otherwise.\r\n- ``new_nanite_settings`` (MeshNaniteSettings):  [Read-Write] Nanite Settings applied to the target Asset, if bApplyNaniteSettings = true\r\n- ``remap_bone_indices_to_match_asset`` (bool):  [Read-Write] Deprecated. Use BoneHierarchyMismatchHandling instead.\r\n         // UE_DEPRECATED(5.6, \"Deprecated. Use BoneHierarchyMismatchHandling instead.\")\r\n- ``replace_materials`` (bool):  [Read-Write] Whether to update the materials on the asset with those in the New Materials array\r\n- ``use_build_scale`` (bool):  [Read-Write] Whether to use the build scale on the target asset. If enabled, the inverse scale will be applied when saving to the asset, and the BuildScale will be preserved. Otherwise, BuildScale will be set to 1.0 on the asset BuildSettings.\r\n- ``use_original_vertex_order`` (bool):  [Read-Write] Use the original vertex order found in the source data. This is useful if the inbound mesh was originally non-manifold, and needs to keep\r\n  the non-manifold structure when re-created.",
+  "GeometryScriptMeshReadLOD": "Geometry Script Mesh Read LOD\r\n\r\n**C++ Source:**\r\n\r\n- **Plugin**: GeometryScripting\r\n- **Module**: GeometryScriptingCore\r\n- **File**: GeometryScriptTypes.h\r\n\r\n**Editor Properties:** (see get_editor_property/set_editor_property)\r\n\r\n- ``lod_index`` (int32):  [Read-Write]\r\n- ``lod_type`` (GeometryScriptLODType):  [Read-Write]",
+  "sections": "X.get_section_material_list_from_static_mesh(from_static_mesh_asset, requested_lod, debug=None) -> (material_list=Array[MaterialInterface], material_index=Array[int32], material_slot_names=Array[Name], outcome=GeometryScriptOutcomePins)\r\nExtracts the Material List and corresponding Material Indices from the specified LOD of the Static Mesh Asset.\nThe MaterialList is sorted by Section, so if CopyMeshToStaticMesh was used to create a DynamicMesh with bUseSectionMaterials=true, then the\nreturned MaterialList here will correspond to the MaterialIDs in that DynamicMesh (as each Static Mesh Section becomes a MaterialID, in-order).\nSo, the returned MaterialList can be passed directly to (eg) a DynamicMeshComponent.\r\n\r\nArgs:\r\n    from_static_mesh_asset (StaticMesh): \r\n    requested_lod (GeometryScriptMeshReadLOD): \r\n    debug (GeometryScriptDebug): \r\n\r\nReturns:\r\n    tuple: \r\n\r\n    material_list (Array[MaterialInterface]): \r\n\r\n    material_index (Array[int32]): this returned array is the same size as MaterialList, with each value the index of that Material in the StaticMesh Material List\r\n\r\n    material_slot_names (Array[Name]): \r\n\r\n    outcome (GeometryScriptOutcomePins):",
+  "mat_classes": [
+    "GeometryScript_Materials"
+  ],
+  "floor": [
+    {
+      "label": "CH_Linear_FloorRight",
+      "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorRight.SM_CH_Linear_FloorRight",
+      "mats": [
+        "<Object '/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor' (0x000002E50C88F800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/ExternalAssets/StylizedKitchen/Materials/MI_Bathroom_Floor_Tiles.MI_Bathroom_Floor_Tiles' (0x000002E50A36C000) Class 'MaterialInstanceConstant'>"
+      ]
+    },
+    {
+      "label": "CH_Linear_FloorLeft",
+      "mesh": "/Game/Multimodal/03_Graphics/Meshes/Buildings/ClientHome/Linear/SM_CH_Linear_FloorLeft.SM_CH_Linear_FloorLeft",
+      "mats": [
+        "<Object '/Game/ExternalAssets/StylizedKitchen/Materials/MI_Wood_Floor.MI_Wood_Floor' (0x000002E50C88F800) Class 'MaterialInstanceConstant'>",
+        "<Object '/Game/ExternalAssets/StylizedKitchen/Materials/MI_Bathroom_Floor_Tiles.MI_Bathroom_Floor_Tiles' (0x000002E50A36C000) Class 'MaterialInstanceConstant'>"
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "label": "RectLight4",
+      "intensity": 68.41915893554688
+    },
+    {
+      "label": "RectLight5",
+      "intensity": 10.0
+    },
+    {
+      "label": "SpotLight",
+      "intensity": 5.0
+    },
+    {
+      "label": "PointLight",
+      "intensity": 9.0
+    },
+    {
+      "label": "SpotLight6",
+      "intensity": 15.0
+    },
+    {
+      "label": "PointLight4",
+      "intensity": 0.5
+    },
+    {
+      "label": "SpotLight2",
+      "intensity": 1000.0
+    },
+    {
+      "label": "RectLight",
+      "intensity": 1.5311429500579834
+    },
+    {
+      "label": "RectLight2",
+      "intensity": 1.7999999523162842
+    },
+    {
+      "label": "CH_Cozy_ReadingGlow",
+      "intensity": 320.0
+    },
+    {
+      "label": "CH_Cozy_CatCornerGlow",
+      "intensity": 230.0
+    },
+    {
+      "label": "CH_SmallBath_WarmLight",
+      "intensity": 12.0
+    }
+  ]
+}

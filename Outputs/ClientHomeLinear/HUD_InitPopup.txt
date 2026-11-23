@@ -1,0 +1,5 @@
+(fn InitPopup ()
+  (bind _returnvalue (Widget|CreateWidget "/Game/Multimodal/04_UI/Widgets/ClientHome/WBP_CH_Popup.WBP_CH_Popup_C" (HUD|GetOwningPlayerController)))
+  (bind _aswbp_ch_popup (Utilities|Casting|CastToWBP_CH_Popup _returnvalue))
+  (Variables|디폴트|SetPopupUI _aswbp_ch_popup)
+  (UserInterface|Viewport|AddToViewport _aswbp_ch_popup 10))

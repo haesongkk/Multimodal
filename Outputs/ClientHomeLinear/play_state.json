@@ -1,0 +1,5 @@
+{
+  "pawn": "/Game/Multimodal/01_Maps/ClientHome/UEDPIE_0_LV_ClientHome_Linear.LV_ClientHome_Linear:PersistentLevel.BP_CH_Player_Linear_C_0",
+  "position": "<Struct 'Vector' (0x000002E65A9E0EC0) {x: 120.000000, y: 150.000000, z: 115.000000}>",
+  "hud": "/Game/Multimodal/01_Maps/ClientHome/UEDPIE_0_LV_ClientHome_Linear.LV_ClientHome_Linear:PersistentLevel.BP_CH_HUD_Minimal_C_0"
+}

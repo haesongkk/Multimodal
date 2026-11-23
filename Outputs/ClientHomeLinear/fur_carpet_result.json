@@ -1,0 +1,27 @@
+[
+  {
+    "actor": "CH_Minimal_Fur0",
+    "location": "<Struct 'Vector' (0x000002E65AA242E0) {x: 570.000000, y: 790.000000, z: 24.300000}>",
+    "stencil": 201
+  },
+  {
+    "actor": "CH_Minimal_Fur1",
+    "location": "<Struct 'Vector' (0x000002E65AA242E0) {x: 574.000000, y: 793.000000, z: 24.300000}>",
+    "stencil": 201
+  },
+  {
+    "actor": "CH_Minimal_Fur2",
+    "location": "<Struct 'Vector' (0x000002E65AA242E0) {x: 578.000000, y: 788.000000, z: 24.300000}>",
+    "stencil": 201
+  },
+  {
+    "actor": "CH_Minimal_Fur3",
+    "location": "<Struct 'Vector' (0x000002E65AA242E0) {x: 581.000000, y: 794.000000, z: 24.300000}>",
+    "stencil": 201
+  },
+  {
+    "actor": "CH_Minimal_Fur4",
+    "location": "<Struct 'Vector' (0x000002E65AA242E0) {x: 585.000000, y: 791.000000, z: 24.300000}>",
+    "stencil": 201
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "ForEachLoop": {
+    "type": "Utilities|Array|ForEachLoop",
+    "in": [
+      "Exec",
+      "Array"
+    ],
+    "out": [
+      "LoopBody",
+      "Array Element",
+      "Array Index",
+      "Completed"
+    ]
+  },
+  "GetAllActorsWithTag": {
+    "type": "\uc561\ud130|GetAllActorswithTag",
+    "in": [
+      "execute",
+      "Tag"
+    ],
+    "out": [
+      "then",
+      "OutActors"
+    ]
+  },
+  "GetComponentByClass": {
+    "type": "\uc561\ud130|GetComponentbyClass",
+    "in": [
+      "self",
+      "ComponentClass"
+    ],
+    "out": [
+      "ReturnValue"
+    ]
+  },
+  "CastToPrimitiveComponent": {
+    "type": "Utilities|Casting|CastToPrimitiveComponent",
+    "in": [
+      "execute",
+      "Object"
+    ],
+    "out": [
+      "then",
+      "CastFailed",
+      "As\ud504\ub9ac\ubbf8\ud2f0\ube0c \ucef4\ud3ec\ub10c\ud2b8"
+    ]
+  },
+  "SetRenderCustomDepth": {
+    "type": "\ub80c\ub354\ub9c1|SetRenderCustomDepth",
+    "in": [
+      "execute",
+      "self",
+      "bValue"
+    ],
+    "out": [
+      "then"
+    ]
+  }
+}

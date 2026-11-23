@@ -1,0 +1,2 @@
+(fn RefreshPopup ()
+  (Class|WBPCHPopup|Present (Variables|디폴트|GetPopupUI) (Utilities|Text|ToText(String) (Variables|디폴트|GetTitle)) (Utilities|Text|ToText(String) (Variables|디폴트|GetMessage)) (Variables|디폴트|GetPopup) (Variables|디폴트|GetComplete)))

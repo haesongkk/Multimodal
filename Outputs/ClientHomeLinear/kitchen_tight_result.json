@@ -1,0 +1,578 @@
+[
+  {
+    "label": "Fridge_SM",
+    "location": [
+      -1142.133,
+      578.932,
+      19.105
+    ]
+  },
+  {
+    "label": "Dining_Set_Bowl",
+    "location": [
+      -1400.35,
+      331.909,
+      122.563
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Table",
+    "location": [
+      -1403.522,
+      331.72199999999987,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair",
+    "location": [
+      -1490.511,
+      332.235,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair2",
+    "location": [
+      -1284.8539999999998,
+      325.3639999999999,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair3",
+    "location": [
+      -1405.264,
+      390.8939999999999,
+      20.953
+    ]
+  },
+  {
+    "label": "Vintage_Dining_Chair4",
+    "location": [
+      -1401.483,
+      269.9989999999999,
+      20.953
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A",
+    "location": [
+      -1328.9959999999999,
+      328.5379999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A2",
+    "location": [
+      -1478.166,
+      329.1529999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A3",
+    "location": [
+      -1403.5529999999999,
+      381.3059999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A4",
+    "location": [
+      -1401.609,
+      283.245,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork",
+    "location": [
+      -1478.117,
+      350.3879999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A",
+    "location": [
+      -1351.109,
+      347.40599999999995,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A2",
+    "location": [
+      -1422.757,
+      360.3109999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A3",
+    "location": [
+      -1458.567,
+      312.149,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Glass_Cup_A4",
+    "location": [
+      -1381.299,
+      303.7499999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife",
+    "location": [
+      -1478.945,
+      312.102,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon",
+    "location": [
+      -1478.46,
+      355.4839999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife2",
+    "location": [
+      -1382.53,
+      283.1149999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon2",
+    "location": [
+      -1428.147,
+      281.7779999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife3",
+    "location": [
+      -1422.8039999999999,
+      380.3269999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon3",
+    "location": [
+      -1377.422,
+      383.0039999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Knife4",
+    "location": [
+      -1329.132,
+      347.5669999999999,
+      123.0
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Spoon4",
+    "location": [
+      -1327.7939999999999,
+      302.94999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded",
+    "location": [
+      -1478.3429999999998,
+      352.4309999999999,
+      122.81
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork2",
+    "location": [
+      -1383.2579999999998,
+      381.91599999999994,
+      124.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded2",
+    "location": [
+      -1381.215,
+      382.14199999999994,
+      122.7
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork3",
+    "location": [
+      -1329.337,
+      308.408,
+      123.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded3",
+    "location": [
+      -1329.1109999999999,
+      306.3649999999999,
+      122.761
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Fork4",
+    "location": [
+      -1422.395,
+      281.84699999999987,
+      123.0
+    ]
+  },
+  {
+    "label": "Napkin_Folded4",
+    "location": [
+      -1424.4379999999999,
+      281.621,
+      122.711
+    ]
+  },
+  {
+    "label": "SpotLight",
+    "location": [
+      -1400.6419999999998,
+      335.246,
+      279.23
+    ]
+  },
+  {
+    "label": "Placemat",
+    "location": [
+      -1477.797,
+      329.3449999999999,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat2",
+    "location": [
+      -1403.1219999999998,
+      376.178,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat3",
+    "location": [
+      -1333.0819999999999,
+      328.6189999999999,
+      122.553
+    ]
+  },
+  {
+    "label": "Placemat4",
+    "location": [
+      -1402.349,
+      286.63699999999994,
+      122.553
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A",
+    "location": [
+      -1113.306,
+      528.065,
+      152.095
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A2",
+    "location": [
+      -1153.6680000000001,
+      527.9449999999999,
+      149.266
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A3",
+    "location": [
+      -1118.555,
+      529.249,
+      119.422
+    ]
+  },
+  {
+    "label": "Fridge_Drawing_A4",
+    "location": [
+      -1102.816,
+      526.1949999999999,
+      208.613
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A",
+    "location": [
+      -1153.412,
+      527.836,
+      167.859
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A2",
+    "location": [
+      -1131.18,
+      528.0540000000001,
+      166.11
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A3",
+    "location": [
+      -1094.741,
+      528.0430000000001,
+      166.729
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A4",
+    "location": [
+      -1103.0590000000002,
+      526.172,
+      220.944
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A5",
+    "location": [
+      -1116.622,
+      529.329,
+      133.959
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A6",
+    "location": [
+      -1134.672,
+      526.512,
+      203.886
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A7",
+    "location": [
+      -1126.9340000000002,
+      526.594,
+      197.238
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A8",
+    "location": [
+      -1135.525,
+      526.7440000000001,
+      189.91
+    ]
+  },
+  {
+    "label": "Fridge_Magnet_A9",
+    "location": [
+      -1174.316,
+      528.777,
+      147.338
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A8",
+    "location": [
+      -1453.193,
+      289.6089999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Mug_A4",
+    "location": [
+      -1452.993,
+      290.09799999999996,
+      122.748
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Mug_A5",
+    "location": [
+      -1348.724,
+      369.86799999999994,
+      122.748
+    ]
+  },
+  {
+    "label": "Kitchen_Props_B_Plate_A9",
+    "location": [
+      -1348.85,
+      370.1919999999999,
+      122.425
+    ]
+  },
+  {
+    "label": "Kitchen_Chandelier2",
+    "location": [
+      -1400.069,
+      337.6769999999999,
+      354.118
+    ]
+  },
+  {
+    "label": "PointLight",
+    "location": [
+      -1400.2839999999999,
+      337.50199999999995,
+      249.775
+    ]
+  },
+  {
+    "label": "SM_Candle",
+    "location": [
+      -1368.244,
+      332.19999999999993,
+      122.0
+    ]
+  },
+  {
+    "label": "SM_Candle2",
+    "location": [
+      -1436.244,
+      332.19999999999993,
+      122.0
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread2",
+    "location": [
+      -1328.244,
+      328.19999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "SM_BreakfastProps_Bread4",
+    "location": [
+      -1403.244,
+      382.19999999999993,
+      123.0
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_01",
+    "location": [
+      -1393.056,
+      332.794,
+      122.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_2",
+    "location": [
+      -1402.4389999999999,
+      332.323,
+      123.485
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_3",
+    "location": [
+      -1397.8159999999998,
+      325.4559999999999,
+      125.568
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_4",
+    "location": [
+      -1400.3449999999998,
+      324.294,
+      131.124
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_5",
+    "location": [
+      -1410.791,
+      332.322,
+      123.737
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_6",
+    "location": [
+      -1394.7069999999999,
+      344.07499999999993,
+      122.879
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Apple_8",
+    "location": [
+      -1408.945,
+      336.02599999999995,
+      127.047
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Banana",
+    "location": [
+      -1396.136,
+      331.073,
+      133.815
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Banana2",
+    "location": [
+      -1409.163,
+      332.2969999999999,
+      133.637
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Egg",
+    "location": [
+      -1401.4769999999999,
+      283.5759999999999,
+      123.676
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Waffle",
+    "location": [
+      -1477.2269999999999,
+      329.3749999999999,
+      123.039
+    ]
+  },
+  {
+    "label": "SM_Food_SM_Waffle2",
+    "location": [
+      -1477.2269999999999,
+      329.3749999999999,
+      125.395
+    ]
+  },
+  {
+    "label": "SM_Carpet_5",
+    "location": [
+      -1397.5449999999998,
+      331.4749999999999,
+      20.862
+    ]
+  }
+]

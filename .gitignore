@@ -101,3 +101,10 @@ __pycache__/
 /Outputs/Organization*/*.log
 !/Outputs/Organization*/BuildVerification.log
 /Outputs/Organization*/*.pid
+
+# ClientHome editor bridge mailbox and local preview completion tokens.
+/Outputs/ClientHomeLinear/job.py
+/Outputs/ClientHomeLinear/job_status.txt
+/Outputs/ClientHomeStyles/preview_ready.txt
+/Outputs/ClientHomeStyles/model_build.log
+/Outputs/ClientHomeStorybook/model_build.log

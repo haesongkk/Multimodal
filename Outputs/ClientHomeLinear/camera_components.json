@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Default__BP_CH_Player_Linear_C",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.Default__BP_CH_Player_Linear_C",
+    "class": "BP_CH_Player_Linear_C",
+    "rot": ""
+  },
+  {
+    "name": "CollisionCylinder",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.Default__BP_CH_Player_Linear_C:CollisionCylinder",
+    "class": "CapsuleComponent",
+    "rot": "<Struct 'Rotator' (0x000002E708587F98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+  },
+  {
+    "name": "Arrow",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.Default__BP_CH_Player_Linear_C:Arrow",
+    "class": "ArrowComponent",
+    "rot": "<Struct 'Rotator' (0x000002E708588D98) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+  },
+  {
+    "name": "Body_GEN_VARIABLE",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.BP_CH_Player_Linear_C:Body_GEN_VARIABLE",
+    "class": "StaticMeshComponent",
+    "rot": "<Struct 'Rotator' (0x000002E521DBC998) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>"
+  },
+  {
+    "name": "CharacterMesh0",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.Default__BP_CH_Player_Linear_C:CharacterMesh0",
+    "class": "SkeletalMeshComponent",
+    "rot": "<Struct 'Rotator' (0x000002E70761C998) {pitch: 0.000000, yaw: -90.000000, roll: 0.000000}>"
+  },
+  {
+    "name": "ViewCamera_GEN_VARIABLE",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.BP_CH_Player_Linear_C:ViewCamera_GEN_VARIABLE",
+    "class": "CameraComponent",
+    "rot": "<Struct 'Rotator' (0x000002E64F5A9D98) {pitch: -35.000000, yaw: 90.000000, roll: 0.000000}>"
+  },
+  {
+    "name": "CharMoveComp",
+    "path": "/Game/Multimodal/02_Blueprints/Characters/Player/ClientHome/BP_CH_Player_Linear.Default__BP_CH_Player_Linear_C:CharMoveComp",
+    "class": "CharacterMovementComponent",
+    "rot": ""
+  }
+]

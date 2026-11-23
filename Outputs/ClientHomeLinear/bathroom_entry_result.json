@@ -1,0 +1,180 @@
+{
+  "removed": [
+    "CH_SmallBath_DoorFrame",
+    "CH_SmallBath_DoorLintel",
+    "CH_SmallBath_OpenDoor",
+    "CH_SmallBath_RightFrontTile",
+    "CH_SmallBath_RightFrontUpper",
+    "CH_SmallBath_RightFrontTrim"
+  ],
+  "changes": [
+    {
+      "label": "CH_SmallBath_Bathroom_Bathtub",
+      "location": [
+        612.436,
+        938.8639999999999,
+        21.682
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Toilet",
+      "location": [
+        414.56600000000003,
+        956.4680000000001,
+        20.119
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Sink",
+      "location": [
+        688.952,
+        771.815,
+        18.544
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Mirror",
+      "location": [
+        718.126,
+        772.8180000000001,
+        213.604
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Water_Glass",
+      "location": [
+        724.427,
+        809.7350000000001,
+        118.918
+      ]
+    },
+    {
+      "label": "CH_SmallBath_SM_Soap_01",
+      "location": [
+        723.233,
+        741.3359999999999,
+        118.643
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Shower_Head",
+      "location": [
+        723.72,
+        941.417,
+        249.804
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Towel_Rack2",
+      "location": [
+        723.997,
+        848.4470000000001,
+        150.771
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Towels2",
+      "location": [
+        717.725,
+        843.903,
+        121.623
+      ]
+    },
+    {
+      "label": "CH_SmallBath_Bathroom_Mat_A",
+      "location": [
+        576.5,
+        794.0,
+        22.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_WarmLight",
+      "location": [
+        561.5,
+        835.0,
+        235.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_TileFloor",
+      "location": [
+        540.55,
+        830.0,
+        20.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_BackTile",
+      "location": [
+        540.55,
+        990.0,
+        101.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_BackUpper",
+      "location": [
+        540.55,
+        990.0,
+        221.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_BackTrim",
+      "location": [
+        540.55,
+        990.0,
+        181.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_LeftTile",
+      "location": [
+        729.6,
+        830.0,
+        101.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_LeftUpper",
+      "location": [
+        729.6,
+        830.0,
+        221.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_LeftTrim",
+      "location": [
+        729.6,
+        830.0,
+        181.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_RightBackTile",
+      "location": [
+        351.5,
+        830,
+        101.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_RightBackUpper",
+      "location": [
+        351.5,
+        830,
+        221.0
+      ]
+    },
+    {
+      "label": "CH_SmallBath_RightBackTrim",
+      "location": [
+        351.5,
+        830,
+        181.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Input|KeyboardEvents|F1": {
+    "in": [],
+    "out": [
+      "Pressed",
+      "Released",
+      "Key"
+    ]
+  },
+  "게임|OpenLevel(byName)": {
+    "in": [
+      "execute",
+      "LevelName",
+      "bAbsolute",
+      "Options"
+    ],
+    "out": [
+      "then"
+    ]
+  }
+}

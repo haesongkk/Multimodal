@@ -1,0 +1,27 @@
+[
+  {
+    "actor": "CH_Minimal_Fur0",
+    "stencil": 202,
+    "enabled": true
+  },
+  {
+    "actor": "CH_Minimal_Fur1",
+    "stencil": 202,
+    "enabled": true
+  },
+  {
+    "actor": "CH_Minimal_Fur2",
+    "stencil": 202,
+    "enabled": true
+  },
+  {
+    "actor": "CH_Minimal_Fur3",
+    "stencil": 202,
+    "enabled": true
+  },
+  {
+    "actor": "CH_Minimal_Fur4",
+    "stencil": 202,
+    "enabled": true
+  }
+]
